@@ -25,6 +25,7 @@
       <relatedItems xmi:id="_4p9hj-SIEeaJwPCXMggBIg" id="GetRandomPhoneNum" version="Latest" type="routine"/>
       <relatedItems xmi:id="_4p9hkOSIEeaJwPCXMggBIg" id="MDM" version="Latest" type="routine"/>
     </ItemsRelations>
+    <deletedFolders>process/demo</deletedFolders>
     <migrationTask xmi:id="_u3804OSIEeaJwPCXMggBIg" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_u3804eSIEeaJwPCXMggBIg" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_u3804uSIEeaJwPCXMggBIg" id="org.talend.repository.model.migration.CleanFoldersMigrationTask" breaks="5.1.1" version="5.1.2" status="ok"/>
