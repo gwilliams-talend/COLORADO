@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TalendMetadata:DatabaseConnection xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmi:id="_0LTP0OikEeazWq6-fjR6FA" DatabaseType="Hive" URL="jdbc:hive2://hdp23cluster:10000/default" Port="10000" Username="hdfs" ServerName="hdp23cluster" SID="default" DbmsId="hive_id" ProductId="HIVE">
+  <parameters xmi:id="_0LTP0eikEeazWq6-fjR6FA" key="CONN_PARA_KEY_USE_YARN" value="true"/>
+  <parameters xmi:id="_0LTP0uikEeazWq6-fjR6FA" key="CONN_PARA_KEY_RESOURCEMANAGER_SCHEDULER_ADDRESS" value="hdp23cluster:8030"/>
+  <parameters xmi:id="_0LTP0-ikEeazWq6-fjR6FA" key="CONN_PARA_KEY_USE_CUSTOM_CONFS" value="true"/>
+  <parameters xmi:id="_0LTP1OikEeazWq6-fjR6FA" key="CONN_PARA_KEY_NAME_NODE_URL" value="hdfs://hdp23cluster:8020"/>
+  <parameters xmi:id="_0LTP1eikEeazWq6-fjR6FA" key="CONN_PARA_KEY_USERNAME" value="hdfs"/>
+  <parameters xmi:id="_0LTP1uikEeazWq6-fjR6FA" key="CONN_PARA_KEY_HADOOP_CLUSTER_ID" value="_ewrhUOikEeazWq6-fjR6FA"/>
+  <parameters xmi:id="_0LTP1-ikEeazWq6-fjR6FA" key="CONN_PARA_KEY_JOB_HISTORY_PRINCIPAL" value="mapred/_HOST@EXAMPLE.COM"/>
+  <parameters xmi:id="_0LTP2OikEeazWq6-fjR6FA" key="CONN_PARA_KEY_HBASE_VERSION" value="HDP_2_3"/>
+  <parameters xmi:id="_0LTP2eikEeazWq6-fjR6FA" key="CONN_PARA_KEY_JOB_TRACKER_URL" value="hdp23cluster:8050"/>
+  <parameters xmi:id="_0LTP2uikEeazWq6-fjR6FA" key="CONN_PARA_KEY_JOBHISTORY_ADDRESS" value="hdp23cluster:10020"/>
+  <parameters xmi:id="_0LTP2-ikEeazWq6-fjR6FA" key="CONN_PARA_KEY_HIVE_VERSION" value="HDP_2_3"/>
+  <parameters xmi:id="_0LTP3OikEeazWq6-fjR6FA" key="CONN_PARA_KEY_USE_DATANODE_HOSTNAME" value="true"/>
+  <parameters xmi:id="_0LTP3eikEeazWq6-fjR6FA" key="CONN_PARA_KEY_DB_SERVER" value="hdp23cluster"/>
+  <parameters xmi:id="_0LTP3uikEeazWq6-fjR6FA" key="HIVE_AUTHENTICATION_USERNAME" value="hive"/>
+  <parameters xmi:id="_0LTP3-ikEeazWq6-fjR6FA" key="CONN_PARA_KEY_DB_TYPE" value="Hive"/>
+  <parameters xmi:id="_0LTP4OikEeazWq6-fjR6FA" key="CONN_PARA_KEY_MAPRDB_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
+  <parameters xmi:id="_0LTP4eikEeazWq6-fjR6FA" key="CONN_PARA_KEY_JOB_TRACKER_PRINCIPAL" value="yarn/_HOST@EXAMPLE.COM"/>
+  <parameters xmi:id="_0LTP4uikEeazWq6-fjR6FA" key="CONN_PARA_KEY_HIVE_DISTRIBUTION" value="HORTONWORKS"/>
+  <parameters xmi:id="_0LTP4-ikEeazWq6-fjR6FA" key="HIVE_AUTHENTICATION_PASSWORD" value="SECRET:hive-site:2:javax.jdo.option.ConnectionPassword"/>
+  <parameters xmi:id="_0LTP5OikEeazWq6-fjR6FA" key="CONN_PARA_KEY_MAPRDB_VERSION" value="HDP_2_3"/>
+  <parameters xmi:id="_0LTP5eikEeazWq6-fjR6FA" key="CONN_PARA_KEY_MAPRDB_DISTRIBUTION" value="HORTONWORKS"/>
+  <parameters xmi:id="_0LTP5uikEeazWq6-fjR6FA" key="CONN_PARA_KEY_USE_KRB" value="false"/>
+  <parameters xmi:id="_0LTP5-ikEeazWq6-fjR6FA" key="CONN_PARA_KEY_HBASE_DISTRIBUTION" value="HORTONWORKS"/>
+  <parameters xmi:id="_0LTP6OikEeazWq6-fjR6FA" key="CONN_PARA_KEY_STAGING_DIRECTORY" value="/user"/>
+  <parameters xmi:id="_0LTP6eikEeazWq6-fjR6FA" key="CONN_PARA_KEY_NAME_NODE_PRINCIPAL" value="nn/_HOST@EXAMPLE.COM"/>
+  <parameters xmi:id="_0LTP6uikEeazWq6-fjR6FA" key="CONN_PARA_KEY_DB_PRODUCT" value="HIVE"/>
+  <parameters xmi:id="_0LTP6-ikEeazWq6-fjR6FA" key="CONN_PARA_KEY_HIVE_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
+  <parameters xmi:id="_0LTP7OikEeazWq6-fjR6FA" key="HIVE_AUTHENTICATION_METASTOREURL" value="thrift://hdp23cluster:9083"/>
+  <parameters xmi:id="_0LTP7eikEeazWq6-fjR6FA" key="CONN_PARA_KEY_HBASE_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
+  <parameters xmi:id="_0LTP7uikEeazWq6-fjR6FA" key="HIVE_SERVER_VERSION" value="HIVE2"/>
+  <parameters xmi:id="_0LTP7-ikEeazWq6-fjR6FA" key="CONN_PARA_KEY_HIVE_MODE" value="STANDALONE"/>
+</TalendMetadata:DatabaseConnection>
