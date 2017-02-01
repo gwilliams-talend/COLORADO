@@ -150,7 +150,6 @@
     </ItemsRelations>
     <ItemsRelations xmi:id="_kVH8IOi2EeazWq6-fjR6FA">
       <baseItem xmi:id="_kVH8Iei2EeazWq6-fjR6FA" id="_kUtscOi2EeazWq6-fjR6FA" version="0.1" type="job"/>
-      <relatedItems xmi:id="_kVH8Iui2EeazWq6-fjR6FA" id="_AwGFweioEeazWq6-fjR6FA" version="Latest" type="property"/>
       <relatedItems xmi:id="_kVH8I-i2EeazWq6-fjR6FA" id="SQLike" version="Latest" type="routine"/>
       <relatedItems xmi:id="_kVH8JOi2EeazWq6-fjR6FA" id="Numeric" version="Latest" type="routine"/>
       <relatedItems xmi:id="_kVH8Jei2EeazWq6-fjR6FA" id="Relational" version="Latest" type="routine"/>
