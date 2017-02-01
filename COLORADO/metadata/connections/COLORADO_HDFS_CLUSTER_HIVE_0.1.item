@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TalendMetadata:DatabaseConnection xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmi:id="_0LTP0OikEeazWq6-fjR6FA" name="COLORADO_HDFS_CLUSTER_HIVE" id="_0KGV8OikEeazWq6-fjR6FA" label="COLORADO_HDFS_CLUSTER_HIVE" DatabaseType="Hive" DriverClass="org.apache.hadoop.hive.jdbc.HiveDriver" URL="jdbc:hive2://hdp23cluster:10001/default" dbVersionString="STANDALONE" Port="10001" Username="hdpuser" Password="hvCWaGmpq4Y=" ServerName="hdp23cluster" SID="default" SqlSynthax="SQL Syntax" DbmsId="hive_id" ProductId="HIVE" StandardSQL="true">
+<TalendMetadata:DatabaseConnection xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmi:id="_0LTP0OikEeazWq6-fjR6FA" name="COLORADO_HDFS_CLUSTER_HIVE" id="_0KGV8OikEeazWq6-fjR6FA" label="COLORADO_HDFS_CLUSTER_HIVE" DatabaseType="Hive" DriverClass="org.apache.hadoop.hive.jdbc.HiveDriver" URL="jdbc:hive2://192.168.11.7:10001/default;&quot;transportMode=http;httpPath=cliservice&quot;" dbVersionString="STANDALONE" Port="10001" Username="hdpuser" Password="hvCWaGmpq4Y=" ServerName="192.168.11.7" SID="default" SqlSynthax="SQL Syntax" DbmsId="hive_id" ProductId="HIVE" StandardSQL="true">
   <taggedValue xmi:id="_4MaU0OikEeazWq6-fjR6FA" tag="Is Conn Need Reload" value="true"/>
   <taggedValue xmi:id="_qLjMsOilEeazWq6-fjR6FA" tag="Status" value=""/>
   <taggedValue xmi:id="_qLjMseilEeazWq6-fjR6FA" tag="Version" value="0.1"/>
@@ -45,6 +45,7 @@
   <parameters xmi:id="_4LzQ1eikEeazWq6-fjR6FA" key="CONN_PARA_KEY_KEYTAB" value=""/>
   <parameters xmi:id="_4LzQ1uikEeazWq6-fjR6FA" key="HIVE_EXECUTION_ENGINE"/>
   <parameters xmi:id="_4L27MOikEeazWq6-fjR6FA" key="CONN_PARA_KEY_USE_SSL" value="false"/>
-  <parameters xmi:id="_4MvE8OikEeazWq6-fjR6FA" key="CONN_PARA_KEY_SSL_TRUST_STORE_PATH" value=""/>
-  <parameters xmi:id="_4MvE8eikEeazWq6-fjR6FA" key="CONN_PARA_KEY_SSL_TRUST_STORE_PASSWORD" value=""/>
+  <parameters xmi:id="_vHErgOilEeazWq6-fjR6FA" key="CONN_PARA_KEY_SSL_TRUST_STORE_PATH" value=""/>
+  <parameters xmi:id="_vHErgeilEeazWq6-fjR6FA" key="CONN_PARA_KEY_SSL_TRUST_STORE_PASSWORD" value=""/>
+  <parameters xmi:id="_2Je-UOilEeazWq6-fjR6FA" key="CONN_PARA_KEY_HIVE_ADDITIONAL_JDBC_SETTINGS" value="&quot;transportMode=http;httpPath=cliservice&quot;"/>
 </TalendMetadata:DatabaseConnection>
