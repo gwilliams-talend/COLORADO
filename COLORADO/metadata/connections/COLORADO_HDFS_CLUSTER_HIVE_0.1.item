@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TalendMetadata:DatabaseConnection xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmi:id="_0LTP0OikEeazWq6-fjR6FA" DatabaseType="Hive" URL="jdbc:hive2://hdp23cluster:10000/default" Port="10000" Username="hdfs" ServerName="hdp23cluster" SID="default" DbmsId="hive_id" ProductId="HIVE">
+<TalendMetadata:DatabaseConnection xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmi:id="_0LTP0OikEeazWq6-fjR6FA" name="COLORADO_HDFS_CLUSTER_HIVE" id="_0KGV8OikEeazWq6-fjR6FA" label="COLORADO_HDFS_CLUSTER_HIVE" DatabaseType="Hive" DriverClass="org.apache.hadoop.hive.jdbc.HiveDriver" URL="jdbc:hive2://hdp23cluster:10001/default" dbVersionString="STANDALONE" Port="10001" Username="hdpuser" Password="hvCWaGmpq4Y=" ServerName="hdp23cluster" SID="default" SqlSynthax="SQL Syntax" DbmsId="hive_id" ProductId="HIVE" StandardSQL="true">
+  <taggedValue xmi:id="_4MaU0OikEeazWq6-fjR6FA" tag="Is Conn Need Reload" value="true"/>
+  <taggedValue xmi:id="_qLjMsOilEeazWq6-fjR6FA" tag="Status" value=""/>
+  <taggedValue xmi:id="_qLjMseilEeazWq6-fjR6FA" tag="Version" value="0.1"/>
+  <taggedValue xmi:id="_qLjzwOilEeazWq6-fjR6FA" tag="Purpose" value=""/>
+  <taggedValue xmi:id="_qLjzweilEeazWq6-fjR6FA" tag="Description" value=""/>
+  <taggedValue xmi:id="_qLjzwuilEeazWq6-fjR6FA" tag="Author" value=""/>
+  <taggedValue xmi:id="_qLjzw-ilEeazWq6-fjR6FA" tag="otherParameter"/>
   <parameters xmi:id="_0LTP0eikEeazWq6-fjR6FA" key="CONN_PARA_KEY_USE_YARN" value="true"/>
   <parameters xmi:id="_0LTP0uikEeazWq6-fjR6FA" key="CONN_PARA_KEY_RESOURCEMANAGER_SCHEDULER_ADDRESS" value="hdp23cluster:8030"/>
   <parameters xmi:id="_0LTP0-ikEeazWq6-fjR6FA" key="CONN_PARA_KEY_USE_CUSTOM_CONFS" value="true"/>
   <parameters xmi:id="_0LTP1OikEeazWq6-fjR6FA" key="CONN_PARA_KEY_NAME_NODE_URL" value="hdfs://hdp23cluster:8020"/>
-  <parameters xmi:id="_0LTP1eikEeazWq6-fjR6FA" key="CONN_PARA_KEY_USERNAME" value="hdfs"/>
+  <parameters xmi:id="_0LTP1eikEeazWq6-fjR6FA" key="CONN_PARA_KEY_USERNAME" value="hdpuser"/>
   <parameters xmi:id="_0LTP1uikEeazWq6-fjR6FA" key="CONN_PARA_KEY_HADOOP_CLUSTER_ID" value="_ewrhUOikEeazWq6-fjR6FA"/>
   <parameters xmi:id="_0LTP1-ikEeazWq6-fjR6FA" key="CONN_PARA_KEY_JOB_HISTORY_PRINCIPAL" value="mapred/_HOST@EXAMPLE.COM"/>
   <parameters xmi:id="_0LTP2OikEeazWq6-fjR6FA" key="CONN_PARA_KEY_HBASE_VERSION" value="HDP_2_3"/>
@@ -31,4 +38,13 @@
   <parameters xmi:id="_0LTP7eikEeazWq6-fjR6FA" key="CONN_PARA_KEY_HBASE_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
   <parameters xmi:id="_0LTP7uikEeazWq6-fjR6FA" key="HIVE_SERVER_VERSION" value="HIVE2"/>
   <parameters xmi:id="_0LTP7-ikEeazWq6-fjR6FA" key="CONN_PARA_KEY_HIVE_MODE" value="STANDALONE"/>
+  <parameters xmi:id="_4K21oOikEeazWq6-fjR6FA" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
+  <parameters xmi:id="_4LzQ0OikEeazWq6-fjR6FA" key="HIVE_AUTHENTICATION_HIVEPRINCIPLA" value=""/>
+  <parameters xmi:id="_4LzQ0eikEeazWq6-fjR6FA" key="HIVE_AUTHENTICATION_DRIVERCLASS" value=""/>
+  <parameters xmi:id="_4LzQ1OikEeazWq6-fjR6FA" key="CONN_PARA_KEY_KEYTAB_PRINCIPLA" value=""/>
+  <parameters xmi:id="_4LzQ1eikEeazWq6-fjR6FA" key="CONN_PARA_KEY_KEYTAB" value=""/>
+  <parameters xmi:id="_4LzQ1uikEeazWq6-fjR6FA" key="HIVE_EXECUTION_ENGINE"/>
+  <parameters xmi:id="_4L27MOikEeazWq6-fjR6FA" key="CONN_PARA_KEY_USE_SSL" value="false"/>
+  <parameters xmi:id="_4MvE8OikEeazWq6-fjR6FA" key="CONN_PARA_KEY_SSL_TRUST_STORE_PATH" value=""/>
+  <parameters xmi:id="_4MvE8eikEeazWq6-fjR6FA" key="CONN_PARA_KEY_SSL_TRUST_STORE_PASSWORD" value=""/>
 </TalendMetadata:DatabaseConnection>
