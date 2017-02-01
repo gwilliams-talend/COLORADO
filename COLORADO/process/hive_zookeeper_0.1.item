@@ -124,7 +124,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="&quot;default&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;hdpuser&quot;"/>
     <elementParameter field="PASSWORD" name="PASS" value="ugb6LaQVM2NVcTLmYK4QHA=="/>
-    <elementParameter field="TEXT" name="HIVE_ADDITIONAL_JDBC" value="&quot;serviceDiscoveryMode=zookeeper;zookeeperNamespace=hiveserver2&quot;"/>
+    <elementParameter field="TEXT" name="HIVE_ADDITIONAL_JDBC" value="&quot;serviceDiscoveryMode=zookeeper;zooKeeperNamespace=hiveserver2&quot;"/>
     <elementParameter field="CHECK" name="CONFIGURATIONS_FROM_CLASSPATH" value="false"/>
     <elementParameter field="CHECK" name="USE_KRB" value="false"/>
     <elementParameter field="TEXT" name="HIVE_PRINCIPAL" value="&quot;hive/_HOST@EXAMPLE.COM&quot;" show="false"/>
