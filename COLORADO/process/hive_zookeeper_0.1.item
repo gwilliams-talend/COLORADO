@@ -118,13 +118,13 @@
     <elementParameter field="CHECK" name="CROSS_PLATFORM_SUBMISSION" value="false" show="false"/>
     <elementParameter field="CLOSED_LIST" name="CONNECTION_MODE" value="STANDALONE"/>
     <elementParameter field="CLOSED_LIST" name="HIVE_SERVER" value="HIVE2"/>
-    <elementParameter field="TEXT" name="HOST" value="&quot;192.168.11.7&quot;"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;hdp24node1, hdp24node3, hdp24masternode&quot;"/>
     <elementParameter field="TEXT" name="TYPE" value="HIVE" show="false"/>
-    <elementParameter field="TEXT" name="PORT" value="&quot;10001&quot;"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;2181&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" value="&quot;default&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;hdpuser&quot;"/>
     <elementParameter field="PASSWORD" name="PASS" value="ugb6LaQVM2NVcTLmYK4QHA=="/>
-    <elementParameter field="TEXT" name="HIVE_ADDITIONAL_JDBC" value="&quot;transportMode=http;httpPath=cliservice&quot;"/>
+    <elementParameter field="TEXT" name="HIVE_ADDITIONAL_JDBC" value="&quot;serviceDiscoveryMode=zookeeper;zookeeperNamespace=hiveserver2&quot;"/>
     <elementParameter field="CHECK" name="CONFIGURATIONS_FROM_CLASSPATH" value="false"/>
     <elementParameter field="CHECK" name="USE_KRB" value="false"/>
     <elementParameter field="TEXT" name="HIVE_PRINCIPAL" value="&quot;hive/_HOST@EXAMPLE.COM&quot;" show="false"/>
