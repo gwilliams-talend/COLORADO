@@ -28,6 +28,7 @@
     <parameters xmi:id="_0L2CeeikEeazWq6-fjR6FA" key="CONN_PARA_KEY_DB_PRODUCT" value="HBASE"/>
     <parameters xmi:id="_0L2CeuikEeazWq6-fjR6FA" key="CONN_PARA_KEY_HIVE_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
     <parameters xmi:id="_0L2Ce-ikEeazWq6-fjR6FA" key="CONN_PARA_KEY_HBASE_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
+    <parameters xmi:id="_jKu_4OimEeazWq6-fjR6FA" key="CONN_PARA_KEY_HADOOP_CUSTOM_JARS"/>
   </TalendMetadata:DatabaseConnection>
   <orgomg.cwm.resource.relational:Catalog xmi:id="_0L2CfOikEeazWq6-fjR6FA" name="HBase" dataManager="_0L2CYOikEeazWq6-fjR6FA"/>
 </xmi:XMI>
