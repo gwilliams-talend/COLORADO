@@ -179,7 +179,7 @@
     <elementParameter field="RADIO" name="USE_SINGLEMODE" value="true"/>
     <elementParameter field="TABLE" name="VALUES">
       <elementValue elementRef="SCHEMA_COLUMN" value="ColumnName2"/>
-      <elementValue elementRef="VALUE" value="&quot;boo&quot;"/>
+      <elementValue elementRef="VALUE" value="&quot;boooooo&quot;"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="ColumnName1"/>
       <elementValue elementRef="VALUE" value="&quot;hoo&quot;"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="TDS_GID"/>
