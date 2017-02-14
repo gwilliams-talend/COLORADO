@@ -161,7 +161,7 @@
       <elementValue elementRef="DVSA_Model" value="&quot;RANGE ROVER&quot;"/>
       <elementValue elementRef="TDS_GID" value="&quot;1234&quot;"/>
       <elementValue elementRef="TDS_MASTER" value="false"/>
-      <elementValue elementRef="TDS_SOURCE" value="&quot;Suggested Correction&quot;"/>
+      <elementValue elementRef="TDS_SOURCE" value="&quot;Suggested&quot;"/>
       <elementValue elementRef="TDS_SCORE" value=""/>
       <elementValue elementRef="TDS_CREATION" value=""/>
       <elementValue elementRef="TDS_LAST_UPDATE" value=""/>
@@ -181,7 +181,7 @@
       <elementValue elementRef="DVSA_Model" value="&quot;DEFENDER 90&quot;"/>
       <elementValue elementRef="TDS_GID" value="&quot;12345&quot;"/>
       <elementValue elementRef="TDS_MASTER" value="false"/>
-      <elementValue elementRef="TDS_SOURCE" value="&quot;Suggested Correction&quot;"/>
+      <elementValue elementRef="TDS_SOURCE" value="&quot;Suggested&quot;"/>
       <elementValue elementRef="TDS_SCORE" value=""/>
       <elementValue elementRef="TDS_CREATION" value=""/>
       <elementValue elementRef="TDS_LAST_UPDATE" value=""/>
