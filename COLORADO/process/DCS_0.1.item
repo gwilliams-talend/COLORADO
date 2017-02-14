@@ -216,7 +216,7 @@
       <elementValue elementRef="ColumnName2" value="&quot;newLine2&quot;"/>
       <elementValue elementRef="ColumnName1" value="&quot;Column1&quot;"/>
       <elementValue elementRef="TDS_GID" value="&quot;1234&quot;"/>
-      <elementValue elementRef="TDS_MASTER" value="true"/>
+      <elementValue elementRef="TDS_MASTER" value="false"/>
       <elementValue elementRef="TDS_SOURCE" value=""/>
       <elementValue elementRef="TDS_SCORE" value=""/>
       <elementValue elementRef="TDS_CREATION" value=""/>
