@@ -197,24 +197,24 @@
     </elementParameter>
     <elementParameter field="RADIO" name="USE_INTABLE" value="true"/>
     <elementParameter field="TABLE" name="INTABLE">
-      <elementValue elementRef="ColumnName2" value="&quot;newLine1&quot;"/>
-      <elementValue elementRef="ColumnName1" value="&quot;Column1&quot;"/>
+      <elementValue elementRef="ColumnName2" value="&quot;Ford&quot;"/>
+      <elementValue elementRef="ColumnName1" value="&quot;Fiesta&quot;"/>
       <elementValue elementRef="TDS_GID" value="&quot;123&quot;"/>
       <elementValue elementRef="TDS_MASTER" value="true"/>
       <elementValue elementRef="TDS_SOURCE" value=""/>
       <elementValue elementRef="TDS_SCORE" value=""/>
       <elementValue elementRef="TDS_CREATION" value=""/>
       <elementValue elementRef="TDS_LAST_UPDATE" value=""/>
-      <elementValue elementRef="ColumnName2" value="&quot;newLine2&quot;"/>
-      <elementValue elementRef="ColumnName1" value="&quot;Column1&quot;"/>
+      <elementValue elementRef="ColumnName2" value="&quot;BMW&quot;"/>
+      <elementValue elementRef="ColumnName1" value="&quot;3 Series&quot;"/>
       <elementValue elementRef="TDS_GID" value="&quot;1234&quot;"/>
       <elementValue elementRef="TDS_MASTER" value="true"/>
       <elementValue elementRef="TDS_SOURCE" value=""/>
       <elementValue elementRef="TDS_SCORE" value=""/>
       <elementValue elementRef="TDS_CREATION" value=""/>
       <elementValue elementRef="TDS_LAST_UPDATE" value=""/>
-      <elementValue elementRef="ColumnName2" value="&quot;newLine2&quot;"/>
-      <elementValue elementRef="ColumnName1" value="&quot;Column1&quot;"/>
+      <elementValue elementRef="ColumnName2" value="&quot;BMW&quot;"/>
+      <elementValue elementRef="ColumnName1" value="&quot;Three Series&quot;"/>
       <elementValue elementRef="TDS_GID" value="&quot;1234&quot;"/>
       <elementValue elementRef="TDS_MASTER" value="false"/>
       <elementValue elementRef="TDS_SOURCE" value=""/>
