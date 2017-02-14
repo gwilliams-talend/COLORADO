@@ -141,7 +141,7 @@
       <elementValue elementRef="DVSA_Model" value="&quot;FIESTA&quot;"/>
       <elementValue elementRef="TDS_GID" value="&quot;123&quot;"/>
       <elementValue elementRef="TDS_MASTER" value="true"/>
-      <elementValue elementRef="TDS_SOURCE" value="&quot;somewhere 1&quot;"/>
+      <elementValue elementRef="TDS_SOURCE" value=""/>
       <elementValue elementRef="TDS_SCORE" value=""/>
       <elementValue elementRef="TDS_CREATION" value=""/>
       <elementValue elementRef="TDS_LAST_UPDATE" value=""/>
@@ -151,7 +151,7 @@
       <elementValue elementRef="DVSA_Model" value="&quot;RANGE ROVER&quot;"/>
       <elementValue elementRef="TDS_GID" value="&quot;1234&quot;"/>
       <elementValue elementRef="TDS_MASTER" value="true"/>
-      <elementValue elementRef="TDS_SOURCE" value="&quot;somewhere 1&quot;"/>
+      <elementValue elementRef="TDS_SOURCE" value=""/>
       <elementValue elementRef="TDS_SCORE" value=""/>
       <elementValue elementRef="TDS_CREATION" value=""/>
       <elementValue elementRef="TDS_LAST_UPDATE" value=""/>
