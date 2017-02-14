@@ -165,6 +165,16 @@
       <elementValue elementRef="TDS_SCORE" value=""/>
       <elementValue elementRef="TDS_CREATION" value=""/>
       <elementValue elementRef="TDS_LAST_UPDATE" value=""/>
+      <elementValue elementRef="DVLA_Make" value="&quot;LANDROVER&quot;"/>
+      <elementValue elementRef="DVLA_Model" value="&quot;RANGE ROVER V8TDS&quot;"/>
+      <elementValue elementRef="DVSA_Make" value="&quot;LANDROVER&quot;"/>
+      <elementValue elementRef="DVSA_Model" value="&quot;RANGE ROVER SPORT&quot;"/>
+      <elementValue elementRef="TDS_GID" value="&quot;12345&quot;"/>
+      <elementValue elementRef="TDS_MASTER" value="false"/>
+      <elementValue elementRef="TDS_SOURCE" value="&quot;somewhere 2&quot;"/>
+      <elementValue elementRef="TDS_SCORE" value=""/>
+      <elementValue elementRef="TDS_CREATION" value=""/>
+      <elementValue elementRef="TDS_LAST_UPDATE" value=""/>
     </elementParameter>
     <elementParameter field="RADIO" name="USE_INLINECONTENT" value="false"/>
     <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
