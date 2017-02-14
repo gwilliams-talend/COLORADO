@@ -142,7 +142,7 @@
       <elementValue elementRef="TDS_GID" value="&quot;123&quot;"/>
       <elementValue elementRef="TDS_MASTER" value="true"/>
       <elementValue elementRef="TDS_SOURCE" value=""/>
-      <elementValue elementRef="TDS_SCORE" value="0D"/>
+      <elementValue elementRef="TDS_SCORE" value=""/>
       <elementValue elementRef="TDS_CREATION" value=""/>
       <elementValue elementRef="TDS_LAST_UPDATE" value=""/>
       <elementValue elementRef="DVLA_Make" value="&quot;LANDROVER&quot;"/>
@@ -152,7 +152,7 @@
       <elementValue elementRef="TDS_GID" value="&quot;1234&quot;"/>
       <elementValue elementRef="TDS_MASTER" value="true"/>
       <elementValue elementRef="TDS_SOURCE" value=""/>
-      <elementValue elementRef="TDS_SCORE" value="0D"/>
+      <elementValue elementRef="TDS_SCORE" value=""/>
       <elementValue elementRef="TDS_CREATION" value=""/>
       <elementValue elementRef="TDS_LAST_UPDATE" value=""/>
       <elementValue elementRef="DVLA_Make" value="&quot;LANDROVER&quot;"/>
@@ -162,7 +162,7 @@
       <elementValue elementRef="TDS_GID" value="&quot;1234&quot;"/>
       <elementValue elementRef="TDS_MASTER" value="false"/>
       <elementValue elementRef="TDS_SOURCE" value="&quot;Suggested&quot;"/>
-      <elementValue elementRef="TDS_SCORE" value="99D"/>
+      <elementValue elementRef="TDS_SCORE" value=""/>
       <elementValue elementRef="TDS_CREATION" value=""/>
       <elementValue elementRef="TDS_LAST_UPDATE" value=""/>
       <elementValue elementRef="DVLA_Make" value="&quot;LANDROVER&quot;"/>
@@ -172,7 +172,7 @@
       <elementValue elementRef="TDS_GID" value="&quot;12345&quot;"/>
       <elementValue elementRef="TDS_MASTER" value="true"/>
       <elementValue elementRef="TDS_SOURCE" value=""/>
-      <elementValue elementRef="TDS_SCORE" value="0D"/>
+      <elementValue elementRef="TDS_SCORE" value=""/>
       <elementValue elementRef="TDS_CREATION" value=""/>
       <elementValue elementRef="TDS_LAST_UPDATE" value=""/>
       <elementValue elementRef="DVLA_Make" value="&quot;LANDROVER&quot;"/>
@@ -182,7 +182,7 @@
       <elementValue elementRef="TDS_GID" value="&quot;12345&quot;"/>
       <elementValue elementRef="TDS_MASTER" value="false"/>
       <elementValue elementRef="TDS_SOURCE" value="&quot;Suggested&quot;"/>
-      <elementValue elementRef="TDS_SCORE" value="99D"/>
+      <elementValue elementRef="TDS_SCORE" value=""/>
       <elementValue elementRef="TDS_CREATION" value=""/>
       <elementValue elementRef="TDS_LAST_UPDATE" value=""/>
     </elementParameter>
