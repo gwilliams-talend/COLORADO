@@ -270,7 +270,7 @@
         <mapperTableEntries name="DVLA_MODEL" expression="row8.DVLA_MODEL" type="id_String" nullable="true"/>
         <mapperTableEntries name="DVSA_MAKE" expression="row8.DVSA_MAKE" type="id_String" nullable="true"/>
         <mapperTableEntries name="DVSA_MODEL" expression="row8.DVSA_MODEL" type="id_String" nullable="true"/>
-        <mapperTableEntries name="TDS_GID" expression="" type="id_String"/>
+        <mapperTableEntries name="TDS_GID" expression="&quot;&quot;" type="id_String"/>
         <mapperTableEntries name="TDS_MASTER" expression="false" type="id_Boolean"/>
         <mapperTableEntries name="TDS_SOURCE" expression="" type="id_String" nullable="true"/>
         <mapperTableEntries name="TDS_SCORE" expression="" type="id_Double" nullable="true"/>
