@@ -434,7 +434,7 @@
     <elementParameter field="RADIO" name="USE_INLINECONTENT" value="true"/>
     <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
     <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;;&quot;"/>
-    <elementParameter field="MEMO" name="INLINECONTENT" value=";;;80&#xD;&#xA;;;;88&#xD;&#xA;;;;90&#xD;&#xA;;;;109&#xD;&#xA;;;;110&#xD;&#xA;;;;127&#xD;&#xA;;;;DEFENDER 110&#xD;&#xA;;;;DEFENDER 130&#xD;&#xA;;;;DEFENDER 90&#xD;&#xA;;;;DISCOVERY&#xD;&#xA;;;;DISCOVERY 2&#xD;&#xA;;;;DISCOVERY 3&#xD;&#xA;;;;DISCOVERY 4&#xD;&#xA;;;;DISCOVERY SPORT&#xD;&#xA;;;;FREELANDER&#xD;&#xA;;;;FREELANDER 2&#xD;&#xA;;;;LIGHTWEIGHT&#xD;&#xA;;;;RANGE ROVER&#xD;&#xA;;;;RANGE ROVER EVOQUE&#xD;&#xA;;;;RANGE ROVER SPORT&#xD;&#xA;;;;SERIES I&#xD;&#xA;;;;SERIES II&#xD;&#xA;;;;SERIES III&#xD;&#xA;"/>
+    <elementParameter field="MEMO" name="INLINECONTENT" value=";;;80&#xD;&#xA;;;;88&#xD;&#xA;;;;90&#xD;&#xA;;;;109&#xD;&#xA;;;;110&#xD;&#xA;;;;127&#xD;&#xA;;;;DEFENDER 110&#xD;&#xA;;;;DEFENDER 130&#xD;&#xA;;;;DEFENDER 90&#xD;&#xA;;;;DISCOVERY&#xD;&#xA;;;;DISCOVERY SPORT&#xD;&#xA;;;;FREELANDER&#xD;&#xA;;;;RANGE ROVER&#xD;&#xA;;;;RANGE ROVER EVOQUE&#xD;&#xA;;;;RANGE ROVER SPORT&#xD;&#xA;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tFixedFlowInput_4">
       <column comment="text" key="false" length="-1" name="DVLA_MAKE" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="true"/>
