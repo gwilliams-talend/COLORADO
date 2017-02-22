@@ -193,7 +193,7 @@
         <mapperTableEntries name="DVSA_MAKE" type="id_String" nullable="true"/>
         <mapperTableEntries name="DVSA_MODEL" type="id_String" nullable="true"/>
       </inputTables>
-      <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+      <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="ALL_MATCHES" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="INDUSTRY_MAKE" expression="row8.DVSA_MAKE " type="id_String" nullable="true" operator="="/>
         <mapperTableEntries name="INDUSTRY_MODEL" type="id_String" nullable="true"/>
       </inputTables>
