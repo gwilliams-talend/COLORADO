@@ -430,10 +430,10 @@
       <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="DSC_out">
-        <mapperTableEntries name="DVLA_MAKE" expression="row8.DVLA_MAKE" type="id_String" nullable="true"/>
-        <mapperTableEntries name="DVLA_MODEL" expression="row8.DVLA_MODEL" type="id_String" nullable="true"/>
-        <mapperTableEntries name="DVSA_MAKE" expression="row8.DVSA_MAKE" type="id_String" nullable="true"/>
-        <mapperTableEntries name="DVSA_MODEL" expression="row8.DVSA_MODEL" type="id_String" nullable="true"/>
+        <mapperTableEntries name="DVLA_MAKE" expression="row6.DVLA_MAKE" type="id_String" nullable="true"/>
+        <mapperTableEntries name="DVLA_MODEL" expression="row6.DVLA_MODEL" type="id_String" nullable="true"/>
+        <mapperTableEntries name="DVSA_MAKE" expression="row6.DVSA_MAKE" type="id_String" nullable="true"/>
+        <mapperTableEntries name="DVSA_MODEL" expression="row6.DVSA_MODEL" type="id_String" nullable="true"/>
         <mapperTableEntries name="TDS_GID" expression="&quot;&quot; + Numeric.sequence(&quot;s1&quot;,1,1)" type="id_String"/>
         <mapperTableEntries name="TDS_MASTER" expression="false" type="id_Boolean"/>
         <mapperTableEntries name="TDS_SOURCE" type="id_String" nullable="true"/>
