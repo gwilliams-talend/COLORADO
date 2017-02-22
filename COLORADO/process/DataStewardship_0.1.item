@@ -510,7 +510,7 @@
         <mapperTableEntries name="DVSA_MAKE" expression="row1.DVSA_MAKE" type="id_String" nullable="true"/>
         <mapperTableEntries name="DVSA_MODEL" expression="row1.DVSA_MODEL" type="id_String" nullable="true"/>
         <mapperTableEntries name="TDS_GID" expression="&quot;&quot; + Numeric.sequence(&#xD;&#xA;row1.DVLA_MAKE +&#xA;row1.DVLA_MODEL +&#xA;row1.DVSA_MAKE +&#xA;row1.DVSA_MODEL&#xA;,1,1) " type="id_String"/>
-        <mapperTableEntries name="TDS_MASTER" expression="row6.TDS_MASTER" type="id_Boolean"/>
+        <mapperTableEntries name="TDS_MASTER" expression="row1.TDS_MASTER" type="id_Boolean"/>
         <mapperTableEntries name="TDS_SOURCE" expression="" type="id_String" nullable="true"/>
         <mapperTableEntries name="TDS_SCORE" expression="" type="id_Double" nullable="true"/>
         <mapperTableEntries name="TDS_CREATION" type="id_Long" nullable="true"/>
