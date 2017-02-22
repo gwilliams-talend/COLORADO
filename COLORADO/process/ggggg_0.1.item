@@ -169,6 +169,8 @@
       <column comment="text" key="false" length="-1" name="DVLA_MODEL" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="text" key="false" length="-1" name="DVSA_MAKE" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="text" key="false" length="-1" name="DVSA_MODEL" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="text" key="false" length="-1" name="INDUSTRY_MAKE" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="text" key="false" length="-1" name="INDUSTRY_MODEL" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="TDS_GID" nullable="false" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="TDS_MASTER" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="true"/>
     </metadata>
@@ -180,6 +182,8 @@
         <mapperTableEntries name="DVLA_MODEL" expression="row8.DVLA_MODEL" type="id_String" nullable="true"/>
         <mapperTableEntries name="DVSA_MAKE" expression="row8.DVSA_MAKE" type="id_String" nullable="true"/>
         <mapperTableEntries name="DVSA_MODEL" expression="row8.DVSA_MODEL" type="id_String" nullable="true"/>
+        <mapperTableEntries name="INDUSTRY_MAKE" expression="row1.INDUSTRY_MAKE " type="id_String" nullable="true"/>
+        <mapperTableEntries name="INDUSTRY_MODEL" expression="row1.INDUSTRY_MODEL " type="id_String" nullable="true"/>
         <mapperTableEntries name="TDS_GID" expression="&quot;&quot; + Numeric.sequence(&quot;s1&quot;,1,1)" type="id_String"/>
         <mapperTableEntries name="TDS_MASTER" expression="false" type="id_Boolean"/>
       </outputTables>
@@ -189,8 +193,8 @@
         <mapperTableEntries name="DVSA_MAKE" type="id_String" nullable="true"/>
         <mapperTableEntries name="DVSA_MODEL" type="id_String" nullable="true"/>
       </inputTables>
-      <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="ALL_ROWS" lookupMode="LOAD_ONCE">
-        <mapperTableEntries name="INDUSTRY_MAKE" type="id_String" nullable="true"/>
+      <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+        <mapperTableEntries name="INDUSTRY_MAKE" expression="row8.DVSA_MAKE " type="id_String" nullable="true" operator="="/>
         <mapperTableEntries name="INDUSTRY_MODEL" type="id_String" nullable="true"/>
       </inputTables>
     </nodeData>
@@ -217,6 +221,10 @@
       <elementValue elementRef="LENGTH" value="10"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="DVSA_MODEL"/>
       <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="INDUSTRY_MAKE"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="INDUSTRY_MODEL"/>
+      <elementValue elementRef="LENGTH" value="10"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="TDS_GID"/>
       <elementValue elementRef="LENGTH" value="10"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="TDS_MASTER"/>
@@ -230,6 +238,8 @@
       <column comment="text" key="false" length="-1" name="DVLA_MODEL" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="text" key="false" length="-1" name="DVSA_MAKE" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="text" key="false" length="-1" name="DVSA_MODEL" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="text" key="false" length="-1" name="INDUSTRY_MAKE" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="text" key="false" length="-1" name="INDUSTRY_MODEL" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="TDS_GID" nullable="false" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="TDS_MASTER" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="true"/>
     </metadata>
@@ -299,6 +309,14 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row8" show="false"/>
   </connection>
   <connection connectorName="FLOW" label="DSC_out" lineStyle="0" metaname="DSC_out" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tLogRow_1">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="INDUSTRY_MAKE"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="INDUSTRY_MODEL"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="DSC_out" show="false"/>
   </connection>
