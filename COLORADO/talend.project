@@ -270,7 +270,6 @@
       <relatedItems xmi:id="_nDF_VQ-7EeejPpj8GYNXnA" id="DQTechnical" version="Latest" type="routine"/>
       <relatedItems xmi:id="_nDF_Vg-7EeejPpj8GYNXnA" id="DataQualityDependencies" version="Latest" type="routine"/>
       <relatedItems xmi:id="_nDF_Vw-7EeejPpj8GYNXnA" id="DVSA_Routine" version="Latest" type="routine"/>
-      <relatedItems xmi:id="_x1ApsA-7EeejPpj8GYNXnA" id="_EvaPUA3OEeS0FLugozEXMg" version="Latest" type="property"/>
       <relatedItems xmi:id="_x1ApsQ-7EeejPpj8GYNXnA" id="MDM" version="Latest" type="routine"/>
     </ItemsRelations>
     <deletedFolders>process/WORKAREA/GARY</deletedFolders>
