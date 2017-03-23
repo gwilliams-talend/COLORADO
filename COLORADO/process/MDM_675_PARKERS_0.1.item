@@ -424,7 +424,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tExtractRegexFields_3" show="false"/>
     <elementParameter field="PREV_COLUMN_LIST" name="FIELD" value="newColumn"/>
     <elementParameter field="LABEL" name="REGEX_HELP" value="The default regex will match &quot;[Monday] meeting with John [priority: high] [place: office]&quot;&#xA;      and &quot;[Friday] diner with kids [priority: highest] [place: home]&quot;&#xA;&#x9;  "/>
-    <elementParameter field="MEMO" name="REGEX" value="&quot;&lt;div class=\&quot;links bottomMargin\&quot;>(.*?)&lt;/div>&quot;&#xA;"/>
+    <elementParameter field="MEMO" name="REGEX" value="&quot;&lt;div class=\&quot;links bottomMargin\&quot;>(.*)&quot;&#xD;&#xA;"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
     <elementParameter field="CHECK" name="CHECK_FIELDS_NUM" value="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
