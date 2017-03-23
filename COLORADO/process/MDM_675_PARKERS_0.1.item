@@ -541,7 +541,7 @@
     <nodeData xsi:type="MapperData">
       <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
-      <outputTables sizeState="INTERMEDIATE" name="out">
+      <outputTables sizeState="INTERMEDIATE" name="out" expressionFilter="row1.newColumn.contains(&quot;vauxhaul&quot;)" activateExpressionFilter="true">
         <mapperTableEntries name="newColumn" expression="row1.newColumn " type="id_String" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
