@@ -364,3 +364,5 @@
  * Task [UpdateTMatchGroupOutPutSchemaTask] : Applied successfully
  * Task [AutoUpdateRelationsMigrationTask] : Applied successfully
  ---=== End of migration ===---
+ ---=== Start Migration of project COLORADO ===---
+ * Task [AddJavaVersionMigrationTask] : Applied successfully

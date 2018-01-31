@@ -624,7 +624,6 @@
     <migrationTask xmi:id="_w4wkIeSKEeacPJe5ccyp3g" id="org.talend.mdm.repository.core.migrate.UpdateProcessObjectPathMT" breaks="5.1.1" version="5.1.2" status="ok"/>
     <migrationTask xmi:id="_w4wkIuSKEeacPJe5ccyp3g" id="org.talend.mdm.repository.core.migrate.RemoveRefNameMT" breaks="6.0.0" version="6.0.0" status="noimpact"/>
     <migrationTask xmi:id="_w4wkI-SKEeacPJe5ccyp3g" id="org.talend.mdm.repository.core.migrate.UpdateOperatorMigrationTask" breaks="6.2.0" version="6.2.0" status="ok"/>
-    <migrationTask xmi:id="_08YxoOSKEeacPJe5ccyp3g" id="org.talend.repository.model.migration.FixProjectResourceLink" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_08YxoeSKEeacPJe5ccyp3g" id="org.talend.datacleansing.core.migration.UpdateTMultiPatternCheckTask" breaks="5.6.0" version="5.6.0" status="ok"/>
     <migrationTask xmi:id="_08YxouSKEeacPJe5ccyp3g" id="org.talend.datacleansing.core.migration.UpdateTmatchGroupQualityTask" breaks="5.6.0" version="5.6.0" status="ok"/>
     <migrationTask xmi:id="_08Yxo-SKEeacPJe5ccyp3g" id="org.talend.mdm.workbench.serverexplorer.migration.UnifyPasswordEncryption4MDMServerDefMigrationTask" breaks="6.0.0" version="6.0.0" status="noimpact"/>
@@ -634,6 +633,7 @@
     <migrationTask xmi:id="_08Yxp-SKEeacPJe5ccyp3g" id="org.talend.datacleansing.core.migration.UpdatetPredictSparkVersionTask" breaks="6.3.0" version="6.3.0" status="noimpact"/>
     <migrationTask xmi:id="_08YxqOSKEeacPJe5ccyp3g" id="org.talend.datacleansing.core.migration.UpdateTMatchGroupOutPutSchemaTask" breaks="6.3.1" version="6.3.1" status="ok"/>
     <migrationTask xmi:id="_08YxqeSKEeacPJe5ccyp3g" id="org.talend.repository.model.migration.AutoUpdateRelationsMigrationTask" breaks="5.1.1" version="5.1.2" status="ok"/>
+    <migrationTask xmi:id="_5JbS4QaaEeikcKErQPKhow" id="org.talend.repository.model.migration.AddJavaVersionMigrationTask" breaks="6.3.1" version="6.4.0" status="ok"/>
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_rF8i4uSIEeaJwPCXMggBIg" login="admin@company.com" firstName="admin" lastName="admin" type="DI" additionnalData="{}"/>
   <TalendProperties:User xmi:id="_u4iqwOSIEeaJwPCXMggBIg" login="gwilliams@talend.com" firstName="Gary" lastName="Williams" type="DI" additionnalData="{}"/>
