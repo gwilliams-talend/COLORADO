@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
-  <context confirmationNeeded="false" name="Default"/>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="DEV" jobType="Standard">
+  <context confirmationNeeded="false" name="DEV">
+    <contextParameter comment="" name="Environment" prompt="Environment?" promptNeeded="false" type="id_String" value="DEV"/>
+  </context>
+  <context confirmationNeeded="false" name="PRD">
+    <contextParameter comment="" name="Environment" prompt="Environment?" promptNeeded="false" type="id_String" value="PRD"/>
+  </context>
   <parameters>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
@@ -111,6 +116,7 @@
     <routinesParameter id="_gPaVIL74EeeD64jPHxULqA" name="TalendDate"/>
     <routinesParameter id="_gRFJEL74EeeD64jPHxULqA" name="TalendStringUtil"/>
     <routinesParameter id="_gQMYQL74EeeD64jPHxULqA" name="TalendString"/>
+    <routinesParameter id="_xBQY0OSKEeacPJe5ccyp3g" name="MDM"/>
   </parameters>
   <node componentName="tFixedFlowInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="256" posY="96">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFixedFlowInput_1" show="false"/>

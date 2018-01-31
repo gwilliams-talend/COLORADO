@@ -316,6 +316,7 @@
       <relatedItems xmi:id="_G0HhTwabEeikcKErQPKhow" id="DQTechnical" version="Latest" type="routine"/>
       <relatedItems xmi:id="_G0HhUAabEeikcKErQPKhow" id="DataQualityDependencies" version="Latest" type="routine"/>
       <relatedItems xmi:id="_G0HhUQabEeikcKErQPKhow" id="TalendStringUtil" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_Qe8AwAabEeikcKErQPKhow" id="MDM" version="Latest" type="routine"/>
     </ItemsRelations>
     <deletedFolders>process/WORKAREA/GARY</deletedFolders>
     <deletedFolders>process/WORKAREA</deletedFolders>
