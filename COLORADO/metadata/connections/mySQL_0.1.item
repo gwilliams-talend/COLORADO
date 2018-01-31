@@ -1,0 +1,1523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:orgomg.cwm.objectmodel.core="http:///orgomg/cwm/objectmodel/core.ecore" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <TalendMetadata:DatabaseConnection xmi:id="_TBvT4PqWEeeFbP_5Z9Q7hQ" name="mySQL" supplierDependency="_2eijsPqWEeeFbP_5Z9Q7hQ" id="_M87RwPqWEeeFbP_5Z9Q7hQ" label="mySQL" dataPackage="_TTRv0PqWEeeFbP_5Z9Q7hQ _TTRv0fqWEeeFbP_5Z9Q7hQ _TTRv0vqWEeeFbP_5Z9Q7hQ _TTRv0_qWEeeFbP_5Z9Q7hQ _TTRv1PqWEeeFbP_5Z9Q7hQ _TTRv1fqWEeeFbP_5Z9Q7hQ _TTRv1vqWEeeFbP_5Z9Q7hQ _TTRv1_qWEeeFbP_5Z9Q7hQ _TTRv2PqWEeeFbP_5Z9Q7hQ _TTRv2fqWEeeFbP_5Z9Q7hQ _TTRv2vqWEeeFbP_5Z9Q7hQ _TTRv2_qWEeeFbP_5Z9Q7hQ _TTRv3PqWEeeFbP_5Z9Q7hQ _TTRv3fqWEeeFbP_5Z9Q7hQ" DatabaseType="MySQL" DriverClass="org.gjt.mm.mysql.Driver" URL="jdbc:mysql://localhost:3306/?noDatetimeStringSync=true" dbVersionString="MYSQL_5" Port="3306" Username="talend" Password="YdTnhbqBAdo=" ServerName="localhost" DatasourceName="" FileFieldName="" SID="" SqlSynthax="SQL Syntax" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true" StandardSQL="true" SQLMode="false" UiSchema="">
+    <taggedValue xmi:id="_TBvT4fqWEeeFbP_5Z9Q7hQ" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_TDEwoPqWEeeFbP_5Z9Q7hQ" tag="package filter" value=""/>
+    <taggedValue xmi:id="_TDOhoPqWEeeFbP_5Z9Q7hQ" tag="Status" value=""/>
+    <taggedValue xmi:id="_TDOhofqWEeeFbP_5Z9Q7hQ" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_TDOhovqWEeeFbP_5Z9Q7hQ" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_TDOho_qWEeeFbP_5Z9Q7hQ" tag="Description" value=""/>
+    <taggedValue xmi:id="_TDOhpPqWEeeFbP_5Z9Q7hQ" tag="Author" value=""/>
+    <taggedValue xmi:id="_TDOhpfqWEeeFbP_5Z9Q7hQ" tag="otherParameter"/>
+    <taggedValue xmi:id="_TDOhpvqWEeeFbP_5Z9Q7hQ" tag="DB ProductName" value="MySQL"/>
+    <taggedValue xmi:id="_TDOhp_qWEeeFbP_5Z9Q7hQ" tag="DB ProductVersion" value="5.7.9-log"/>
+    <taggedValue xmi:id="_TDOhqPqWEeeFbP_5Z9Q7hQ" tag="DB IdentifierQuoteString" value="`"/>
+    <parameters xmi:id="_TBvT4vqWEeeFbP_5Z9Q7hQ" key="CONN_PARA_KEY_USERNAME" value="talend"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_TTRv0PqWEeeFbP_5Z9Q7hQ" name="information_schema" dataManager="_TBvT4PqWEeeFbP_5Z9Q7hQ"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_TTRv0fqWEeeFbP_5Z9Q7hQ" name="informa" dataManager="_TBvT4PqWEeeFbP_5Z9Q7hQ">
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_dIdFMfqWEeeFbP_5Z9Q7hQ" name="amc_flow" id="_cu1EQPqWEeeFbP_5Z9Q7hQ" label="amc_flow" tableType="TABLE">
+      <taggedValue xmi:id="_dIdFMvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_dIdFM_qWEeeFbP_5Z9Q7hQ" name="amc_log" id="_cvkrIPqWEeeFbP_5Z9Q7hQ" label="amc_log" tableType="TABLE">
+      <taggedValue xmi:id="_dIdFNPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_dIdFNfqWEeeFbP_5Z9Q7hQ" name="amc_stat" id="_cv3mEPqWEeeFbP_5Z9Q7hQ" label="amc_stat" tableType="TABLE">
+      <taggedValue xmi:id="_dIdFNvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_dIdFN_qWEeeFbP_5Z9Q7hQ" name="cntct" id="_cwUSAPqWEeeFbP_5Z9Q7hQ" label="cntct" tableType="TABLE">
+      <taggedValue xmi:id="_dIdFOPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_dIdFOfqWEeeFbP_5Z9Q7hQ" name="cntct_addr" id="_cxzfwPqWEeeFbP_5Z9Q7hQ" label="cntct_addr" tableType="TABLE">
+      <taggedValue xmi:id="_dIdFOvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_dIdFO_qWEeeFbP_5Z9Q7hQ" name="cntct_addr_bkp28072017" id="_c2ImIPqWEeeFbP_5Z9Q7hQ" label="cntct_addr_bkp28072017" tableType="TABLE">
+      <taggedValue xmi:id="_dIdFPPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_dIdFPfqWEeeFbP_5Z9Q7hQ" name="cntct_bkp28072017" id="_c2vDEPqWEeeFbP_5Z9Q7hQ" label="cntct_bkp28072017" tableType="TABLE">
+      <taggedValue xmi:id="_dIdFPvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_dIdFP_qWEeeFbP_5Z9Q7hQ" name="cntct_email" id="_c3B-APqWEeeFbP_5Z9Q7hQ" label="cntct_email" tableType="TABLE">
+      <taggedValue xmi:id="_dIdFQPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_dIdFQfqWEeeFbP_5Z9Q7hQ" name="cntct_email_bkp28072017" id="_c3ep8PqWEeeFbP_5Z9Q7hQ" label="cntct_email_bkp28072017" tableType="TABLE">
+      <taggedValue xmi:id="_dIdFQvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_dIdFQ_qWEeeFbP_5Z9Q7hQ" name="cntct_fax" id="_c493sPqWEeeFbP_5Z9Q7hQ" label="cntct_fax" tableType="TABLE">
+      <taggedValue xmi:id="_dIdFRPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_dIdFRfqWEeeFbP_5Z9Q7hQ" name="cntct_orgn_rel" id="_c5Z8kPqWEeeFbP_5Z9Q7hQ" label="cntct_orgn_rel" tableType="TABLE">
+      <taggedValue xmi:id="_dIdFRvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_dIdFR_qWEeeFbP_5Z9Q7hQ" name="cntct_phn" id="_c52ogPqWEeeFbP_5Z9Q7hQ" label="cntct_phn" tableType="TABLE">
+      <taggedValue xmi:id="_dIdFSPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_dIdFSfqWEeeFbP_5Z9Q7hQ" name="cntct_phn_temp" id="_c6TUcPqWEeeFbP_5Z9Q7hQ" label="cntct_phn_temp" tableType="TABLE">
+      <taggedValue xmi:id="_dIdFSvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_dIdFS_qWEeeFbP_5Z9Q7hQ" name="intl_dialling_code" id="_c8r6EPqWEeeFbP_5Z9Q7hQ" label="intl_dialling_code" tableType="TABLE">
+      <taggedValue xmi:id="_dIdFTPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_dIdFTfqWEeeFbP_5Z9Q7hQ" name="orgn" id="_c-U40PqWEeeFbP_5Z9Q7hQ" label="orgn" tableType="TABLE">
+      <taggedValue xmi:id="_dIdFTvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_dIdFT_qWEeeFbP_5Z9Q7hQ" name="orgn_temp" id="_c_D4oPqWEeeFbP_5Z9Q7hQ" label="orgn_temp" tableType="TABLE">
+      <taggedValue xmi:id="_dIdFUPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_dIdFUfqWEeeFbP_5Z9Q7hQ" name="prsn" id="_c_qVkPqWEeeFbP_5Z9Q7hQ" label="prsn" tableType="TABLE">
+      <taggedValue xmi:id="_dIdFUvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_dIdFU_qWEeeFbP_5Z9Q7hQ" name="prsn_bkp" id="_dCzJIPqWEeeFbP_5Z9Q7hQ" label="prsn_bkp" tableType="TABLE">
+      <taggedValue xmi:id="_dIdFVPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_dIdFVfqWEeeFbP_5Z9Q7hQ" name="prsn_bkp28072017" id="_dDZmEPqWEeeFbP_5Z9Q7hQ" label="prsn_bkp28072017" tableType="TABLE">
+      <taggedValue xmi:id="_dIdFVvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_dIdFV_qWEeeFbP_5Z9Q7hQ" name="prsn_temp" id="_dE4z0PqWEeeFbP_5Z9Q7hQ" label="prsn_temp" tableType="TABLE">
+      <taggedValue xmi:id="_dIdFWPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_dIdFWfqWEeeFbP_5Z9Q7hQ" name="prsn_try" id="_dGOQkPqWEeeFbP_5Z9Q7hQ" label="prsn_try" tableType="TABLE">
+      <taggedValue xmi:id="_dIdFWvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_dIdFW_qWEeeFbP_5Z9Q7hQ" name="relation2" id="_dGq8gPqWEeeFbP_5Z9Q7hQ" label="relation2" tableType="TABLE">
+      <taggedValue xmi:id="_dIdFXPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_dIdFXfqWEeeFbP_5Z9Q7hQ" name="tempmisorgn" id="_dHteUPqWEeeFbP_5Z9Q7hQ" label="tempmisorgn" tableType="TABLE">
+      <taggedValue xmi:id="_dIdFXvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_dIdFX_qWEeeFbP_5Z9Q7hQ" name="tempmisprsn" id="_dIAZQPqWEeeFbP_5Z9Q7hQ" label="tempmisprsn" tableType="TABLE">
+      <taggedValue xmi:id="_dIdFYPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_dIdFYfqWEeeFbP_5Z9Q7hQ" name="z_prsn" id="_dIdFMPqWEeeFbP_5Z9Q7hQ" label="z_prsn" tableType="TABLE">
+      <taggedValue xmi:id="_dIdFYvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Catalog>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_TTRv0vqWEeeFbP_5Z9Q7hQ" name="mysql" dataManager="_TBvT4PqWEeeFbP_5Z9Q7hQ">
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_daG17fqWEeeFbP_5Z9Q7hQ" name="columns_priv" id="_dZz68PqWEeeFbP_5Z9Q7hQ" label="columns_priv" tableType="TABLE">
+      <taggedValue xmi:id="_daG17vqWEeeFbP_5Z9Q7hQ" tag="Comment" value="Column privileges"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_daG17_qWEeeFbP_5Z9Q7hQ" name="db" id="_dZz68fqWEeeFbP_5Z9Q7hQ" label="db" tableType="TABLE">
+      <taggedValue xmi:id="_daG18PqWEeeFbP_5Z9Q7hQ" tag="Comment" value="Database privileges"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_daG18fqWEeeFbP_5Z9Q7hQ" name="engine_cost" id="_dZz68vqWEeeFbP_5Z9Q7hQ" label="engine_cost" tableType="TABLE">
+      <taggedValue xmi:id="_daG18vqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_daG18_qWEeeFbP_5Z9Q7hQ" name="event" id="_dZz68_qWEeeFbP_5Z9Q7hQ" label="event" tableType="TABLE">
+      <taggedValue xmi:id="_daG19PqWEeeFbP_5Z9Q7hQ" tag="Comment" value="Events"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_daG19fqWEeeFbP_5Z9Q7hQ" name="func" id="_dZz69PqWEeeFbP_5Z9Q7hQ" label="func" tableType="TABLE">
+      <taggedValue xmi:id="_daG19vqWEeeFbP_5Z9Q7hQ" tag="Comment" value="User defined functions"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_daG19_qWEeeFbP_5Z9Q7hQ" name="general_log" id="_dZz69fqWEeeFbP_5Z9Q7hQ" label="general_log" tableType="TABLE">
+      <taggedValue xmi:id="_daG1-PqWEeeFbP_5Z9Q7hQ" tag="Comment" value="General log"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_daG1-fqWEeeFbP_5Z9Q7hQ" name="gtid_executed" id="_dZz69vqWEeeFbP_5Z9Q7hQ" label="gtid_executed" tableType="TABLE">
+      <taggedValue xmi:id="_daG1-vqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_daG1-_qWEeeFbP_5Z9Q7hQ" name="help_category" id="_dZz69_qWEeeFbP_5Z9Q7hQ" label="help_category" tableType="TABLE">
+      <taggedValue xmi:id="_daG1_PqWEeeFbP_5Z9Q7hQ" tag="Comment" value="help categories"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_daG1_fqWEeeFbP_5Z9Q7hQ" name="help_keyword" id="_dZz6-PqWEeeFbP_5Z9Q7hQ" label="help_keyword" tableType="TABLE">
+      <taggedValue xmi:id="_daG1_vqWEeeFbP_5Z9Q7hQ" tag="Comment" value="help keywords"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_daG1__qWEeeFbP_5Z9Q7hQ" name="help_relation" id="_dZz6-fqWEeeFbP_5Z9Q7hQ" label="help_relation" tableType="TABLE">
+      <taggedValue xmi:id="_daG2APqWEeeFbP_5Z9Q7hQ" tag="Comment" value="keyword-topic relation"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_daG2AfqWEeeFbP_5Z9Q7hQ" name="help_topic" id="_dZ9r8PqWEeeFbP_5Z9Q7hQ" label="help_topic" tableType="TABLE">
+      <taggedValue xmi:id="_daG2AvqWEeeFbP_5Z9Q7hQ" tag="Comment" value="help topics"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_daG2A_qWEeeFbP_5Z9Q7hQ" name="innodb_index_stats" id="_dZ9r8fqWEeeFbP_5Z9Q7hQ" label="innodb_index_stats" tableType="TABLE">
+      <taggedValue xmi:id="_daG2BPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_daG2BfqWEeeFbP_5Z9Q7hQ" name="innodb_table_stats" id="_dZ9r8vqWEeeFbP_5Z9Q7hQ" label="innodb_table_stats" tableType="TABLE">
+      <taggedValue xmi:id="_daG2BvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_daG2B_qWEeeFbP_5Z9Q7hQ" name="ndb_binlog_index" id="_dZ9r8_qWEeeFbP_5Z9Q7hQ" label="ndb_binlog_index" tableType="TABLE">
+      <taggedValue xmi:id="_daG2CPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_daG2CfqWEeeFbP_5Z9Q7hQ" name="plugin" id="_dZ9r9PqWEeeFbP_5Z9Q7hQ" label="plugin" tableType="TABLE">
+      <taggedValue xmi:id="_daG2CvqWEeeFbP_5Z9Q7hQ" tag="Comment" value="MySQL plugins"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_daG2C_qWEeeFbP_5Z9Q7hQ" name="proc" id="_dZ9r9fqWEeeFbP_5Z9Q7hQ" label="proc" tableType="TABLE">
+      <taggedValue xmi:id="_daG2DPqWEeeFbP_5Z9Q7hQ" tag="Comment" value="Stored Procedures"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_daG2DfqWEeeFbP_5Z9Q7hQ" name="procs_priv" id="_dZ9r9vqWEeeFbP_5Z9Q7hQ" label="procs_priv" tableType="TABLE">
+      <taggedValue xmi:id="_daG2DvqWEeeFbP_5Z9Q7hQ" tag="Comment" value="Procedure privileges"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_daG2D_qWEeeFbP_5Z9Q7hQ" name="proxies_priv" id="_dZ9r9_qWEeeFbP_5Z9Q7hQ" label="proxies_priv" tableType="TABLE">
+      <taggedValue xmi:id="_daG2EPqWEeeFbP_5Z9Q7hQ" tag="Comment" value="User proxy privileges"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_daG2EfqWEeeFbP_5Z9Q7hQ" name="server_cost" id="_daG14PqWEeeFbP_5Z9Q7hQ" label="server_cost" tableType="TABLE">
+      <taggedValue xmi:id="_daG2EvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_daG2E_qWEeeFbP_5Z9Q7hQ" name="servers" id="_daG14fqWEeeFbP_5Z9Q7hQ" label="servers" tableType="TABLE">
+      <taggedValue xmi:id="_daG2FPqWEeeFbP_5Z9Q7hQ" tag="Comment" value="MySQL Foreign Servers table"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_daG2FfqWEeeFbP_5Z9Q7hQ" name="slave_master_info" id="_daG14vqWEeeFbP_5Z9Q7hQ" label="slave_master_info" tableType="TABLE">
+      <taggedValue xmi:id="_daG2FvqWEeeFbP_5Z9Q7hQ" tag="Comment" value="Master Information"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_daG2F_qWEeeFbP_5Z9Q7hQ" name="slave_relay_log_info" id="_daG14_qWEeeFbP_5Z9Q7hQ" label="slave_relay_log_info" tableType="TABLE">
+      <taggedValue xmi:id="_daG2GPqWEeeFbP_5Z9Q7hQ" tag="Comment" value="Relay Log Information"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_daG2GfqWEeeFbP_5Z9Q7hQ" name="slave_worker_info" id="_daG15PqWEeeFbP_5Z9Q7hQ" label="slave_worker_info" tableType="TABLE">
+      <taggedValue xmi:id="_daG2GvqWEeeFbP_5Z9Q7hQ" tag="Comment" value="Worker Information"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_daG2G_qWEeeFbP_5Z9Q7hQ" name="slow_log" id="_daG15fqWEeeFbP_5Z9Q7hQ" label="slow_log" tableType="TABLE">
+      <taggedValue xmi:id="_daG2HPqWEeeFbP_5Z9Q7hQ" tag="Comment" value="Slow log"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_daG2HfqWEeeFbP_5Z9Q7hQ" name="tables_priv" id="_daG15vqWEeeFbP_5Z9Q7hQ" label="tables_priv" tableType="TABLE">
+      <taggedValue xmi:id="_daG2HvqWEeeFbP_5Z9Q7hQ" tag="Comment" value="Table privileges"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_daG2H_qWEeeFbP_5Z9Q7hQ" name="time_zone" id="_daG15_qWEeeFbP_5Z9Q7hQ" label="time_zone" tableType="TABLE">
+      <taggedValue xmi:id="_daG2IPqWEeeFbP_5Z9Q7hQ" tag="Comment" value="Time zones"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_daG2IfqWEeeFbP_5Z9Q7hQ" name="time_zone_leap_second" id="_daG16PqWEeeFbP_5Z9Q7hQ" label="time_zone_leap_second" tableType="TABLE">
+      <taggedValue xmi:id="_daG2IvqWEeeFbP_5Z9Q7hQ" tag="Comment" value="Leap seconds information for time zones"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_daG2I_qWEeeFbP_5Z9Q7hQ" name="time_zone_name" id="_daG16fqWEeeFbP_5Z9Q7hQ" label="time_zone_name" tableType="TABLE">
+      <taggedValue xmi:id="_daG2JPqWEeeFbP_5Z9Q7hQ" tag="Comment" value="Time zone names"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_daG2JfqWEeeFbP_5Z9Q7hQ" name="time_zone_transition" id="_daG16vqWEeeFbP_5Z9Q7hQ" label="time_zone_transition" tableType="TABLE">
+      <taggedValue xmi:id="_daG2JvqWEeeFbP_5Z9Q7hQ" tag="Comment" value="Time zone transitions"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_daG2J_qWEeeFbP_5Z9Q7hQ" name="time_zone_transition_type" id="_daG16_qWEeeFbP_5Z9Q7hQ" label="time_zone_transition_type" tableType="TABLE">
+      <taggedValue xmi:id="_daG2KPqWEeeFbP_5Z9Q7hQ" tag="Comment" value="Time zone transition types"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_daG2KfqWEeeFbP_5Z9Q7hQ" name="user" id="_daG17PqWEeeFbP_5Z9Q7hQ" label="user" tableType="TABLE">
+      <taggedValue xmi:id="_daG2KvqWEeeFbP_5Z9Q7hQ" tag="Comment" value="Users and global privileges"/>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Catalog>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_TTRv0_qWEeeFbP_5Z9Q7hQ" name="performance_schema" dataManager="_TBvT4PqWEeeFbP_5Z9Q7hQ">
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddObW_qWEeeFbP_5Z9Q7hQ" name="accounts" id="_dc7gYPqWEeeFbP_5Z9Q7hQ" label="accounts" tableType="TABLE">
+      <taggedValue xmi:id="_ddObXPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddObXfqWEeeFbP_5Z9Q7hQ" name="cond_instances" id="_dc7gYfqWEeeFbP_5Z9Q7hQ" label="cond_instances" tableType="TABLE">
+      <taggedValue xmi:id="_ddObXvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddObX_qWEeeFbP_5Z9Q7hQ" name="events_stages_current" id="_dc7gYvqWEeeFbP_5Z9Q7hQ" label="events_stages_current" tableType="TABLE">
+      <taggedValue xmi:id="_ddObYPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddObYfqWEeeFbP_5Z9Q7hQ" name="events_stages_history" id="_dc7gY_qWEeeFbP_5Z9Q7hQ" label="events_stages_history" tableType="TABLE">
+      <taggedValue xmi:id="_ddObYvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddObY_qWEeeFbP_5Z9Q7hQ" name="events_stages_history_long" id="_dc7gZPqWEeeFbP_5Z9Q7hQ" label="events_stages_history_long" tableType="TABLE">
+      <taggedValue xmi:id="_ddObZPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddObZfqWEeeFbP_5Z9Q7hQ" name="events_stages_summary_by_account_by_event_name" id="_dc7gZfqWEeeFbP_5Z9Q7hQ" label="events_stages_summary_by_account_by_event_name" tableType="TABLE">
+      <taggedValue xmi:id="_ddObZvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddObZ_qWEeeFbP_5Z9Q7hQ" name="events_stages_summary_by_host_by_event_name" id="_dc7gZvqWEeeFbP_5Z9Q7hQ" label="events_stages_summary_by_host_by_event_name" tableType="TABLE">
+      <taggedValue xmi:id="_ddObaPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddObafqWEeeFbP_5Z9Q7hQ" name="events_stages_summary_by_thread_by_event_name" id="_dc7gZ_qWEeeFbP_5Z9Q7hQ" label="events_stages_summary_by_thread_by_event_name" tableType="TABLE">
+      <taggedValue xmi:id="_ddObavqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddOba_qWEeeFbP_5Z9Q7hQ" name="events_stages_summary_by_user_by_event_name" id="_dc7gaPqWEeeFbP_5Z9Q7hQ" label="events_stages_summary_by_user_by_event_name" tableType="TABLE">
+      <taggedValue xmi:id="_ddObbPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddObbfqWEeeFbP_5Z9Q7hQ" name="events_stages_summary_global_by_event_name" id="_dc7gafqWEeeFbP_5Z9Q7hQ" label="events_stages_summary_global_by_event_name" tableType="TABLE">
+      <taggedValue xmi:id="_ddObbvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddObb_qWEeeFbP_5Z9Q7hQ" name="events_statements_current" id="_dc7gavqWEeeFbP_5Z9Q7hQ" label="events_statements_current" tableType="TABLE">
+      <taggedValue xmi:id="_ddObcPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddObcfqWEeeFbP_5Z9Q7hQ" name="events_statements_history" id="_dc7ga_qWEeeFbP_5Z9Q7hQ" label="events_statements_history" tableType="TABLE">
+      <taggedValue xmi:id="_ddObcvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddObc_qWEeeFbP_5Z9Q7hQ" name="events_statements_history_long" id="_dc7gbPqWEeeFbP_5Z9Q7hQ" label="events_statements_history_long" tableType="TABLE">
+      <taggedValue xmi:id="_ddObdPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddObdfqWEeeFbP_5Z9Q7hQ" name="events_statements_summary_by_account_by_event_name" id="_dc7gbfqWEeeFbP_5Z9Q7hQ" label="events_statements_summary_by_account_by_event_name" tableType="TABLE">
+      <taggedValue xmi:id="_ddObdvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddObd_qWEeeFbP_5Z9Q7hQ" name="events_statements_summary_by_digest" id="_dc7gbvqWEeeFbP_5Z9Q7hQ" label="events_statements_summary_by_digest" tableType="TABLE">
+      <taggedValue xmi:id="_ddObePqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddObefqWEeeFbP_5Z9Q7hQ" name="events_statements_summary_by_host_by_event_name" id="_dc7gb_qWEeeFbP_5Z9Q7hQ" label="events_statements_summary_by_host_by_event_name" tableType="TABLE">
+      <taggedValue xmi:id="_ddObevqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddObe_qWEeeFbP_5Z9Q7hQ" name="events_statements_summary_by_program" id="_dc7gcPqWEeeFbP_5Z9Q7hQ" label="events_statements_summary_by_program" tableType="TABLE">
+      <taggedValue xmi:id="_ddObfPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddObffqWEeeFbP_5Z9Q7hQ" name="events_statements_summary_by_thread_by_event_name" id="_dc7gcfqWEeeFbP_5Z9Q7hQ" label="events_statements_summary_by_thread_by_event_name" tableType="TABLE">
+      <taggedValue xmi:id="_ddObfvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddObf_qWEeeFbP_5Z9Q7hQ" name="events_statements_summary_by_user_by_event_name" id="_dc7gcvqWEeeFbP_5Z9Q7hQ" label="events_statements_summary_by_user_by_event_name" tableType="TABLE">
+      <taggedValue xmi:id="_ddObgPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddObgfqWEeeFbP_5Z9Q7hQ" name="events_statements_summary_global_by_event_name" id="_dc7gc_qWEeeFbP_5Z9Q7hQ" label="events_statements_summary_global_by_event_name" tableType="TABLE">
+      <taggedValue xmi:id="_ddObgvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddObg_qWEeeFbP_5Z9Q7hQ" name="events_transactions_current" id="_dc7gdPqWEeeFbP_5Z9Q7hQ" label="events_transactions_current" tableType="TABLE">
+      <taggedValue xmi:id="_ddObhPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddObhfqWEeeFbP_5Z9Q7hQ" name="events_transactions_history" id="_dc7gdfqWEeeFbP_5Z9Q7hQ" label="events_transactions_history" tableType="TABLE">
+      <taggedValue xmi:id="_ddObhvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddObh_qWEeeFbP_5Z9Q7hQ" name="events_transactions_history_long" id="_dc7gdvqWEeeFbP_5Z9Q7hQ" label="events_transactions_history_long" tableType="TABLE">
+      <taggedValue xmi:id="_ddObiPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddObifqWEeeFbP_5Z9Q7hQ" name="events_transactions_summary_by_account_by_event_name" id="_dc7gd_qWEeeFbP_5Z9Q7hQ" label="events_transactions_summary_by_account_by_event_name" tableType="TABLE">
+      <taggedValue xmi:id="_ddObivqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddObi_qWEeeFbP_5Z9Q7hQ" name="events_transactions_summary_by_host_by_event_name" id="_dc7gePqWEeeFbP_5Z9Q7hQ" label="events_transactions_summary_by_host_by_event_name" tableType="TABLE">
+      <taggedValue xmi:id="_ddObjPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddObjfqWEeeFbP_5Z9Q7hQ" name="events_transactions_summary_by_thread_by_event_name" id="_dc7gefqWEeeFbP_5Z9Q7hQ" label="events_transactions_summary_by_thread_by_event_name" tableType="TABLE">
+      <taggedValue xmi:id="_ddObjvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddObj_qWEeeFbP_5Z9Q7hQ" name="events_transactions_summary_by_user_by_event_name" id="_dc7gevqWEeeFbP_5Z9Q7hQ" label="events_transactions_summary_by_user_by_event_name" tableType="TABLE">
+      <taggedValue xmi:id="_ddObkPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddObkfqWEeeFbP_5Z9Q7hQ" name="events_transactions_summary_global_by_event_name" id="_dc7ge_qWEeeFbP_5Z9Q7hQ" label="events_transactions_summary_global_by_event_name" tableType="TABLE">
+      <taggedValue xmi:id="_ddObkvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddObk_qWEeeFbP_5Z9Q7hQ" name="events_waits_current" id="_dc7gfPqWEeeFbP_5Z9Q7hQ" label="events_waits_current" tableType="TABLE">
+      <taggedValue xmi:id="_ddOblPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddOblfqWEeeFbP_5Z9Q7hQ" name="events_waits_history" id="_dc7gffqWEeeFbP_5Z9Q7hQ" label="events_waits_history" tableType="TABLE">
+      <taggedValue xmi:id="_ddOblvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddObl_qWEeeFbP_5Z9Q7hQ" name="events_waits_history_long" id="_dc7gfvqWEeeFbP_5Z9Q7hQ" label="events_waits_history_long" tableType="TABLE">
+      <taggedValue xmi:id="_ddObmPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddObmfqWEeeFbP_5Z9Q7hQ" name="events_waits_summary_by_account_by_event_name" id="_ddFRYPqWEeeFbP_5Z9Q7hQ" label="events_waits_summary_by_account_by_event_name" tableType="TABLE">
+      <taggedValue xmi:id="_ddObmvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddObm_qWEeeFbP_5Z9Q7hQ" name="events_waits_summary_by_host_by_event_name" id="_ddFRYfqWEeeFbP_5Z9Q7hQ" label="events_waits_summary_by_host_by_event_name" tableType="TABLE">
+      <taggedValue xmi:id="_ddObnPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddObnfqWEeeFbP_5Z9Q7hQ" name="events_waits_summary_by_instance" id="_ddFRYvqWEeeFbP_5Z9Q7hQ" label="events_waits_summary_by_instance" tableType="TABLE">
+      <taggedValue xmi:id="_ddObnvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddObn_qWEeeFbP_5Z9Q7hQ" name="events_waits_summary_by_thread_by_event_name" id="_ddFRY_qWEeeFbP_5Z9Q7hQ" label="events_waits_summary_by_thread_by_event_name" tableType="TABLE">
+      <taggedValue xmi:id="_ddOboPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddObofqWEeeFbP_5Z9Q7hQ" name="events_waits_summary_by_user_by_event_name" id="_ddFRZPqWEeeFbP_5Z9Q7hQ" label="events_waits_summary_by_user_by_event_name" tableType="TABLE">
+      <taggedValue xmi:id="_ddObovqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddObo_qWEeeFbP_5Z9Q7hQ" name="events_waits_summary_global_by_event_name" id="_ddFRZfqWEeeFbP_5Z9Q7hQ" label="events_waits_summary_global_by_event_name" tableType="TABLE">
+      <taggedValue xmi:id="_ddObpPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddObpfqWEeeFbP_5Z9Q7hQ" name="file_instances" id="_ddFRZvqWEeeFbP_5Z9Q7hQ" label="file_instances" tableType="TABLE">
+      <taggedValue xmi:id="_ddObpvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddObp_qWEeeFbP_5Z9Q7hQ" name="file_summary_by_event_name" id="_ddFRZ_qWEeeFbP_5Z9Q7hQ" label="file_summary_by_event_name" tableType="TABLE">
+      <taggedValue xmi:id="_ddObqPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddObqfqWEeeFbP_5Z9Q7hQ" name="file_summary_by_instance" id="_ddFRaPqWEeeFbP_5Z9Q7hQ" label="file_summary_by_instance" tableType="TABLE">
+      <taggedValue xmi:id="_ddObqvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddObq_qWEeeFbP_5Z9Q7hQ" name="global_status" id="_ddFRafqWEeeFbP_5Z9Q7hQ" label="global_status" tableType="TABLE">
+      <taggedValue xmi:id="_ddObrPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddObrfqWEeeFbP_5Z9Q7hQ" name="global_variables" id="_ddFRavqWEeeFbP_5Z9Q7hQ" label="global_variables" tableType="TABLE">
+      <taggedValue xmi:id="_ddObrvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddObr_qWEeeFbP_5Z9Q7hQ" name="host_cache" id="_ddFRa_qWEeeFbP_5Z9Q7hQ" label="host_cache" tableType="TABLE">
+      <taggedValue xmi:id="_ddObsPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddObsfqWEeeFbP_5Z9Q7hQ" name="hosts" id="_ddFRbPqWEeeFbP_5Z9Q7hQ" label="hosts" tableType="TABLE">
+      <taggedValue xmi:id="_ddObsvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddObs_qWEeeFbP_5Z9Q7hQ" name="memory_summary_by_account_by_event_name" id="_ddFRbfqWEeeFbP_5Z9Q7hQ" label="memory_summary_by_account_by_event_name" tableType="TABLE">
+      <taggedValue xmi:id="_ddObtPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddObtfqWEeeFbP_5Z9Q7hQ" name="memory_summary_by_host_by_event_name" id="_ddFRbvqWEeeFbP_5Z9Q7hQ" label="memory_summary_by_host_by_event_name" tableType="TABLE">
+      <taggedValue xmi:id="_ddObtvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddObt_qWEeeFbP_5Z9Q7hQ" name="memory_summary_by_thread_by_event_name" id="_ddFRb_qWEeeFbP_5Z9Q7hQ" label="memory_summary_by_thread_by_event_name" tableType="TABLE">
+      <taggedValue xmi:id="_ddObuPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddObufqWEeeFbP_5Z9Q7hQ" name="memory_summary_by_user_by_event_name" id="_ddFRcPqWEeeFbP_5Z9Q7hQ" label="memory_summary_by_user_by_event_name" tableType="TABLE">
+      <taggedValue xmi:id="_ddObuvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddObu_qWEeeFbP_5Z9Q7hQ" name="memory_summary_global_by_event_name" id="_ddFRcfqWEeeFbP_5Z9Q7hQ" label="memory_summary_global_by_event_name" tableType="TABLE">
+      <taggedValue xmi:id="_ddObvPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddObvfqWEeeFbP_5Z9Q7hQ" name="metadata_locks" id="_ddFRcvqWEeeFbP_5Z9Q7hQ" label="metadata_locks" tableType="TABLE">
+      <taggedValue xmi:id="_ddObvvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddObv_qWEeeFbP_5Z9Q7hQ" name="mutex_instances" id="_ddFRc_qWEeeFbP_5Z9Q7hQ" label="mutex_instances" tableType="TABLE">
+      <taggedValue xmi:id="_ddObwPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddObwfqWEeeFbP_5Z9Q7hQ" name="objects_summary_global_by_type" id="_ddFRdPqWEeeFbP_5Z9Q7hQ" label="objects_summary_global_by_type" tableType="TABLE">
+      <taggedValue xmi:id="_ddObwvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddObw_qWEeeFbP_5Z9Q7hQ" name="performance_timers" id="_ddFRdfqWEeeFbP_5Z9Q7hQ" label="performance_timers" tableType="TABLE">
+      <taggedValue xmi:id="_ddObxPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddObxfqWEeeFbP_5Z9Q7hQ" name="prepared_statements_instances" id="_ddFRdvqWEeeFbP_5Z9Q7hQ" label="prepared_statements_instances" tableType="TABLE">
+      <taggedValue xmi:id="_ddObxvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddObx_qWEeeFbP_5Z9Q7hQ" name="replication_applier_configuration" id="_ddFRd_qWEeeFbP_5Z9Q7hQ" label="replication_applier_configuration" tableType="TABLE">
+      <taggedValue xmi:id="_ddObyPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddObyfqWEeeFbP_5Z9Q7hQ" name="replication_applier_status" id="_ddFRePqWEeeFbP_5Z9Q7hQ" label="replication_applier_status" tableType="TABLE">
+      <taggedValue xmi:id="_ddObyvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddOby_qWEeeFbP_5Z9Q7hQ" name="replication_applier_status_by_coordinator" id="_ddFRefqWEeeFbP_5Z9Q7hQ" label="replication_applier_status_by_coordinator" tableType="TABLE">
+      <taggedValue xmi:id="_ddObzPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddObzfqWEeeFbP_5Z9Q7hQ" name="replication_applier_status_by_worker" id="_ddFRevqWEeeFbP_5Z9Q7hQ" label="replication_applier_status_by_worker" tableType="TABLE">
+      <taggedValue xmi:id="_ddObzvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddObz_qWEeeFbP_5Z9Q7hQ" name="replication_connection_configuration" id="_ddFRe_qWEeeFbP_5Z9Q7hQ" label="replication_connection_configuration" tableType="TABLE">
+      <taggedValue xmi:id="_ddOb0PqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddOb0fqWEeeFbP_5Z9Q7hQ" name="replication_connection_status" id="_ddFRfPqWEeeFbP_5Z9Q7hQ" label="replication_connection_status" tableType="TABLE">
+      <taggedValue xmi:id="_ddOb0vqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddOb0_qWEeeFbP_5Z9Q7hQ" name="replication_group_member_stats" id="_ddFRffqWEeeFbP_5Z9Q7hQ" label="replication_group_member_stats" tableType="TABLE">
+      <taggedValue xmi:id="_ddOb1PqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddOb1fqWEeeFbP_5Z9Q7hQ" name="replication_group_members" id="_ddFRfvqWEeeFbP_5Z9Q7hQ" label="replication_group_members" tableType="TABLE">
+      <taggedValue xmi:id="_ddOb1vqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddOb1_qWEeeFbP_5Z9Q7hQ" name="rwlock_instances" id="_ddFRf_qWEeeFbP_5Z9Q7hQ" label="rwlock_instances" tableType="TABLE">
+      <taggedValue xmi:id="_ddOb2PqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddOb2fqWEeeFbP_5Z9Q7hQ" name="session_account_connect_attrs" id="_ddFRgPqWEeeFbP_5Z9Q7hQ" label="session_account_connect_attrs" tableType="TABLE">
+      <taggedValue xmi:id="_ddOb2vqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddOb2_qWEeeFbP_5Z9Q7hQ" name="session_connect_attrs" id="_ddFRgfqWEeeFbP_5Z9Q7hQ" label="session_connect_attrs" tableType="TABLE">
+      <taggedValue xmi:id="_ddOb3PqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddOb3fqWEeeFbP_5Z9Q7hQ" name="session_status" id="_ddFRgvqWEeeFbP_5Z9Q7hQ" label="session_status" tableType="TABLE">
+      <taggedValue xmi:id="_ddOb3vqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddOb3_qWEeeFbP_5Z9Q7hQ" name="session_variables" id="_ddFRg_qWEeeFbP_5Z9Q7hQ" label="session_variables" tableType="TABLE">
+      <taggedValue xmi:id="_ddOb4PqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddOb4fqWEeeFbP_5Z9Q7hQ" name="setup_actors" id="_ddFRhPqWEeeFbP_5Z9Q7hQ" label="setup_actors" tableType="TABLE">
+      <taggedValue xmi:id="_ddOb4vqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddOb4_qWEeeFbP_5Z9Q7hQ" name="setup_consumers" id="_ddFRhfqWEeeFbP_5Z9Q7hQ" label="setup_consumers" tableType="TABLE">
+      <taggedValue xmi:id="_ddOb5PqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddOb5fqWEeeFbP_5Z9Q7hQ" name="setup_instruments" id="_ddFRhvqWEeeFbP_5Z9Q7hQ" label="setup_instruments" tableType="TABLE">
+      <taggedValue xmi:id="_ddOb5vqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddOb5_qWEeeFbP_5Z9Q7hQ" name="setup_objects" id="_ddFRh_qWEeeFbP_5Z9Q7hQ" label="setup_objects" tableType="TABLE">
+      <taggedValue xmi:id="_ddOb6PqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddOb6fqWEeeFbP_5Z9Q7hQ" name="setup_timers" id="_ddFRiPqWEeeFbP_5Z9Q7hQ" label="setup_timers" tableType="TABLE">
+      <taggedValue xmi:id="_ddOb6vqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddOb6_qWEeeFbP_5Z9Q7hQ" name="socket_instances" id="_ddFRifqWEeeFbP_5Z9Q7hQ" label="socket_instances" tableType="TABLE">
+      <taggedValue xmi:id="_ddOb7PqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddOb7fqWEeeFbP_5Z9Q7hQ" name="socket_summary_by_event_name" id="_ddFRivqWEeeFbP_5Z9Q7hQ" label="socket_summary_by_event_name" tableType="TABLE">
+      <taggedValue xmi:id="_ddOb7vqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddOb7_qWEeeFbP_5Z9Q7hQ" name="socket_summary_by_instance" id="_ddFRi_qWEeeFbP_5Z9Q7hQ" label="socket_summary_by_instance" tableType="TABLE">
+      <taggedValue xmi:id="_ddOb8PqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddOb8fqWEeeFbP_5Z9Q7hQ" name="status_by_account" id="_ddFRjPqWEeeFbP_5Z9Q7hQ" label="status_by_account" tableType="TABLE">
+      <taggedValue xmi:id="_ddOb8vqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddOb8_qWEeeFbP_5Z9Q7hQ" name="status_by_host" id="_ddObUPqWEeeFbP_5Z9Q7hQ" label="status_by_host" tableType="TABLE">
+      <taggedValue xmi:id="_ddOb9PqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddOb9fqWEeeFbP_5Z9Q7hQ" name="status_by_thread" id="_ddObUfqWEeeFbP_5Z9Q7hQ" label="status_by_thread" tableType="TABLE">
+      <taggedValue xmi:id="_ddOb9vqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddOb9_qWEeeFbP_5Z9Q7hQ" name="status_by_user" id="_ddObUvqWEeeFbP_5Z9Q7hQ" label="status_by_user" tableType="TABLE">
+      <taggedValue xmi:id="_ddOb-PqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddOb-fqWEeeFbP_5Z9Q7hQ" name="table_handles" id="_ddObU_qWEeeFbP_5Z9Q7hQ" label="table_handles" tableType="TABLE">
+      <taggedValue xmi:id="_ddOb-vqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddOb-_qWEeeFbP_5Z9Q7hQ" name="table_io_waits_summary_by_index_usage" id="_ddObVPqWEeeFbP_5Z9Q7hQ" label="table_io_waits_summary_by_index_usage" tableType="TABLE">
+      <taggedValue xmi:id="_ddOb_PqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddOb_fqWEeeFbP_5Z9Q7hQ" name="table_io_waits_summary_by_table" id="_ddObVfqWEeeFbP_5Z9Q7hQ" label="table_io_waits_summary_by_table" tableType="TABLE">
+      <taggedValue xmi:id="_ddOb_vqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddOb__qWEeeFbP_5Z9Q7hQ" name="table_lock_waits_summary_by_table" id="_ddObVvqWEeeFbP_5Z9Q7hQ" label="table_lock_waits_summary_by_table" tableType="TABLE">
+      <taggedValue xmi:id="_ddOcAPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddOcAfqWEeeFbP_5Z9Q7hQ" name="threads" id="_ddObV_qWEeeFbP_5Z9Q7hQ" label="threads" tableType="TABLE">
+      <taggedValue xmi:id="_ddOcAvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddOcA_qWEeeFbP_5Z9Q7hQ" name="user_variables_by_thread" id="_ddObWPqWEeeFbP_5Z9Q7hQ" label="user_variables_by_thread" tableType="TABLE">
+      <taggedValue xmi:id="_ddOcBPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddOcBfqWEeeFbP_5Z9Q7hQ" name="users" id="_ddObWfqWEeeFbP_5Z9Q7hQ" label="users" tableType="TABLE">
+      <taggedValue xmi:id="_ddOcBvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ddOcB_qWEeeFbP_5Z9Q7hQ" name="variables_by_thread" id="_ddObWvqWEeeFbP_5Z9Q7hQ" label="variables_by_thread" tableType="TABLE">
+      <taggedValue xmi:id="_ddOcCPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Catalog>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_TTRv1PqWEeeFbP_5Z9Q7hQ" name="sakila" dataManager="_TBvT4PqWEeeFbP_5Z9Q7hQ">
+    <ownedElement xsi:type="relational:TdView" xmi:id="_eAEpsPqWEeeFbP_5Z9Q7hQ" name="actor_info" label="actor_info" tableType="VIEW">
+      <taggedValue xmi:id="_eAEpsfqWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_eAEpsvqWEeeFbP_5Z9Q7hQ" name="customer_list" label="customer_list" tableType="VIEW">
+      <taggedValue xmi:id="_eAEps_qWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_eAEptPqWEeeFbP_5Z9Q7hQ" name="film_list" label="film_list" tableType="VIEW">
+      <taggedValue xmi:id="_eAEptfqWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_eAEptvqWEeeFbP_5Z9Q7hQ" name="nicer_but_slower_film_list" label="nicer_but_slower_film_list" tableType="VIEW">
+      <taggedValue xmi:id="_eAEpt_qWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_eAEpuPqWEeeFbP_5Z9Q7hQ" name="sales_by_film_category" label="sales_by_film_category" tableType="VIEW">
+      <taggedValue xmi:id="_eAEpufqWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_eAEpuvqWEeeFbP_5Z9Q7hQ" name="sales_by_store" label="sales_by_store" tableType="VIEW">
+      <taggedValue xmi:id="_eAEpu_qWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_eAEpvPqWEeeFbP_5Z9Q7hQ" name="staff_list" label="staff_list" tableType="VIEW">
+      <taggedValue xmi:id="_eAEpvfqWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_eIUmwfqWEeeFbP_5Z9Q7hQ" name="actor" id="_eDl3wPqWEeeFbP_5Z9Q7hQ" label="actor" tableType="TABLE">
+      <taggedValue xmi:id="_eIUmwvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_eIUmw_qWEeeFbP_5Z9Q7hQ" name="address" id="_eEBVkPqWEeeFbP_5Z9Q7hQ" label="address" tableType="TABLE">
+      <taggedValue xmi:id="_eIUmxPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_eIUmxfqWEeeFbP_5Z9Q7hQ" name="category" id="_eECjsPqWEeeFbP_5Z9Q7hQ" label="category" tableType="TABLE">
+      <taggedValue xmi:id="_eIUmxvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_eIUmx_qWEeeFbP_5Z9Q7hQ" name="city" id="_eEDx0PqWEeeFbP_5Z9Q7hQ" label="city" tableType="TABLE">
+      <taggedValue xmi:id="_eIUmyPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_eIUmyfqWEeeFbP_5Z9Q7hQ" name="country" id="_eE4RMPqWEeeFbP_5Z9Q7hQ" label="country" tableType="TABLE">
+      <taggedValue xmi:id="_eIUmyvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_eIUmy_qWEeeFbP_5Z9Q7hQ" name="customer" id="_eE6tcPqWEeeFbP_5Z9Q7hQ" label="customer" tableType="TABLE">
+      <taggedValue xmi:id="_eIUmzPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_eIUmzfqWEeeFbP_5Z9Q7hQ" name="film" id="_eE77kPqWEeeFbP_5Z9Q7hQ" label="film" tableType="TABLE">
+      <taggedValue xmi:id="_eIUmzvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_eIUmz_qWEeeFbP_5Z9Q7hQ" name="film_actor" id="_eFVkMPqWEeeFbP_5Z9Q7hQ" label="film_actor" tableType="TABLE">
+      <taggedValue xmi:id="_eIUm0PqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_eIUm0fqWEeeFbP_5Z9Q7hQ" name="film_category" id="_eFWyUPqWEeeFbP_5Z9Q7hQ" label="film_category" tableType="TABLE">
+      <taggedValue xmi:id="_eIUm0vqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_eIUm0_qWEeeFbP_5Z9Q7hQ" name="film_text" id="_eFYAcPqWEeeFbP_5Z9Q7hQ" label="film_text" tableType="TABLE">
+      <taggedValue xmi:id="_eIUm1PqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_eIUm1fqWEeeFbP_5Z9Q7hQ" name="inventory" id="_eFZOkPqWEeeFbP_5Z9Q7hQ" label="inventory" tableType="TABLE">
+      <taggedValue xmi:id="_eIUm1vqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_eIUm1_qWEeeFbP_5Z9Q7hQ" name="language" id="_eFacsPqWEeeFbP_5Z9Q7hQ" label="language" tableType="TABLE">
+      <taggedValue xmi:id="_eIUm2PqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_eIUm2fqWEeeFbP_5Z9Q7hQ" name="payment" id="_eFvM0PqWEeeFbP_5Z9Q7hQ" label="payment" tableType="TABLE">
+      <taggedValue xmi:id="_eIUm2vqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_eIUm2_qWEeeFbP_5Z9Q7hQ" name="rental" id="_eFxpEPqWEeeFbP_5Z9Q7hQ" label="rental" tableType="TABLE">
+      <taggedValue xmi:id="_eIUm3PqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_eIUm3fqWEeeFbP_5Z9Q7hQ" name="staff" id="_eHbO4PqWEeeFbP_5Z9Q7hQ" label="staff" tableType="TABLE">
+      <taggedValue xmi:id="_eIUm3vqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_eIUm3_qWEeeFbP_5Z9Q7hQ" name="store" id="_eIUmwPqWEeeFbP_5Z9Q7hQ" label="store" tableType="TABLE">
+      <taggedValue xmi:id="_eIUm4PqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Catalog>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_TTRv1fqWEeeFbP_5Z9Q7hQ" name="sakura_global" dataManager="_TBvT4PqWEeeFbP_5Z9Q7hQ">
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_eWBEgfqWEeeFbP_5Z9Q7hQ" name="sakura_emea_stg" id="_eVkYkPqWEeeFbP_5Z9Q7hQ" label="sakura_emea_stg" tableType="TABLE">
+      <taggedValue xmi:id="_eWBEgvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_eWBEg_qWEeeFbP_5Z9Q7hQ" name="sakura_stg" id="_eV36kPqWEeeFbP_5Z9Q7hQ" label="sakura_stg" tableType="TABLE">
+      <taggedValue xmi:id="_eWBEhPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_eWBEhfqWEeeFbP_5Z9Q7hQ" name="sakura_thai_stg" id="_eWBEgPqWEeeFbP_5Z9Q7hQ" label="sakura_thai_stg" tableType="TABLE">
+      <taggedValue xmi:id="_eWBEhvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Catalog>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_TTRv1vqWEeeFbP_5Z9Q7hQ" name="sys" dataManager="_TBvT4PqWEeeFbP_5Z9Q7hQ">
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf7gPqWEeeFbP_5Z9Q7hQ" name="host_summary" label="host_summary" tableType="VIEW">
+      <taggedValue xmi:id="_evf7gfqWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf7gvqWEeeFbP_5Z9Q7hQ" name="host_summary_by_file_io" label="host_summary_by_file_io" tableType="VIEW">
+      <taggedValue xmi:id="_evf7g_qWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf7hPqWEeeFbP_5Z9Q7hQ" name="host_summary_by_file_io_type" label="host_summary_by_file_io_type" tableType="VIEW">
+      <taggedValue xmi:id="_evf7hfqWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf7hvqWEeeFbP_5Z9Q7hQ" name="host_summary_by_stages" label="host_summary_by_stages" tableType="VIEW">
+      <taggedValue xmi:id="_evf7h_qWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf7iPqWEeeFbP_5Z9Q7hQ" name="host_summary_by_statement_latency" label="host_summary_by_statement_latency" tableType="VIEW">
+      <taggedValue xmi:id="_evf7ifqWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf7ivqWEeeFbP_5Z9Q7hQ" name="host_summary_by_statement_type" label="host_summary_by_statement_type" tableType="VIEW">
+      <taggedValue xmi:id="_evf7i_qWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf7jPqWEeeFbP_5Z9Q7hQ" name="innodb_buffer_stats_by_schema" label="innodb_buffer_stats_by_schema" tableType="VIEW">
+      <taggedValue xmi:id="_evf7jfqWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf7jvqWEeeFbP_5Z9Q7hQ" name="innodb_buffer_stats_by_table" label="innodb_buffer_stats_by_table" tableType="VIEW">
+      <taggedValue xmi:id="_evf7j_qWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf7kPqWEeeFbP_5Z9Q7hQ" name="innodb_lock_waits" label="innodb_lock_waits" tableType="VIEW">
+      <taggedValue xmi:id="_evf7kfqWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf7kvqWEeeFbP_5Z9Q7hQ" name="io_by_thread_by_latency" label="io_by_thread_by_latency" tableType="VIEW">
+      <taggedValue xmi:id="_evf7k_qWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf7lPqWEeeFbP_5Z9Q7hQ" name="io_global_by_file_by_bytes" label="io_global_by_file_by_bytes" tableType="VIEW">
+      <taggedValue xmi:id="_evf7lfqWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf7lvqWEeeFbP_5Z9Q7hQ" name="io_global_by_file_by_latency" label="io_global_by_file_by_latency" tableType="VIEW">
+      <taggedValue xmi:id="_evf7l_qWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf7mPqWEeeFbP_5Z9Q7hQ" name="io_global_by_wait_by_bytes" label="io_global_by_wait_by_bytes" tableType="VIEW">
+      <taggedValue xmi:id="_evf7mfqWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf7mvqWEeeFbP_5Z9Q7hQ" name="io_global_by_wait_by_latency" label="io_global_by_wait_by_latency" tableType="VIEW">
+      <taggedValue xmi:id="_evf7m_qWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf7nPqWEeeFbP_5Z9Q7hQ" name="latest_file_io" label="latest_file_io" tableType="VIEW">
+      <taggedValue xmi:id="_evf7nfqWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf7nvqWEeeFbP_5Z9Q7hQ" name="memory_by_host_by_current_bytes" label="memory_by_host_by_current_bytes" tableType="VIEW">
+      <taggedValue xmi:id="_evf7n_qWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf7oPqWEeeFbP_5Z9Q7hQ" name="memory_by_thread_by_current_bytes" label="memory_by_thread_by_current_bytes" tableType="VIEW">
+      <taggedValue xmi:id="_evf7ofqWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf7ovqWEeeFbP_5Z9Q7hQ" name="memory_by_user_by_current_bytes" label="memory_by_user_by_current_bytes" tableType="VIEW">
+      <taggedValue xmi:id="_evf7o_qWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf7pPqWEeeFbP_5Z9Q7hQ" name="memory_global_by_current_bytes" label="memory_global_by_current_bytes" tableType="VIEW">
+      <taggedValue xmi:id="_evf7pfqWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf7pvqWEeeFbP_5Z9Q7hQ" name="memory_global_total" label="memory_global_total" tableType="VIEW">
+      <taggedValue xmi:id="_evf7p_qWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf7qPqWEeeFbP_5Z9Q7hQ" name="metrics" label="metrics" tableType="VIEW">
+      <taggedValue xmi:id="_evf7qfqWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf7qvqWEeeFbP_5Z9Q7hQ" name="processlist" label="processlist" tableType="VIEW">
+      <taggedValue xmi:id="_evf7q_qWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf7rPqWEeeFbP_5Z9Q7hQ" name="ps_check_lost_instrumentation" label="ps_check_lost_instrumentation" tableType="VIEW">
+      <taggedValue xmi:id="_evf7rfqWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf7rvqWEeeFbP_5Z9Q7hQ" name="schema_auto_increment_columns" label="schema_auto_increment_columns" tableType="VIEW">
+      <taggedValue xmi:id="_evf7r_qWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf7sPqWEeeFbP_5Z9Q7hQ" name="schema_index_statistics" label="schema_index_statistics" tableType="VIEW">
+      <taggedValue xmi:id="_evf7sfqWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf7svqWEeeFbP_5Z9Q7hQ" name="schema_object_overview" label="schema_object_overview" tableType="VIEW">
+      <taggedValue xmi:id="_evf7s_qWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf7tPqWEeeFbP_5Z9Q7hQ" name="schema_redundant_indexes" label="schema_redundant_indexes" tableType="VIEW">
+      <taggedValue xmi:id="_evf7tfqWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf7tvqWEeeFbP_5Z9Q7hQ" name="schema_table_lock_waits" label="schema_table_lock_waits" tableType="VIEW">
+      <taggedValue xmi:id="_evf7t_qWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf7uPqWEeeFbP_5Z9Q7hQ" name="schema_table_statistics" label="schema_table_statistics" tableType="VIEW">
+      <taggedValue xmi:id="_evf7ufqWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf7uvqWEeeFbP_5Z9Q7hQ" name="schema_table_statistics_with_buffer" label="schema_table_statistics_with_buffer" tableType="VIEW">
+      <taggedValue xmi:id="_evf7u_qWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf7vPqWEeeFbP_5Z9Q7hQ" name="schema_tables_with_full_table_scans" label="schema_tables_with_full_table_scans" tableType="VIEW">
+      <taggedValue xmi:id="_evf7vfqWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf7vvqWEeeFbP_5Z9Q7hQ" name="schema_unused_indexes" label="schema_unused_indexes" tableType="VIEW">
+      <taggedValue xmi:id="_evf7v_qWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf7wPqWEeeFbP_5Z9Q7hQ" name="session" label="session" tableType="VIEW">
+      <taggedValue xmi:id="_evf7wfqWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf7wvqWEeeFbP_5Z9Q7hQ" name="session_ssl_status" label="session_ssl_status" tableType="VIEW">
+      <taggedValue xmi:id="_evf7w_qWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf7xPqWEeeFbP_5Z9Q7hQ" name="statement_analysis" label="statement_analysis" tableType="VIEW">
+      <taggedValue xmi:id="_evf7xfqWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf7xvqWEeeFbP_5Z9Q7hQ" name="statements_with_errors_or_warnings" label="statements_with_errors_or_warnings" tableType="VIEW">
+      <taggedValue xmi:id="_evf7x_qWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf7yPqWEeeFbP_5Z9Q7hQ" name="statements_with_full_table_scans" label="statements_with_full_table_scans" tableType="VIEW">
+      <taggedValue xmi:id="_evf7yfqWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf7yvqWEeeFbP_5Z9Q7hQ" name="statements_with_runtimes_in_95th_percentile" label="statements_with_runtimes_in_95th_percentile" tableType="VIEW">
+      <taggedValue xmi:id="_evf7y_qWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf7zPqWEeeFbP_5Z9Q7hQ" name="statements_with_sorting" label="statements_with_sorting" tableType="VIEW">
+      <taggedValue xmi:id="_evf7zfqWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf7zvqWEeeFbP_5Z9Q7hQ" name="statements_with_temp_tables" label="statements_with_temp_tables" tableType="VIEW">
+      <taggedValue xmi:id="_evf7z_qWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf70PqWEeeFbP_5Z9Q7hQ" name="user_summary" label="user_summary" tableType="VIEW">
+      <taggedValue xmi:id="_evf70fqWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf70vqWEeeFbP_5Z9Q7hQ" name="user_summary_by_file_io" label="user_summary_by_file_io" tableType="VIEW">
+      <taggedValue xmi:id="_evf70_qWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf71PqWEeeFbP_5Z9Q7hQ" name="user_summary_by_file_io_type" label="user_summary_by_file_io_type" tableType="VIEW">
+      <taggedValue xmi:id="_evf71fqWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf71vqWEeeFbP_5Z9Q7hQ" name="user_summary_by_stages" label="user_summary_by_stages" tableType="VIEW">
+      <taggedValue xmi:id="_evf71_qWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf72PqWEeeFbP_5Z9Q7hQ" name="user_summary_by_statement_latency" label="user_summary_by_statement_latency" tableType="VIEW">
+      <taggedValue xmi:id="_evf72fqWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf72vqWEeeFbP_5Z9Q7hQ" name="user_summary_by_statement_type" label="user_summary_by_statement_type" tableType="VIEW">
+      <taggedValue xmi:id="_evf72_qWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf73PqWEeeFbP_5Z9Q7hQ" name="version" label="version" tableType="VIEW">
+      <taggedValue xmi:id="_evf73fqWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf73vqWEeeFbP_5Z9Q7hQ" name="wait_classes_global_by_avg_latency" label="wait_classes_global_by_avg_latency" tableType="VIEW">
+      <taggedValue xmi:id="_evf73_qWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf74PqWEeeFbP_5Z9Q7hQ" name="wait_classes_global_by_latency" label="wait_classes_global_by_latency" tableType="VIEW">
+      <taggedValue xmi:id="_evf74fqWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf74vqWEeeFbP_5Z9Q7hQ" name="waits_by_host_by_latency" label="waits_by_host_by_latency" tableType="VIEW">
+      <taggedValue xmi:id="_evf74_qWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf75PqWEeeFbP_5Z9Q7hQ" name="waits_by_user_by_latency" label="waits_by_user_by_latency" tableType="VIEW">
+      <taggedValue xmi:id="_evf75fqWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf75vqWEeeFbP_5Z9Q7hQ" name="waits_global_by_latency" label="waits_global_by_latency" tableType="VIEW">
+      <taggedValue xmi:id="_evf75_qWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf76PqWEeeFbP_5Z9Q7hQ" name="x$host_summary" label="x$host_summary" tableType="VIEW">
+      <taggedValue xmi:id="_evf76fqWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf76vqWEeeFbP_5Z9Q7hQ" name="x$host_summary_by_file_io" label="x$host_summary_by_file_io" tableType="VIEW">
+      <taggedValue xmi:id="_evf76_qWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf77PqWEeeFbP_5Z9Q7hQ" name="x$host_summary_by_file_io_type" label="x$host_summary_by_file_io_type" tableType="VIEW">
+      <taggedValue xmi:id="_evf77fqWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf77vqWEeeFbP_5Z9Q7hQ" name="x$host_summary_by_stages" label="x$host_summary_by_stages" tableType="VIEW">
+      <taggedValue xmi:id="_evf77_qWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf78PqWEeeFbP_5Z9Q7hQ" name="x$host_summary_by_statement_latency" label="x$host_summary_by_statement_latency" tableType="VIEW">
+      <taggedValue xmi:id="_evf78fqWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf78vqWEeeFbP_5Z9Q7hQ" name="x$host_summary_by_statement_type" label="x$host_summary_by_statement_type" tableType="VIEW">
+      <taggedValue xmi:id="_evf78_qWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf79PqWEeeFbP_5Z9Q7hQ" name="x$innodb_buffer_stats_by_schema" label="x$innodb_buffer_stats_by_schema" tableType="VIEW">
+      <taggedValue xmi:id="_evf79fqWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf79vqWEeeFbP_5Z9Q7hQ" name="x$innodb_buffer_stats_by_table" label="x$innodb_buffer_stats_by_table" tableType="VIEW">
+      <taggedValue xmi:id="_evf79_qWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf7-PqWEeeFbP_5Z9Q7hQ" name="x$innodb_lock_waits" label="x$innodb_lock_waits" tableType="VIEW">
+      <taggedValue xmi:id="_evf7-fqWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf7-vqWEeeFbP_5Z9Q7hQ" name="x$io_by_thread_by_latency" label="x$io_by_thread_by_latency" tableType="VIEW">
+      <taggedValue xmi:id="_evf7-_qWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf7_PqWEeeFbP_5Z9Q7hQ" name="x$io_global_by_file_by_bytes" label="x$io_global_by_file_by_bytes" tableType="VIEW">
+      <taggedValue xmi:id="_evf7_fqWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf7_vqWEeeFbP_5Z9Q7hQ" name="x$io_global_by_file_by_latency" label="x$io_global_by_file_by_latency" tableType="VIEW">
+      <taggedValue xmi:id="_evf7__qWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf8APqWEeeFbP_5Z9Q7hQ" name="x$io_global_by_wait_by_bytes" label="x$io_global_by_wait_by_bytes" tableType="VIEW">
+      <taggedValue xmi:id="_evf8AfqWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf8AvqWEeeFbP_5Z9Q7hQ" name="x$io_global_by_wait_by_latency" label="x$io_global_by_wait_by_latency" tableType="VIEW">
+      <taggedValue xmi:id="_evf8A_qWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf8BPqWEeeFbP_5Z9Q7hQ" name="x$latest_file_io" label="x$latest_file_io" tableType="VIEW">
+      <taggedValue xmi:id="_evf8BfqWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf8BvqWEeeFbP_5Z9Q7hQ" name="x$memory_by_host_by_current_bytes" label="x$memory_by_host_by_current_bytes" tableType="VIEW">
+      <taggedValue xmi:id="_evf8B_qWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf8CPqWEeeFbP_5Z9Q7hQ" name="x$memory_by_thread_by_current_bytes" label="x$memory_by_thread_by_current_bytes" tableType="VIEW">
+      <taggedValue xmi:id="_evf8CfqWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf8CvqWEeeFbP_5Z9Q7hQ" name="x$memory_by_user_by_current_bytes" label="x$memory_by_user_by_current_bytes" tableType="VIEW">
+      <taggedValue xmi:id="_evf8C_qWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf8DPqWEeeFbP_5Z9Q7hQ" name="x$memory_global_by_current_bytes" label="x$memory_global_by_current_bytes" tableType="VIEW">
+      <taggedValue xmi:id="_evf8DfqWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf8DvqWEeeFbP_5Z9Q7hQ" name="x$memory_global_total" label="x$memory_global_total" tableType="VIEW">
+      <taggedValue xmi:id="_evf8D_qWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf8EPqWEeeFbP_5Z9Q7hQ" name="x$processlist" label="x$processlist" tableType="VIEW">
+      <taggedValue xmi:id="_evf8EfqWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf8EvqWEeeFbP_5Z9Q7hQ" name="x$ps_digest_95th_percentile_by_avg_us" label="x$ps_digest_95th_percentile_by_avg_us" tableType="VIEW">
+      <taggedValue xmi:id="_evf8E_qWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf8FPqWEeeFbP_5Z9Q7hQ" name="x$ps_digest_avg_latency_distribution" label="x$ps_digest_avg_latency_distribution" tableType="VIEW">
+      <taggedValue xmi:id="_evf8FfqWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf8FvqWEeeFbP_5Z9Q7hQ" name="x$ps_schema_table_statistics_io" label="x$ps_schema_table_statistics_io" tableType="VIEW">
+      <taggedValue xmi:id="_evf8F_qWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf8GPqWEeeFbP_5Z9Q7hQ" name="x$schema_flattened_keys" label="x$schema_flattened_keys" tableType="VIEW">
+      <taggedValue xmi:id="_evf8GfqWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf8GvqWEeeFbP_5Z9Q7hQ" name="x$schema_index_statistics" label="x$schema_index_statistics" tableType="VIEW">
+      <taggedValue xmi:id="_evf8G_qWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf8HPqWEeeFbP_5Z9Q7hQ" name="x$schema_table_lock_waits" label="x$schema_table_lock_waits" tableType="VIEW">
+      <taggedValue xmi:id="_evf8HfqWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf8HvqWEeeFbP_5Z9Q7hQ" name="x$schema_table_statistics" label="x$schema_table_statistics" tableType="VIEW">
+      <taggedValue xmi:id="_evf8H_qWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf8IPqWEeeFbP_5Z9Q7hQ" name="x$schema_table_statistics_with_buffer" label="x$schema_table_statistics_with_buffer" tableType="VIEW">
+      <taggedValue xmi:id="_evf8IfqWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf8IvqWEeeFbP_5Z9Q7hQ" name="x$schema_tables_with_full_table_scans" label="x$schema_tables_with_full_table_scans" tableType="VIEW">
+      <taggedValue xmi:id="_evf8I_qWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf8JPqWEeeFbP_5Z9Q7hQ" name="x$session" label="x$session" tableType="VIEW">
+      <taggedValue xmi:id="_evf8JfqWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf8JvqWEeeFbP_5Z9Q7hQ" name="x$statement_analysis" label="x$statement_analysis" tableType="VIEW">
+      <taggedValue xmi:id="_evf8J_qWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf8KPqWEeeFbP_5Z9Q7hQ" name="x$statements_with_errors_or_warnings" label="x$statements_with_errors_or_warnings" tableType="VIEW">
+      <taggedValue xmi:id="_evf8KfqWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf8KvqWEeeFbP_5Z9Q7hQ" name="x$statements_with_full_table_scans" label="x$statements_with_full_table_scans" tableType="VIEW">
+      <taggedValue xmi:id="_evf8K_qWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf8LPqWEeeFbP_5Z9Q7hQ" name="x$statements_with_runtimes_in_95th_percentile" label="x$statements_with_runtimes_in_95th_percentile" tableType="VIEW">
+      <taggedValue xmi:id="_evf8LfqWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf8LvqWEeeFbP_5Z9Q7hQ" name="x$statements_with_sorting" label="x$statements_with_sorting" tableType="VIEW">
+      <taggedValue xmi:id="_evf8L_qWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf8MPqWEeeFbP_5Z9Q7hQ" name="x$statements_with_temp_tables" label="x$statements_with_temp_tables" tableType="VIEW">
+      <taggedValue xmi:id="_evf8MfqWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf8MvqWEeeFbP_5Z9Q7hQ" name="x$user_summary" label="x$user_summary" tableType="VIEW">
+      <taggedValue xmi:id="_evf8M_qWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf8NPqWEeeFbP_5Z9Q7hQ" name="x$user_summary_by_file_io" label="x$user_summary_by_file_io" tableType="VIEW">
+      <taggedValue xmi:id="_evf8NfqWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf8NvqWEeeFbP_5Z9Q7hQ" name="x$user_summary_by_file_io_type" label="x$user_summary_by_file_io_type" tableType="VIEW">
+      <taggedValue xmi:id="_evf8N_qWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf8OPqWEeeFbP_5Z9Q7hQ" name="x$user_summary_by_stages" label="x$user_summary_by_stages" tableType="VIEW">
+      <taggedValue xmi:id="_evf8OfqWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf8OvqWEeeFbP_5Z9Q7hQ" name="x$user_summary_by_statement_latency" label="x$user_summary_by_statement_latency" tableType="VIEW">
+      <taggedValue xmi:id="_evf8O_qWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf8PPqWEeeFbP_5Z9Q7hQ" name="x$user_summary_by_statement_type" label="x$user_summary_by_statement_type" tableType="VIEW">
+      <taggedValue xmi:id="_evf8PfqWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf8PvqWEeeFbP_5Z9Q7hQ" name="x$wait_classes_global_by_avg_latency" label="x$wait_classes_global_by_avg_latency" tableType="VIEW">
+      <taggedValue xmi:id="_evf8P_qWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf8QPqWEeeFbP_5Z9Q7hQ" name="x$wait_classes_global_by_latency" label="x$wait_classes_global_by_latency" tableType="VIEW">
+      <taggedValue xmi:id="_evf8QfqWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf8QvqWEeeFbP_5Z9Q7hQ" name="x$waits_by_host_by_latency" label="x$waits_by_host_by_latency" tableType="VIEW">
+      <taggedValue xmi:id="_evf8Q_qWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf8RPqWEeeFbP_5Z9Q7hQ" name="x$waits_by_user_by_latency" label="x$waits_by_user_by_latency" tableType="VIEW">
+      <taggedValue xmi:id="_evf8RfqWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_evf8RvqWEeeFbP_5Z9Q7hQ" name="x$waits_global_by_latency" label="x$waits_global_by_latency" tableType="VIEW">
+      <taggedValue xmi:id="_evf8R_qWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_e0LAIfqWEeeFbP_5Z9Q7hQ" name="sys_config" id="_e0LAIPqWEeeFbP_5Z9Q7hQ" label="sys_config" tableType="TABLE">
+      <taggedValue xmi:id="_e0LAIvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Catalog>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_TTRv1_qWEeeFbP_5Z9Q7hQ" name="talend_amc" dataManager="_TBvT4PqWEeeFbP_5Z9Q7hQ">
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_faA4IfqWEeeFbP_5Z9Q7hQ" name="tflowmetercatcher" id="_fUnawPqWEeeFbP_5Z9Q7hQ" label="tflowmetercatcher" tableType="TABLE">
+      <taggedValue xmi:id="_faA4IvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_faA4I_qWEeeFbP_5Z9Q7hQ" name="tlogcatcher" id="_fXAAYPqWEeeFbP_5Z9Q7hQ" label="tlogcatcher" tableType="TABLE">
+      <taggedValue xmi:id="_faA4JPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_faA4JfqWEeeFbP_5Z9Q7hQ" name="tstatcatcher" id="_fXS7UPqWEeeFbP_5Z9Q7hQ" label="tstatcatcher" tableType="TABLE">
+      <taggedValue xmi:id="_faA4JvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_faA4J_qWEeeFbP_5Z9Q7hQ" name="z_amc_flow" id="_fXcsUPqWEeeFbP_5Z9Q7hQ" label="z_amc_flow" tableType="TABLE">
+      <taggedValue xmi:id="_faA4KPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_faA4KfqWEeeFbP_5Z9Q7hQ" name="z_amc_logs" id="_fZ3HIPqWEeeFbP_5Z9Q7hQ" label="z_amc_logs" tableType="TABLE">
+      <taggedValue xmi:id="_faA4KvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_faA4K_qWEeeFbP_5Z9Q7hQ" name="z_amc_stats" id="_faA4IPqWEeeFbP_5Z9Q7hQ" label="z_amc_stats" tableType="TABLE">
+      <taggedValue xmi:id="_faA4LPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Catalog>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_TTRv2PqWEeeFbP_5Z9Q7hQ" name="talend_audit" dataManager="_TBvT4PqWEeeFbP_5Z9Q7hQ"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_TTRv2fqWEeeFbP_5Z9Q7hQ" name="talend_tac" dataManager="_TBvT4PqWEeeFbP_5Z9Q7hQ">
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_f9_H5fqWEeeFbP_5Z9Q7hQ" name="artifactnotification" id="_fqYPYPqWEeeFbP_5Z9Q7hQ" label="artifactnotification" tableType="TABLE">
+      <taggedValue xmi:id="_f9_H5vqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_f9_H5_qWEeeFbP_5Z9Q7hQ" name="backup" id="_ftw6kPqWEeeFbP_5Z9Q7hQ" label="backup" tableType="TABLE">
+      <taggedValue xmi:id="_f9_H6PqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_f9_H6fqWEeeFbP_5Z9Q7hQ" name="columnfilter" id="_fuqScPqWEeeFbP_5Z9Q7hQ" label="columnfilter" tableType="TABLE">
+      <taggedValue xmi:id="_f9_H6vqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_f9_H6_qWEeeFbP_5Z9Q7hQ" name="configuration" id="_fuqScfqWEeeFbP_5Z9Q7hQ" label="configuration" tableType="TABLE">
+      <taggedValue xmi:id="_f9_H7PqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_f9_H7fqWEeeFbP_5Z9Q7hQ" name="dashboardconnection" id="_fvQIUPqWEeeFbP_5Z9Q7hQ" label="dashboardconnection" tableType="TABLE">
+      <taggedValue xmi:id="_f9_H7vqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_f9_H7_qWEeeFbP_5Z9Q7hQ" name="datapreprole" id="_fvQIUfqWEeeFbP_5Z9Q7hQ" label="datapreprole" tableType="TABLE">
+      <taggedValue xmi:id="_f9_H8PqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_f9_H8fqWEeeFbP_5Z9Q7hQ" name="datapreprole_user" id="_fvjDQPqWEeeFbP_5Z9Q7hQ" label="datapreprole_user" tableType="TABLE">
+      <taggedValue xmi:id="_f9_H8vqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_f9_H8_qWEeeFbP_5Z9Q7hQ" name="datapreprole_usergroup" id="_fv1-MPqWEeeFbP_5Z9Q7hQ" label="datapreprole_usergroup" tableType="TABLE">
+      <taggedValue xmi:id="_f9_H9PqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_f9_H9fqWEeeFbP_5Z9Q7hQ" name="executionplanpart" id="_fv_vMPqWEeeFbP_5Z9Q7hQ" label="executionplanpart" tableType="TABLE">
+      <taggedValue xmi:id="_f9_H9vqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_f9_H9_qWEeeFbP_5Z9Q7hQ" name="executionplanpartjobprm" id="_f0wTYPqWEeeFbP_5Z9Q7hQ" label="executionplanpartjobprm" tableType="TABLE">
+      <taggedValue xmi:id="_f9_H-PqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_f9_H-fqWEeeFbP_5Z9Q7hQ" name="executionplanprm" id="_f1D1YPqWEeeFbP_5Z9Q7hQ" label="executionplanprm" tableType="TABLE">
+      <taggedValue xmi:id="_f9_H-vqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_f9_H-_qWEeeFbP_5Z9Q7hQ" name="executionserver" id="_f1D1YfqWEeeFbP_5Z9Q7hQ" label="executionserver" tableType="TABLE">
+      <taggedValue xmi:id="_f9_H_PqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_f9_H_fqWEeeFbP_5Z9Q7hQ" name="executionserver_project" id="_f1prQPqWEeeFbP_5Z9Q7hQ" label="executionserver_project" tableType="TABLE">
+      <taggedValue xmi:id="_f9_H_vqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_f9_H__qWEeeFbP_5Z9Q7hQ" name="executiontask" id="_f1prQfqWEeeFbP_5Z9Q7hQ" label="executiontask" tableType="TABLE">
+      <taggedValue xmi:id="_f9_IAPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_f9_IAfqWEeeFbP_5Z9Q7hQ" name="executiontaskbundles" id="_f1prQvqWEeeFbP_5Z9Q7hQ" label="executiontaskbundles" tableType="TABLE">
+      <taggedValue xmi:id="_f9_IAvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_f9_IA_qWEeeFbP_5Z9Q7hQ" name="executiontaskcmdprm" id="_f1prQ_qWEeeFbP_5Z9Q7hQ" label="executiontaskcmdprm" tableType="TABLE">
+      <taggedValue xmi:id="_f9_IBPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_f9_IBfqWEeeFbP_5Z9Q7hQ" name="executiontaskjobprm" id="_f1prRPqWEeeFbP_5Z9Q7hQ" label="executiontaskjobprm" tableType="TABLE">
+      <taggedValue xmi:id="_f9_IBvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_f9_IB_qWEeeFbP_5Z9Q7hQ" name="executiontaskproperties" id="_f1prRfqWEeeFbP_5Z9Q7hQ" label="executiontaskproperties" tableType="TABLE">
+      <taggedValue xmi:id="_f9_ICPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_f9_ICfqWEeeFbP_5Z9Q7hQ" name="executionvirtualserver" id="_f1prRvqWEeeFbP_5Z9Q7hQ" label="executionvirtualserver" tableType="TABLE">
+      <taggedValue xmi:id="_f9_ICvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_f9_IC_qWEeeFbP_5Z9Q7hQ" name="executionvirtualserver_executionserver" id="_f2ZSIPqWEeeFbP_5Z9Q7hQ" label="executionvirtualserver_executionserver" tableType="TABLE">
+      <taggedValue xmi:id="_f9_IDPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_f9_IDfqWEeeFbP_5Z9Q7hQ" name="executionvirtualserver_project" id="_f2icEPqWEeeFbP_5Z9Q7hQ" label="executionvirtualserver_project" tableType="TABLE">
+      <taggedValue xmi:id="_f9_IDvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_f9_ID_qWEeeFbP_5Z9Q7hQ" name="filetriggermask" id="_f2icEfqWEeeFbP_5Z9Q7hQ" label="filetriggermask" tableType="TABLE">
+      <taggedValue xmi:id="_f9_IEPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_f9_IEfqWEeeFbP_5Z9Q7hQ" name="filter" id="_f6HUgPqWEeeFbP_5Z9Q7hQ" label="filter" tableType="TABLE">
+      <taggedValue xmi:id="_f9_IEvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_f9_IE_qWEeeFbP_5Z9Q7hQ" name="licenses" id="_f6HUgfqWEeeFbP_5Z9Q7hQ" label="licenses" tableType="TABLE">
+      <taggedValue xmi:id="_f9_IFPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_f9_IFfqWEeeFbP_5Z9Q7hQ" name="locks" id="_f6HUgvqWEeeFbP_5Z9Q7hQ" label="locks" tableType="TABLE">
+      <taggedValue xmi:id="_f9_IFvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_f9_IF_qWEeeFbP_5Z9Q7hQ" name="notification" id="_f6txcPqWEeeFbP_5Z9Q7hQ" label="notification" tableType="TABLE">
+      <taggedValue xmi:id="_f9_IGPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_f9_IGfqWEeeFbP_5Z9Q7hQ" name="project" id="_f6txcfqWEeeFbP_5Z9Q7hQ" label="project" tableType="TABLE">
+      <taggedValue xmi:id="_f9_IGvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_f9_IG_qWEeeFbP_5Z9Q7hQ" name="project_executionserver" id="_f6txcvqWEeeFbP_5Z9Q7hQ" label="project_executionserver" tableType="TABLE">
+      <taggedValue xmi:id="_f9_IHPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_f9_IHfqWEeeFbP_5Z9Q7hQ" name="project_executionvirtualserver" id="_f6txc_qWEeeFbP_5Z9Q7hQ" label="project_executionvirtualserver" tableType="TABLE">
+      <taggedValue xmi:id="_f9_IHvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_f9_IH_qWEeeFbP_5Z9Q7hQ" name="projectreference" id="_f6txdPqWEeeFbP_5Z9Q7hQ" label="projectreference" tableType="TABLE">
+      <taggedValue xmi:id="_f9_IIPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_f9_IIfqWEeeFbP_5Z9Q7hQ" name="qrtz_blob_triggers" id="_f6txdfqWEeeFbP_5Z9Q7hQ" label="qrtz_blob_triggers" tableType="TABLE">
+      <taggedValue xmi:id="_f9_IIvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_f9_II_qWEeeFbP_5Z9Q7hQ" name="qrtz_calendars" id="_f7J2UPqWEeeFbP_5Z9Q7hQ" label="qrtz_calendars" tableType="TABLE">
+      <taggedValue xmi:id="_f9_IJPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_f9_IJfqWEeeFbP_5Z9Q7hQ" name="qrtz_cron_triggers" id="_f7J2UfqWEeeFbP_5Z9Q7hQ" label="qrtz_cron_triggers" tableType="TABLE">
+      <taggedValue xmi:id="_f9_IJvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_f9_IJ_qWEeeFbP_5Z9Q7hQ" name="qrtz_fired_triggers" id="_f7J2UvqWEeeFbP_5Z9Q7hQ" label="qrtz_fired_triggers" tableType="TABLE">
+      <taggedValue xmi:id="_f9_IKPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_f9_IKfqWEeeFbP_5Z9Q7hQ" name="qrtz_job_details" id="_f7J2U_qWEeeFbP_5Z9Q7hQ" label="qrtz_job_details" tableType="TABLE">
+      <taggedValue xmi:id="_f9_IKvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_f9_IK_qWEeeFbP_5Z9Q7hQ" name="qrtz_job_listeners" id="_f7J2VPqWEeeFbP_5Z9Q7hQ" label="qrtz_job_listeners" tableType="TABLE">
+      <taggedValue xmi:id="_f9_ILPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_f9_ILfqWEeeFbP_5Z9Q7hQ" name="qrtz_locks" id="_f7J2VfqWEeeFbP_5Z9Q7hQ" label="qrtz_locks" tableType="TABLE">
+      <taggedValue xmi:id="_f9_ILvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_f9_IL_qWEeeFbP_5Z9Q7hQ" name="qrtz_paused_trigger_grps" id="_f7J2VvqWEeeFbP_5Z9Q7hQ" label="qrtz_paused_trigger_grps" tableType="TABLE">
+      <taggedValue xmi:id="_f9_IMPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_f9_IMfqWEeeFbP_5Z9Q7hQ" name="qrtz_scheduler_state" id="_f7J2V_qWEeeFbP_5Z9Q7hQ" label="qrtz_scheduler_state" tableType="TABLE">
+      <taggedValue xmi:id="_f9_IMvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_f9_IM_qWEeeFbP_5Z9Q7hQ" name="qrtz_simple_triggers" id="_f7J2WPqWEeeFbP_5Z9Q7hQ" label="qrtz_simple_triggers" tableType="TABLE">
+      <taggedValue xmi:id="_f9_INPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_f9_INfqWEeeFbP_5Z9Q7hQ" name="qrtz_trigger_listeners" id="_f7J2WfqWEeeFbP_5Z9Q7hQ" label="qrtz_trigger_listeners" tableType="TABLE">
+      <taggedValue xmi:id="_f9_INvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_f9_IN_qWEeeFbP_5Z9Q7hQ" name="qrtz_triggers" id="_f7J2WvqWEeeFbP_5Z9Q7hQ" label="qrtz_triggers" tableType="TABLE">
+      <taggedValue xmi:id="_f9_IOPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_f9_IOfqWEeeFbP_5Z9Q7hQ" name="rolelimitation" id="_f7J2W_qWEeeFbP_5Z9Q7hQ" label="rolelimitation" tableType="TABLE">
+      <taggedValue xmi:id="_f9_IOvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_f9_IO_qWEeeFbP_5Z9Q7hQ" name="schemainformation" id="_f7J2XPqWEeeFbP_5Z9Q7hQ" label="schemainformation" tableType="TABLE">
+      <taggedValue xmi:id="_f9_IPPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_f9_IPfqWEeeFbP_5Z9Q7hQ" name="soainputparameter" id="_f7wTQPqWEeeFbP_5Z9Q7hQ" label="soainputparameter" tableType="TABLE">
+      <taggedValue xmi:id="_f9_IPvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_f9_IP_qWEeeFbP_5Z9Q7hQ" name="soaoperation" id="_f7wTQfqWEeeFbP_5Z9Q7hQ" label="soaoperation" tableType="TABLE">
+      <taggedValue xmi:id="_f9_IQPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_f9_IQfqWEeeFbP_5Z9Q7hQ" name="soaservice" id="_f7wTQvqWEeeFbP_5Z9Q7hQ" label="soaservice" tableType="TABLE">
+      <taggedValue xmi:id="_f9_IQvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_f9_IQ_qWEeeFbP_5Z9Q7hQ" name="talendtrigger" id="_f7wTQ_qWEeeFbP_5Z9Q7hQ" label="talendtrigger" tableType="TABLE">
+      <taggedValue xmi:id="_f9_IRPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_f9_IRfqWEeeFbP_5Z9Q7hQ" name="taskexecutionhistory" id="_f7wTRPqWEeeFbP_5Z9Q7hQ" label="taskexecutionhistory" tableType="TABLE">
+      <taggedValue xmi:id="_f9_IRvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_f9_IR_qWEeeFbP_5Z9Q7hQ" name="tdsrole" id="_f7wTRfqWEeeFbP_5Z9Q7hQ" label="tdsrole" tableType="TABLE">
+      <taggedValue xmi:id="_f9_ISPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_f9_ISfqWEeeFbP_5Z9Q7hQ" name="tdsrole_user" id="_f7wTRvqWEeeFbP_5Z9Q7hQ" label="tdsrole_user" tableType="TABLE">
+      <taggedValue xmi:id="_f9_ISvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_f9_IS_qWEeeFbP_5Z9Q7hQ" name="tdsrole_usergroup" id="_f8M_MPqWEeeFbP_5Z9Q7hQ" label="tdsrole_usergroup" tableType="TABLE">
+      <taggedValue xmi:id="_f9_ITPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_f9_ITfqWEeeFbP_5Z9Q7hQ" name="technicalvariable" id="_f8M_MfqWEeeFbP_5Z9Q7hQ" label="technicalvariable" tableType="TABLE">
+      <taggedValue xmi:id="_f9_ITvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_f9_IT_qWEeeFbP_5Z9Q7hQ" name="user" id="_f8M_MvqWEeeFbP_5Z9Q7hQ" label="user" tableType="TABLE">
+      <taggedValue xmi:id="_f9_IUPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_f9_IUfqWEeeFbP_5Z9Q7hQ" name="user_datapreprole" id="_f8M_M_qWEeeFbP_5Z9Q7hQ" label="user_datapreprole" tableType="TABLE">
+      <taggedValue xmi:id="_f9_IUvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_f9_IU_qWEeeFbP_5Z9Q7hQ" name="user_tdsrole" id="_f8M_NPqWEeeFbP_5Z9Q7hQ" label="user_tdsrole" tableType="TABLE">
+      <taggedValue xmi:id="_f9_IVPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_f9_IVfqWEeeFbP_5Z9Q7hQ" name="user_usergroup" id="_f8M_NfqWEeeFbP_5Z9Q7hQ" label="user_usergroup" tableType="TABLE">
+      <taggedValue xmi:id="_f9_IVvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_f9_IV_qWEeeFbP_5Z9Q7hQ" name="usergroup" id="_f8M_NvqWEeeFbP_5Z9Q7hQ" label="usergroup" tableType="TABLE">
+      <taggedValue xmi:id="_f9_IWPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_f9_IWfqWEeeFbP_5Z9Q7hQ" name="usergroup_datapreprole" id="_f8y1EPqWEeeFbP_5Z9Q7hQ" label="usergroup_datapreprole" tableType="TABLE">
+      <taggedValue xmi:id="_f9_IWvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_f9_IW_qWEeeFbP_5Z9Q7hQ" name="usergroup_tdsrole" id="_f87_APqWEeeFbP_5Z9Q7hQ" label="usergroup_tdsrole" tableType="TABLE">
+      <taggedValue xmi:id="_f9_IXPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_f9_IXfqWEeeFbP_5Z9Q7hQ" name="usergroup_user" id="_f9_H4PqWEeeFbP_5Z9Q7hQ" label="usergroup_user" tableType="TABLE">
+      <taggedValue xmi:id="_f9_IXvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_f9_IX_qWEeeFbP_5Z9Q7hQ" name="usergroupuserprojectauth" id="_f9_H4fqWEeeFbP_5Z9Q7hQ" label="usergroupuserprojectauth" tableType="TABLE">
+      <taggedValue xmi:id="_f9_IYPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_f9_IYfqWEeeFbP_5Z9Q7hQ" name="userprojectauthorization" id="_f9_H4vqWEeeFbP_5Z9Q7hQ" label="userprojectauthorization" tableType="TABLE">
+      <taggedValue xmi:id="_f9_IYvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_f9_IY_qWEeeFbP_5Z9Q7hQ" name="userrole" id="_f9_H4_qWEeeFbP_5Z9Q7hQ" label="userrole" tableType="TABLE">
+      <taggedValue xmi:id="_f9_IZPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_f9_IZfqWEeeFbP_5Z9Q7hQ" name="userrolereference" id="_f9_H5PqWEeeFbP_5Z9Q7hQ" label="userrolereference" tableType="TABLE">
+      <taggedValue xmi:id="_f9_IZvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Catalog>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_TTRv2vqWEeeFbP_5Z9Q7hQ" name="talend_tac_lahti" dataManager="_TBvT4PqWEeeFbP_5Z9Q7hQ">
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_irEZMfqWEeeFbP_5Z9Q7hQ" name="artifactnotification" id="_ha5KwPqWEeeFbP_5Z9Q7hQ" label="artifactnotification" tableType="TABLE">
+      <taggedValue xmi:id="_irEZMvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_irEZM_qWEeeFbP_5Z9Q7hQ" name="backup" id="_he4S4PqWEeeFbP_5Z9Q7hQ" label="backup" tableType="TABLE">
+      <taggedValue xmi:id="_irEZNPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_irEZNfqWEeeFbP_5Z9Q7hQ" name="columnfilter" id="_hiTaUPqWEeeFbP_5Z9Q7hQ" label="columnfilter" tableType="TABLE">
+      <taggedValue xmi:id="_irEZNvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_irEZN_qWEeeFbP_5Z9Q7hQ" name="configuration" id="_ho2HMPqWEeeFbP_5Z9Q7hQ" label="configuration" tableType="TABLE">
+      <taggedValue xmi:id="_irEZOPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_irEZOfqWEeeFbP_5Z9Q7hQ" name="dashboardconnection" id="_ho2HMfqWEeeFbP_5Z9Q7hQ" label="dashboardconnection" tableType="TABLE">
+      <taggedValue xmi:id="_irEZOvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_irEZO_qWEeeFbP_5Z9Q7hQ" name="datapreprole" id="_hpluEPqWEeeFbP_5Z9Q7hQ" label="datapreprole" tableType="TABLE">
+      <taggedValue xmi:id="_irEZPPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_irEZPfqWEeeFbP_5Z9Q7hQ" name="datapreprole_user" id="_hqoP4PqWEeeFbP_5Z9Q7hQ" label="datapreprole_user" tableType="TABLE">
+      <taggedValue xmi:id="_irEZPvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_irEZP_qWEeeFbP_5Z9Q7hQ" name="datapreprole_usergroup" id="_hqoP4fqWEeeFbP_5Z9Q7hQ" label="datapreprole_usergroup" tableType="TABLE">
+      <taggedValue xmi:id="_irEZQPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_irEZQfqWEeeFbP_5Z9Q7hQ" name="executionplanpart" id="_hrOs0PqWEeeFbP_5Z9Q7hQ" label="executionplanpart" tableType="TABLE">
+      <taggedValue xmi:id="_irEZQvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_irEZQ_qWEeeFbP_5Z9Q7hQ" name="executionplanpartjobprm" id="_hrqxsPqWEeeFbP_5Z9Q7hQ" label="executionplanpartjobprm" tableType="TABLE">
+      <taggedValue xmi:id="_irEZRPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_irEZRfqWEeeFbP_5Z9Q7hQ" name="executionplanprm" id="_hsHdoPqWEeeFbP_5Z9Q7hQ" label="executionplanprm" tableType="TABLE">
+      <taggedValue xmi:id="_irEZRvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_irEZR_qWEeeFbP_5Z9Q7hQ" name="executionserver" id="_hskJkPqWEeeFbP_5Z9Q7hQ" label="executionserver" tableType="TABLE">
+      <taggedValue xmi:id="_irEZSPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_irEZSfqWEeeFbP_5Z9Q7hQ" name="executionserver_project" id="_htA1gPqWEeeFbP_5Z9Q7hQ" label="executionserver_project" tableType="TABLE">
+      <taggedValue xmi:id="_irEZSvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_irEZS_qWEeeFbP_5Z9Q7hQ" name="executiontask" id="_hyEUoPqWEeeFbP_5Z9Q7hQ" label="executiontask" tableType="TABLE">
+      <taggedValue xmi:id="_irEZTPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_irEZTfqWEeeFbP_5Z9Q7hQ" name="executiontaskbundles" id="_hyqxkPqWEeeFbP_5Z9Q7hQ" label="executiontaskbundles" tableType="TABLE">
+      <taggedValue xmi:id="_irEZTvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_irEZT_qWEeeFbP_5Z9Q7hQ" name="executiontaskcmdprm" id="_hy9sgPqWEeeFbP_5Z9Q7hQ" label="executiontaskcmdprm" tableType="TABLE">
+      <taggedValue xmi:id="_irEZUPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_irEZUfqWEeeFbP_5Z9Q7hQ" name="executiontaskjobprm" id="_hzaYcPqWEeeFbP_5Z9Q7hQ" label="executiontaskjobprm" tableType="TABLE">
+      <taggedValue xmi:id="_irEZUvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_irEZU_qWEeeFbP_5Z9Q7hQ" name="executiontaskproperties" id="_hztTYPqWEeeFbP_5Z9Q7hQ" label="executiontaskproperties" tableType="TABLE">
+      <taggedValue xmi:id="_irEZVPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_irEZVfqWEeeFbP_5Z9Q7hQ" name="executionvirtualserver" id="_h0J_UPqWEeeFbP_5Z9Q7hQ" label="executionvirtualserver" tableType="TABLE">
+      <taggedValue xmi:id="_irEZVvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_irEZV_qWEeeFbP_5Z9Q7hQ" name="executionvirtualserver_executionserver" id="_h1MhIPqWEeeFbP_5Z9Q7hQ" label="executionvirtualserver_executionserver" tableType="TABLE">
+      <taggedValue xmi:id="_irEZWPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_irEZWfqWEeeFbP_5Z9Q7hQ" name="executionvirtualserver_project" id="_h1MhIfqWEeeFbP_5Z9Q7hQ" label="executionvirtualserver_project" tableType="TABLE">
+      <taggedValue xmi:id="_irEZWvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_irEZW_qWEeeFbP_5Z9Q7hQ" name="filetriggermask" id="_h1MhIvqWEeeFbP_5Z9Q7hQ" label="filetriggermask" tableType="TABLE">
+      <taggedValue xmi:id="_irEZXPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_irEZXfqWEeeFbP_5Z9Q7hQ" name="filter" id="_h1MhI_qWEeeFbP_5Z9Q7hQ" label="filter" tableType="TABLE">
+      <taggedValue xmi:id="_irEZXvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_irEZX_qWEeeFbP_5Z9Q7hQ" name="licenses" id="_h1pNEPqWEeeFbP_5Z9Q7hQ" label="licenses" tableType="TABLE">
+      <taggedValue xmi:id="_irEZYPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_irEZYfqWEeeFbP_5Z9Q7hQ" name="locks" id="_h2FR8PqWEeeFbP_5Z9Q7hQ" label="locks" tableType="TABLE">
+      <taggedValue xmi:id="_irEZYvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_irEZY_qWEeeFbP_5Z9Q7hQ" name="notification" id="_h2h94PqWEeeFbP_5Z9Q7hQ" label="notification" tableType="TABLE">
+      <taggedValue xmi:id="_irEZZPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_irEZZfqWEeeFbP_5Z9Q7hQ" name="project" id="_h2-p0PqWEeeFbP_5Z9Q7hQ" label="project" tableType="TABLE">
+      <taggedValue xmi:id="_irEZZvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_irEZZ_qWEeeFbP_5Z9Q7hQ" name="project_executionserver" id="_h8e04PqWEeeFbP_5Z9Q7hQ" label="project_executionserver" tableType="TABLE">
+      <taggedValue xmi:id="_irEZaPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_irEZafqWEeeFbP_5Z9Q7hQ" name="project_executionvirtualserver" id="_h87g0PqWEeeFbP_5Z9Q7hQ" label="project_executionvirtualserver" tableType="TABLE">
+      <taggedValue xmi:id="_irEZavqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_irEZa_qWEeeFbP_5Z9Q7hQ" name="projectreference" id="_iCIw8PqWEeeFbP_5Z9Q7hQ" label="projectreference" tableType="TABLE">
+      <taggedValue xmi:id="_irEZbPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_irEZbfqWEeeFbP_5Z9Q7hQ" name="qrtz_blob_triggers" id="_iCSh8PqWEeeFbP_5Z9Q7hQ" label="qrtz_blob_triggers" tableType="TABLE">
+      <taggedValue xmi:id="_irEZbvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_irEZb_qWEeeFbP_5Z9Q7hQ" name="qrtz_calendars" id="_iD65oPqWEeeFbP_5Z9Q7hQ" label="qrtz_calendars" tableType="TABLE">
+      <taggedValue xmi:id="_irEZcPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_irEZcfqWEeeFbP_5Z9Q7hQ" name="qrtz_cron_triggers" id="_iEEqoPqWEeeFbP_5Z9Q7hQ" label="qrtz_cron_triggers" tableType="TABLE">
+      <taggedValue xmi:id="_irEZcvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_irEZc_qWEeeFbP_5Z9Q7hQ" name="qrtz_fired_triggers" id="_iEN0kPqWEeeFbP_5Z9Q7hQ" label="qrtz_fired_triggers" tableType="TABLE">
+      <taggedValue xmi:id="_irEZdPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_irEZdfqWEeeFbP_5Z9Q7hQ" name="qrtz_job_details" id="_iFSLkPqWEeeFbP_5Z9Q7hQ" label="qrtz_job_details" tableType="TABLE">
+      <taggedValue xmi:id="_irEZdvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_irEZd_qWEeeFbP_5Z9Q7hQ" name="qrtz_job_listeners" id="_iFlGgPqWEeeFbP_5Z9Q7hQ" label="qrtz_job_listeners" tableType="TABLE">
+      <taggedValue xmi:id="_irEZePqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_irEZefqWEeeFbP_5Z9Q7hQ" name="qrtz_locks" id="_iFlGgfqWEeeFbP_5Z9Q7hQ" label="qrtz_locks" tableType="TABLE">
+      <taggedValue xmi:id="_irEZevqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_irEZe_qWEeeFbP_5Z9Q7hQ" name="qrtz_paused_trigger_grps" id="_iGBycPqWEeeFbP_5Z9Q7hQ" label="qrtz_paused_trigger_grps" tableType="TABLE">
+      <taggedValue xmi:id="_irEZfPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_irEZffqWEeeFbP_5Z9Q7hQ" name="qrtz_scheduler_state" id="_iHEUQPqWEeeFbP_5Z9Q7hQ" label="qrtz_scheduler_state" tableType="TABLE">
+      <taggedValue xmi:id="_irEZfvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_irEZf_qWEeeFbP_5Z9Q7hQ" name="qrtz_simple_triggers" id="_iHOFQPqWEeeFbP_5Z9Q7hQ" label="qrtz_simple_triggers" tableType="TABLE">
+      <taggedValue xmi:id="_irEZgPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_irEZgfqWEeeFbP_5Z9Q7hQ" name="qrtz_trigger_listeners" id="_iHXPMPqWEeeFbP_5Z9Q7hQ" label="qrtz_trigger_listeners" tableType="TABLE">
+      <taggedValue xmi:id="_irEZgvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_irEZg_qWEeeFbP_5Z9Q7hQ" name="qrtz_triggers" id="_iHhAMPqWEeeFbP_5Z9Q7hQ" label="qrtz_triggers" tableType="TABLE">
+      <taggedValue xmi:id="_irEZhPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_irEZhfqWEeeFbP_5Z9Q7hQ" name="rolelimitation" id="_iHqKIPqWEeeFbP_5Z9Q7hQ" label="rolelimitation" tableType="TABLE">
+      <taggedValue xmi:id="_irEZhvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_irEZh_qWEeeFbP_5Z9Q7hQ" name="schemainformation" id="_iMauUPqWEeeFbP_5Z9Q7hQ" label="schemainformation" tableType="TABLE">
+      <taggedValue xmi:id="_irEZiPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_irEZifqWEeeFbP_5Z9Q7hQ" name="soainputparameter" id="_iNBLQPqWEeeFbP_5Z9Q7hQ" label="soainputparameter" tableType="TABLE">
+      <taggedValue xmi:id="_irEZivqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_irEZi_qWEeeFbP_5Z9Q7hQ" name="soaoperation" id="_iNBLQfqWEeeFbP_5Z9Q7hQ" label="soaoperation" tableType="TABLE">
+      <taggedValue xmi:id="_irEZjPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_irEZjfqWEeeFbP_5Z9Q7hQ" name="soaservice" id="_iNKVMPqWEeeFbP_5Z9Q7hQ" label="soaservice" tableType="TABLE">
+      <taggedValue xmi:id="_irEZjvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_irEZj_qWEeeFbP_5Z9Q7hQ" name="talendtrigger" id="_iNd3MPqWEeeFbP_5Z9Q7hQ" label="talendtrigger" tableType="TABLE">
+      <taggedValue xmi:id="_irEZkPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_irEZkfqWEeeFbP_5Z9Q7hQ" name="taskexecutionhistory" id="_iZF4YPqWEeeFbP_5Z9Q7hQ" label="taskexecutionhistory" tableType="TABLE">
+      <taggedValue xmi:id="_irEZkvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_irEZk_qWEeeFbP_5Z9Q7hQ" name="tdsrole" id="_iZPCUPqWEeeFbP_5Z9Q7hQ" label="tdsrole" tableType="TABLE">
+      <taggedValue xmi:id="_irEZlPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_irEZlfqWEeeFbP_5Z9Q7hQ" name="tdsrole_user" id="_iZruQPqWEeeFbP_5Z9Q7hQ" label="tdsrole_user" tableType="TABLE">
+      <taggedValue xmi:id="_irEZlvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_irEZl_qWEeeFbP_5Z9Q7hQ" name="tdsrole_usergroup" id="_iabVIPqWEeeFbP_5Z9Q7hQ" label="tdsrole_usergroup" tableType="TABLE">
+      <taggedValue xmi:id="_irEZmPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_irEZmfqWEeeFbP_5Z9Q7hQ" name="technicalvariable" id="_ibd28PqWEeeFbP_5Z9Q7hQ" label="technicalvariable" tableType="TABLE">
+      <taggedValue xmi:id="_irEZmvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_irEZm_qWEeeFbP_5Z9Q7hQ" name="user" id="_ieTIgPqWEeeFbP_5Z9Q7hQ" label="user" tableType="TABLE">
+      <taggedValue xmi:id="_irEZnPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_irEZnfqWEeeFbP_5Z9Q7hQ" name="user_datapreprole" id="_iemDcPqWEeeFbP_5Z9Q7hQ" label="user_datapreprole" tableType="TABLE">
+      <taggedValue xmi:id="_irEZnvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_irEZn_qWEeeFbP_5Z9Q7hQ" name="user_tdsrole" id="_ifL5UPqWEeeFbP_5Z9Q7hQ" label="user_tdsrole" tableType="TABLE">
+      <taggedValue xmi:id="_irEZoPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_irEZofqWEeeFbP_5Z9Q7hQ" name="user_usergroup" id="_igYMIPqWEeeFbP_5Z9Q7hQ" label="user_usergroup" tableType="TABLE">
+      <taggedValue xmi:id="_irEZovqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_irEZo_qWEeeFbP_5Z9Q7hQ" name="usergroup" id="_illcQPqWEeeFbP_5Z9Q7hQ" label="usergroup" tableType="TABLE">
+      <taggedValue xmi:id="_irEZpPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_irEZpfqWEeeFbP_5Z9Q7hQ" name="usergroup_datapreprole" id="_il4XMPqWEeeFbP_5Z9Q7hQ" label="usergroup_datapreprole" tableType="TABLE">
+      <taggedValue xmi:id="_irEZpvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_irEZp_qWEeeFbP_5Z9Q7hQ" name="usergroup_tdsrole" id="_iqfxcPqWEeeFbP_5Z9Q7hQ" label="usergroup_tdsrole" tableType="TABLE">
+      <taggedValue xmi:id="_irEZqPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_irEZqfqWEeeFbP_5Z9Q7hQ" name="usergroup_user" id="_iqpicPqWEeeFbP_5Z9Q7hQ" label="usergroup_user" tableType="TABLE">
+      <taggedValue xmi:id="_irEZqvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_irEZq_qWEeeFbP_5Z9Q7hQ" name="usergroupuserprojectauth" id="_iqpicfqWEeeFbP_5Z9Q7hQ" label="usergroupuserprojectauth" tableType="TABLE">
+      <taggedValue xmi:id="_irEZrPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_irEZrfqWEeeFbP_5Z9Q7hQ" name="userprojectauthorization" id="_iqpicvqWEeeFbP_5Z9Q7hQ" label="userprojectauthorization" tableType="TABLE">
+      <taggedValue xmi:id="_irEZrvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_irEZr_qWEeeFbP_5Z9Q7hQ" name="userrole" id="_iqpic_qWEeeFbP_5Z9Q7hQ" label="userrole" tableType="TABLE">
+      <taggedValue xmi:id="_irEZsPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_irEZsfqWEeeFbP_5Z9Q7hQ" name="userrolereference" id="_irEZMPqWEeeFbP_5Z9Q7hQ" label="userrolereference" tableType="TABLE">
+      <taggedValue xmi:id="_irEZsvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Catalog>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_TTRv2_qWEeeFbP_5Z9Q7hQ" name="talend_tdq" dataManager="_TBvT4PqWEeeFbP_5Z9Q7hQ">
+    <ownedElement xsi:type="relational:TdView" xmi:id="_jQYswPqWEeeFbP_5Z9Q7hQ" name="tdq_v_all_run_analysis" label="tdq_v_all_run_analysis" tableType="VIEW">
+      <taggedValue xmi:id="_jQYswfqWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_jQYswvqWEeeFbP_5Z9Q7hQ" name="tdq_v_all_run_match_analysis" label="tdq_v_all_run_match_analysis" tableType="VIEW">
+      <taggedValue xmi:id="_jQYsw_qWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_jQYsxPqWEeeFbP_5Z9Q7hQ" name="tdq_v_all_run_overview_analy" label="tdq_v_all_run_overview_analy" tableType="VIEW">
+      <taggedValue xmi:id="_jQYsxfqWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_jQYsxvqWEeeFbP_5Z9Q7hQ" name="tdq_v_analysis" label="tdq_v_analysis" tableType="VIEW">
+      <taggedValue xmi:id="_jQYsx_qWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_jQYsyPqWEeeFbP_5Z9Q7hQ" name="tdq_v_analyzed_element" label="tdq_v_analyzed_element" tableType="VIEW">
+      <taggedValue xmi:id="_jQYsyfqWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_jQYsyvqWEeeFbP_5Z9Q7hQ" name="tdq_v_ind_histo" label="tdq_v_ind_histo" tableType="VIEW">
+      <taggedValue xmi:id="_jQYsy_qWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_jQYszPqWEeeFbP_5Z9Q7hQ" name="tdq_v_indicator_definition" label="tdq_v_indicator_definition" tableType="VIEW">
+      <taggedValue xmi:id="_jQYszfqWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_jQYszvqWEeeFbP_5Z9Q7hQ" name="tdq_v_last_analysis" label="tdq_v_last_analysis" tableType="VIEW">
+      <taggedValue xmi:id="_jQYsz_qWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_jQYs0PqWEeeFbP_5Z9Q7hQ" name="tdq_v_last_analysis_exec" label="tdq_v_last_analysis_exec" tableType="VIEW">
+      <taggedValue xmi:id="_jQYs0fqWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_jQYs0vqWEeeFbP_5Z9Q7hQ" name="tdq_v_last_analyzed_element" label="tdq_v_last_analyzed_element" tableType="VIEW">
+      <taggedValue xmi:id="_jQYs0_qWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_jQYs1PqWEeeFbP_5Z9Q7hQ" name="tdq_v_last_indicator_def" label="tdq_v_last_indicator_def" tableType="VIEW">
+      <taggedValue xmi:id="_jQYs1fqWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_jQYs1vqWEeeFbP_5Z9Q7hQ" name="tdq_v_last_match_analysis_exec" label="tdq_v_last_match_analysis_exec" tableType="VIEW">
+      <taggedValue xmi:id="_jQYs1_qWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_jQYs2PqWEeeFbP_5Z9Q7hQ" name="tdq_v_last_overview_analy_exec" label="tdq_v_last_overview_analy_exec" tableType="VIEW">
+      <taggedValue xmi:id="_jQYs2fqWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_jQYs2vqWEeeFbP_5Z9Q7hQ" name="tdq_v_last_run_analysis" label="tdq_v_last_run_analysis" tableType="VIEW">
+      <taggedValue xmi:id="_jQYs2_qWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_jQYs3PqWEeeFbP_5Z9Q7hQ" name="tdq_v_last_run_match_analysis" label="tdq_v_last_run_match_analysis" tableType="VIEW">
+      <taggedValue xmi:id="_jQYs3fqWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_jQYs3vqWEeeFbP_5Z9Q7hQ" name="tdq_v_last_run_overview_analy" label="tdq_v_last_run_overview_analy" tableType="VIEW">
+      <taggedValue xmi:id="_jQYs3_qWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_jQYs4PqWEeeFbP_5Z9Q7hQ" name="tdq_v_olap_simpl_indicator" label="tdq_v_olap_simpl_indicator" tableType="VIEW">
+      <taggedValue xmi:id="_jQYs4fqWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_jQYs4vqWEeeFbP_5Z9Q7hQ" name="tdq_v_olap_summary_indicator" label="tdq_v_olap_summary_indicator" tableType="VIEW">
+      <taggedValue xmi:id="_jQYs4_qWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_jQYs5PqWEeeFbP_5Z9Q7hQ" name="tdq_v_olap_textstat_indicator" label="tdq_v_olap_textstat_indicator" tableType="VIEW">
+      <taggedValue xmi:id="_jQYs5fqWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_jQYs5vqWEeeFbP_5Z9Q7hQ" name="tdq_v_simple_indics" label="tdq_v_simple_indics" tableType="VIEW">
+      <taggedValue xmi:id="_jQYs5_qWEeeFbP_5Z9Q7hQ" tag="Comment" value="VIEW"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_jrt94fqWEeeFbP_5Z9Q7hQ" name="tdq_analysis" id="_jUZDAPqWEeeFbP_5Z9Q7hQ" label="tdq_analysis" tableType="TABLE">
+      <taggedValue xmi:id="_jrt94vqWEeeFbP_5Z9Q7hQ" tag="Comment" value="The analysis instance in a report"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_jrt94_qWEeeFbP_5Z9Q7hQ" name="tdq_analyzed_element" id="_jWfUwPqWEeeFbP_5Z9Q7hQ" label="tdq_analyzed_element" tableType="TABLE">
+      <taggedValue xmi:id="_jrt95PqWEeeFbP_5Z9Q7hQ" tag="Comment" value="the analyzed element (mainly a column)"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_jrt95fqWEeeFbP_5Z9Q7hQ" name="tdq_analyzed_set" id="_jaV6APqWEeeFbP_5Z9Q7hQ" label="tdq_analyzed_set" tableType="TABLE">
+      <taggedValue xmi:id="_jrt95vqWEeeFbP_5Z9Q7hQ" tag="Comment" value="Mapping table between indicator and analyzed element sets"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_jrt95_qWEeeFbP_5Z9Q7hQ" name="tdq_calendar" id="_jarRMPqWEeeFbP_5Z9Q7hQ" label="tdq_calendar" tableType="TABLE">
+      <taggedValue xmi:id="_jrt96PqWEeeFbP_5Z9Q7hQ" tag="Comment" value="The date dimension"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_jrt96fqWEeeFbP_5Z9Q7hQ" name="tdq_day_time" id="_ja_aQPqWEeeFbP_5Z9Q7hQ" label="tdq_day_time" tableType="TABLE">
+      <taggedValue xmi:id="_jrt96vqWEeeFbP_5Z9Q7hQ" tag="Comment" value="the day time dimension (hours, minutes)"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_jrt96_qWEeeFbP_5Z9Q7hQ" name="tdq_group_statistics" id="_jcdZ4PqWEeeFbP_5Z9Q7hQ" label="tdq_group_statistics" tableType="TABLE">
+      <taggedValue xmi:id="_jrt97PqWEeeFbP_5Z9Q7hQ" tag="Comment" value="Fact table of stores the group statistics results of the matching analyses"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_jrt97fqWEeeFbP_5Z9Q7hQ" name="tdq_indicator_definition" id="_jdcRUPqWEeeFbP_5Z9Q7hQ" label="tdq_indicator_definition" tableType="TABLE">
+      <taggedValue xmi:id="_jrt97vqWEeeFbP_5Z9Q7hQ" tag="Comment" value="the indicator definition (Row count, Frequency table...)"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_jrt97_qWEeeFbP_5Z9Q7hQ" name="tdq_indicator_options" id="_jejEkPqWEeeFbP_5Z9Q7hQ" label="tdq_indicator_options" tableType="TABLE">
+      <taggedValue xmi:id="_jrt98PqWEeeFbP_5Z9Q7hQ" tag="Comment" value="the options used by indicators"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_jrt98fqWEeeFbP_5Z9Q7hQ" name="tdq_indicator_value" id="_jid7QPqWEeeFbP_5Z9Q7hQ" label="tdq_indicator_value" tableType="TABLE">
+      <taggedValue xmi:id="_jrt98vqWEeeFbP_5Z9Q7hQ" tag="Comment" value="the value of the indicator"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_jrt98_qWEeeFbP_5Z9Q7hQ" name="tdq_match_indvalue" id="_jkRSEPqWEeeFbP_5Z9Q7hQ" label="tdq_match_indvalue" tableType="TABLE">
+      <taggedValue xmi:id="_jrt99PqWEeeFbP_5Z9Q7hQ" tag="Comment" value="Fact table of the comparison analyses"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_jrt99fqWEeeFbP_5Z9Q7hQ" name="tdq_matching_indvalue" id="_jkRSEfqWEeeFbP_5Z9Q7hQ" label="tdq_matching_indvalue" tableType="TABLE">
+      <taggedValue xmi:id="_jrt99vqWEeeFbP_5Z9Q7hQ" tag="Comment" value="Fact table of stores the results of the matching analyses"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_jrt99_qWEeeFbP_5Z9Q7hQ" name="tdq_migration" id="_jmzosPqWEeeFbP_5Z9Q7hQ" label="tdq_migration" tableType="TABLE">
+      <taggedValue xmi:id="_jrt9-PqWEeeFbP_5Z9Q7hQ" tag="Comment" value="information of migration"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_jrt9-fqWEeeFbP_5Z9Q7hQ" name="tdq_overview_indvalue" id="_jnZekPqWEeeFbP_5Z9Q7hQ" label="tdq_overview_indvalue" tableType="TABLE">
+      <taggedValue xmi:id="_jrt9-vqWEeeFbP_5Z9Q7hQ" tag="Comment" value="Fact table for table, schema, catalog overview indicator"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_jrt9-_qWEeeFbP_5Z9Q7hQ" name="tdq_product" id="_jou7UPqWEeeFbP_5Z9Q7hQ" label="tdq_product" tableType="TABLE">
+      <taggedValue xmi:id="_jrt9_PqWEeeFbP_5Z9Q7hQ" tag="Comment" value="information about the used TDQ platform"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_jrt9_fqWEeeFbP_5Z9Q7hQ" name="tdq_set_indvalue" id="_jpoTMPqWEeeFbP_5Z9Q7hQ" label="tdq_set_indvalue" tableType="TABLE">
+      <taggedValue xmi:id="_jrt9_vqWEeeFbP_5Z9Q7hQ" tag="Comment" value="Fact table of indicators measuring a set of columns"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_jrt9__qWEeeFbP_5Z9Q7hQ" name="tdq_table_analyzed_set" id="_jqhEAPqWEeeFbP_5Z9Q7hQ" label="tdq_table_analyzed_set" tableType="TABLE">
+      <taggedValue xmi:id="_jrt-APqWEeeFbP_5Z9Q7hQ" tag="Comment" value="Relation table for ANALYZED_ELEMENT and TDQ_SET_INDVALUE"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_jrt-AfqWEeeFbP_5Z9Q7hQ" name="tdq_values" id="_jrt94PqWEeeFbP_5Z9Q7hQ" label="tdq_values" tableType="TABLE">
+      <taggedValue xmi:id="_jrt-AvqWEeeFbP_5Z9Q7hQ" tag="Comment" value="listing the value when frequency table indicator is computed"/>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Catalog>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_TTRv3PqWEeeFbP_5Z9Q7hQ" name="talend_tmp" dataManager="_TBvT4PqWEeeFbP_5Z9Q7hQ">
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ZwOlIfqWEeeFbP_5Z9Q7hQ" name="employee" id="_ZsDPwPqWEeeFbP_5Z9Q7hQ" label="employee" tableType="TABLE">
+      <taggedValue xmi:id="_ZwOlIvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+      <ownedElement xsi:type="orgomg.cwm.resource.relational:PrimaryKey" xmi:id="_boAmKvqWEeeFbP_5Z9Q7hQ" name="PRIMARY" feature="_bn21IPqWEeeFbP_5Z9Q7hQ"/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_bn21IPqWEeeFbP_5Z9Q7hQ" name="EmployeeID" id="EmployeeID" label="EmployeeID" uniqueKey="_boAmKvqWEeeFbP_5Z9Q7hQ" length="10" sourceType="INT" talendType="id_Integer" key="true" nullable="false">
+        <taggedValue xmi:id="_bn21IfqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_bn21IvqWEeeFbP_5Z9Q7hQ" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_bn21I_qWEeeFbP_5Z9Q7hQ" name="INT" numericPrecisionRadix="10" javaDataType="4"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_bn21JPqWEeeFbP_5Z9Q7hQ" name="StaffNumber" id="StaffNumber" label="StaffNumber" length="12" sourceType="VARCHAR" talendType="id_String">
+        <taggedValue xmi:id="_bn21JfqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_bn21JvqWEeeFbP_5Z9Q7hQ" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_bn21J_qWEeeFbP_5Z9Q7hQ" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_bn21KPqWEeeFbP_5Z9Q7hQ" name="FirstName" id="FirstName" label="FirstName" length="40" sourceType="VARCHAR" talendType="id_String">
+        <taggedValue xmi:id="_bn21KfqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_bn21KvqWEeeFbP_5Z9Q7hQ" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_bn21K_qWEeeFbP_5Z9Q7hQ" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_bn21LPqWEeeFbP_5Z9Q7hQ" name="Surname" id="Surname" label="Surname" length="40" sourceType="VARCHAR" talendType="id_String">
+        <taggedValue xmi:id="_bn21LfqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_bn21LvqWEeeFbP_5Z9Q7hQ" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_bn21L_qWEeeFbP_5Z9Q7hQ" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_bn21MPqWEeeFbP_5Z9Q7hQ" name="DOB" id="DOB" label="DOB" length="12" sourceType="VARCHAR" talendType="id_String">
+        <taggedValue xmi:id="_bn21MfqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_boAmIPqWEeeFbP_5Z9Q7hQ" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_boAmIfqWEeeFbP_5Z9Q7hQ" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_boAmIvqWEeeFbP_5Z9Q7hQ" name="StartDate" id="StartDate" label="StartDate" length="21" sourceType="VARCHAR" talendType="id_String">
+        <taggedValue xmi:id="_boAmI_qWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_boAmJPqWEeeFbP_5Z9Q7hQ" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_boAmJfqWEeeFbP_5Z9Q7hQ" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_boAmJvqWEeeFbP_5Z9Q7hQ" name="Active" id="Active" label="Active" length="3" sourceType="VARCHAR" talendType="id_String">
+        <taggedValue xmi:id="_boAmJ_qWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_boAmKPqWEeeFbP_5Z9Q7hQ" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_boAmKfqWEeeFbP_5Z9Q7hQ" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ZwOlI_qWEeeFbP_5Z9Q7hQ" name="person" id="_ZvMqYPqWEeeFbP_5Z9Q7hQ" label="person" tableType="TABLE">
+      <taggedValue xmi:id="_ZwOlJPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+      <ownedElement xsi:type="orgomg.cwm.resource.relational:PrimaryKey" xmi:id="_bbIAsPqWEeeFbP_5Z9Q7hQ" name="PRIMARY" feature="_ba-2wPqWEeeFbP_5Z9Q7hQ"/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_ba-2wPqWEeeFbP_5Z9Q7hQ" name="PersonID" id="PersonID" label="PersonID" uniqueKey="_bbIAsPqWEeeFbP_5Z9Q7hQ" length="10" sourceType="INT" talendType="id_Integer" key="true" nullable="false">
+        <taggedValue xmi:id="_ba-2wfqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_ba-2wvqWEeeFbP_5Z9Q7hQ" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_ba-2w_qWEeeFbP_5Z9Q7hQ" name="INT" numericPrecisionRadix="10" javaDataType="4"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_ba-2xPqWEeeFbP_5Z9Q7hQ" name="FirstName" id="FirstName" label="FirstName" length="10" sourceType="VARCHAR" talendType="id_String">
+        <taggedValue xmi:id="_ba-2xfqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_ba-2xvqWEeeFbP_5Z9Q7hQ" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_ba-2x_qWEeeFbP_5Z9Q7hQ" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_ba-2yPqWEeeFbP_5Z9Q7hQ" name="Surname" id="Surname" label="Surname" length="10" sourceType="VARCHAR" talendType="id_String">
+        <taggedValue xmi:id="_ba-2yfqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_ba-2yvqWEeeFbP_5Z9Q7hQ" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_ba-2y_qWEeeFbP_5Z9Q7hQ" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_ba-2zPqWEeeFbP_5Z9Q7hQ" name="FullName" id="FullName" label="FullName" length="30" sourceType="VARCHAR" talendType="id_String">
+        <taggedValue xmi:id="_ba-2zfqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_ba-2zvqWEeeFbP_5Z9Q7hQ" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_ba-2z_qWEeeFbP_5Z9Q7hQ" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ZwOlJfqWEeeFbP_5Z9Q7hQ" name="person_extended" id="_ZvpWUPqWEeeFbP_5Z9Q7hQ" label="person_extended" tableType="TABLE">
+      <taggedValue xmi:id="_ZwOlJvqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+      <ownedElement xsi:type="orgomg.cwm.resource.relational:PrimaryKey" xmi:id="_kTzRrPqWEeeFbP_5Z9Q7hQ" name="PRIMARY" feature="_kTzRkPqWEeeFbP_5Z9Q7hQ"/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_kTzRkPqWEeeFbP_5Z9Q7hQ" name="ID" id="ID" label="ID" uniqueKey="_kTzRrPqWEeeFbP_5Z9Q7hQ" length="10" sourceType="INT" talendType="id_Integer" key="true" nullable="false">
+        <taggedValue xmi:id="_kTzRkfqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+        <taggedValue xmi:id="_2eijsfqWEeeFbP_5Z9Q7hQ" tag="Content Type" value="Nominal"/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_kTzRkvqWEeeFbP_5Z9Q7hQ" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_kTzRk_qWEeeFbP_5Z9Q7hQ" name="INT" numericPrecisionRadix="10" javaDataType="4"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_kTzRlPqWEeeFbP_5Z9Q7hQ" name="FirstName" id="FirstName" label="FirstName" length="10" sourceType="VARCHAR" talendType="id_String">
+        <taggedValue xmi:id="_kTzRlfqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+        <taggedValue xmi:id="_2eijsvqWEeeFbP_5Z9Q7hQ" tag="Content Type" value="Nominal"/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_kTzRlvqWEeeFbP_5Z9Q7hQ" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_kTzRl_qWEeeFbP_5Z9Q7hQ" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_kTzRmPqWEeeFbP_5Z9Q7hQ" name="Surname" id="Surname" label="Surname" length="10" sourceType="VARCHAR" talendType="id_String">
+        <taggedValue xmi:id="_kTzRmfqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+        <taggedValue xmi:id="_2eijs_qWEeeFbP_5Z9Q7hQ" tag="Content Type" value="Nominal"/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_kTzRmvqWEeeFbP_5Z9Q7hQ" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_kTzRm_qWEeeFbP_5Z9Q7hQ" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_kTzRnPqWEeeFbP_5Z9Q7hQ" name="FullName" id="FullName" label="FullName" length="30" sourceType="VARCHAR" talendType="id_String">
+        <taggedValue xmi:id="_kTzRnfqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+        <taggedValue xmi:id="_2eijtPqWEeeFbP_5Z9Q7hQ" tag="Content Type" value="Nominal"/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_kTzRnvqWEeeFbP_5Z9Q7hQ" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_kTzRn_qWEeeFbP_5Z9Q7hQ" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_kTzRoPqWEeeFbP_5Z9Q7hQ" name="BirthDate" id="BirthDate" label="BirthDate" length="10" sourceType="DATETIME" talendType="id_Date">
+        <taggedValue xmi:id="_kTzRofqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+        <taggedValue xmi:id="_2eijtfqWEeeFbP_5Z9Q7hQ" tag="Content Type" value="Interval"/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_kTzRovqWEeeFbP_5Z9Q7hQ" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_kTzRo_qWEeeFbP_5Z9Q7hQ" name="DATE" numericPrecisionRadix="10" javaDataType="91" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_kTzRpPqWEeeFbP_5Z9Q7hQ" name="BirthTimestamp" id="BirthTimestamp" label="BirthTimestamp" length="19" sourceType="DATETIME" talendType="id_Date">
+        <taggedValue xmi:id="_kTzRpfqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+        <taggedValue xmi:id="_2eijtvqWEeeFbP_5Z9Q7hQ" tag="Content Type" value="Interval"/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_kTzRpvqWEeeFbP_5Z9Q7hQ" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_kTzRp_qWEeeFbP_5Z9Q7hQ" name="TIMESTAMP" numericPrecisionRadix="10" javaDataType="93" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_kTzRqPqWEeeFbP_5Z9Q7hQ" name="BirthDateTime" id="BirthDateTime" label="BirthDateTime" length="19" sourceType="DATETIME" talendType="id_Date">
+        <taggedValue xmi:id="_kTzRqfqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+        <taggedValue xmi:id="_2eijt_qWEeeFbP_5Z9Q7hQ" tag="Content Type" value="Interval"/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_kTzRqvqWEeeFbP_5Z9Q7hQ" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_kTzRq_qWEeeFbP_5Z9Q7hQ" name="DATETIME" numericPrecisionRadix="10" javaDataType="93" nullable="columnNullable"/>
+      </feature>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ZwOlJ_qWEeeFbP_5Z9Q7hQ" name="person_sample" id="_ZwOlIPqWEeeFbP_5Z9Q7hQ" label="person_sample" tableType="TABLE">
+      <taggedValue xmi:id="_ZwOlKPqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+      <ownedElement xsi:type="orgomg.cwm.resource.relational:PrimaryKey" xmi:id="_tqjlpPqWEeeFbP_5Z9Q7hQ" name="PRIMARY" feature="_tqjlkPqWEeeFbP_5Z9Q7hQ"/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_tqjlkPqWEeeFbP_5Z9Q7hQ" name="ID" id="ID" label="ID" uniqueKey="_tqjlpPqWEeeFbP_5Z9Q7hQ" length="10" sourceType="INT" talendType="id_Integer" key="true" nullable="false">
+        <taggedValue xmi:id="_tqjlkfqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_tqjlkvqWEeeFbP_5Z9Q7hQ" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_tqjlk_qWEeeFbP_5Z9Q7hQ" name="INT" numericPrecisionRadix="10" javaDataType="4"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_tqjllPqWEeeFbP_5Z9Q7hQ" name="FirstName" id="FirstName" label="FirstName" length="10" sourceType="VARCHAR" talendType="id_String">
+        <taggedValue xmi:id="_tqjllfqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_tqjllvqWEeeFbP_5Z9Q7hQ" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_tqjll_qWEeeFbP_5Z9Q7hQ" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_tqjlmPqWEeeFbP_5Z9Q7hQ" name="Surname" id="Surname" label="Surname" length="10" sourceType="VARCHAR" talendType="id_String">
+        <taggedValue xmi:id="_tqjlmfqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_tqjlmvqWEeeFbP_5Z9Q7hQ" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_tqjlm_qWEeeFbP_5Z9Q7hQ" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_tqjlnPqWEeeFbP_5Z9Q7hQ" name="FullName" id="FullName" label="FullName" length="30" sourceType="VARCHAR" talendType="id_String">
+        <taggedValue xmi:id="_tqjlnfqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_tqjlnvqWEeeFbP_5Z9Q7hQ" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_tqjln_qWEeeFbP_5Z9Q7hQ" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_tqjloPqWEeeFbP_5Z9Q7hQ" name="BirthDate" id="BirthDate" label="BirthDate" length="10" sourceType="DATETIME" talendType="id_Date">
+        <taggedValue xmi:id="_tqjlofqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_tqjlovqWEeeFbP_5Z9Q7hQ" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_tqjlo_qWEeeFbP_5Z9Q7hQ" name="DATE" numericPrecisionRadix="10" javaDataType="91" nullable="columnNullable"/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Catalog>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_TTRv3fqWEeeFbP_5Z9Q7hQ" name="world" dataManager="_TBvT4PqWEeeFbP_5Z9Q7hQ">
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_jx9v0fqWEeeFbP_5Z9Q7hQ" name="city" id="_jwLAEPqWEeeFbP_5Z9Q7hQ" label="city" tableType="TABLE">
+      <taggedValue xmi:id="_jx9v0vqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_jx9v0_qWEeeFbP_5Z9Q7hQ" name="country" id="_jwyEEPqWEeeFbP_5Z9Q7hQ" label="country" tableType="TABLE">
+      <taggedValue xmi:id="_jx9v1PqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_jx9v1fqWEeeFbP_5Z9Q7hQ" name="countrylanguage" id="_jx9v0PqWEeeFbP_5Z9Q7hQ" label="countrylanguage" tableType="TABLE">
+      <taggedValue xmi:id="_jx9v1vqWEeeFbP_5Z9Q7hQ" tag="Comment" value=""/>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Catalog>
+  <orgomg.cwm.objectmodel.core:Dependency xmi:id="_2eijsPqWEeeFbP_5Z9Q7hQ" kind="Usage" supplier="_TBvT4PqWEeeFbP_5Z9Q7hQ">
+    <client xsi:type="dataquality.analysis:Analysis" href="../../TDQ_Data Profiling/Analyses/xxxxxxx_0.1.ana#_yZGNwPqVEeeFbP_5Z9Q7hQ"/>
+    <client xsi:type="dataquality.analysis:Analysis" href="../../TDQ_Data Profiling/Analyses/zzz_0.1.ana#_Di81MPqXEeeFbP_5Z9Q7hQ"/>
+  </orgomg.cwm.objectmodel.core:Dependency>
+</xmi:XMI>
