@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="DEV" jobType="Standard">
-  <context confirmationNeeded="false" name="DEV">
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
+  <context confirmationNeeded="false" name="Default">
     <contextParameter comment="" name="parameter_GARY" prompt="parameter_GARY?" promptNeeded="false" type="id_String" value="GaryDEV"/>
-  </context>
-  <context confirmationNeeded="false" name="PRD">
-    <contextParameter comment="" name="parameter_GARY" prompt="parameter_GARY?" promptNeeded="false" type="id_String" value="GaryPRD"/>
   </context>
   <parameters>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
