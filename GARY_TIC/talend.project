@@ -87,7 +87,6 @@
     </implicitContextSettings>
     <ItemsRelations xmi:id="_ZCRaEAdnEeiuCa9qeKQKjA">
       <baseItem xmi:id="_ZCRaEQdnEeiuCa9qeKQKjA" id="_jqTssAXbEeiOLqu4TYdqVw" version="0.1" type="job"/>
-      <relatedItems xmi:id="_ZCRaEgdnEeiuCa9qeKQKjA" id="_M87RwPqWEeeFbP_5Z9Q7hQ" version="Latest" type="property"/>
       <relatedItems xmi:id="_ZCRaEwdnEeiuCa9qeKQKjA" id="SQLike" version="Latest" type="routine"/>
       <relatedItems xmi:id="_ZCRaFAdnEeiuCa9qeKQKjA" id="Numeric" version="Latest" type="routine"/>
       <relatedItems xmi:id="_ZCRaFQdnEeiuCa9qeKQKjA" id="TalendString" version="Latest" type="routine"/>
