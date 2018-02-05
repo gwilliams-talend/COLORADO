@@ -125,7 +125,7 @@
       <elementValue elementRef="SCHEMA_COLUMN" value="newColumn"/>
       <elementValue elementRef="VALUE" value="context.parameter_GARY"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="newColumn2"/>
-      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="VALUE" value="context.parameter_tacURL"/>
     </elementParameter>
     <elementParameter field="RADIO" name="USE_INTABLE" value="false"/>
     <elementParameter field="TABLE" name="INTABLE" show="false"/>
