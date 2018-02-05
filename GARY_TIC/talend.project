@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
-  <TalendProperties:Project xmi:id="_00bu4QdmEeiuCa9qeKQKjA" label="GARY_TIC" language="java" technicalLabel="GARY_TIC" author="_00bu4gdmEeiuCa9qeKQKjA" productVersion="Talend Integration Cloud Hybrid Edition-6.4.1.20170623_1246" url="{&quot;location&quot;:&quot;https://github.com/gwilliams-talend/COLORADO&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" bigData="false">
+  <TalendProperties:Project xmi:id="_00bu4QdmEeiuCa9qeKQKjA" label="GARY_TIC" language="java" technicalLabel="GARY_TIC" author="_00bu4gdmEeiuCa9qeKQKjA" productVersion="Talend Integration Cloud Hybrid Edition-6.4.1.20170623_1246" url="{&quot;location&quot;:&quot;https://github.com/gwilliams-talend/COLORADO&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" itemsRelationVersion="1.3" bigData="false">
     <technicalStatus xmi:id="_13-2kAdmEeiuCa9qeKQKjA" label="development" code="DEV"/>
     <technicalStatus xmi:id="_13-2kQdmEeiuCa9qeKQKjA" label="testing" code="TEST"/>
     <technicalStatus xmi:id="_13-2kgdmEeiuCa9qeKQKjA" label="production" code="PROD"/>
@@ -85,6 +85,24 @@
         <elementParameter xmi:id="_ZAJ6OwdnEeiuCa9qeKQKjA" field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:REPOSITORY_PROPERTY_TYPE" value="" contextMode="false"/>
       </parameters>
     </implicitContextSettings>
+    <ItemsRelations xmi:id="_CJDJsApTEeiSEb9h2pJByw">
+      <baseItem xmi:id="_CJDJsQpTEeiSEb9h2pJByw" id="_jqTssAXbEeiOLqu4TYdqVw" version="0.1" type="job"/>
+      <relatedItems xmi:id="_CJDJsgpTEeiSEb9h2pJByw" id="SQLike" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_CJDJswpTEeiSEb9h2pJByw" id="Numeric" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_CJDJtApTEeiSEb9h2pJByw" id="TalendString" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_CJDJtQpTEeiSEb9h2pJByw" id="DataMasking" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_CJDJtgpTEeiSEb9h2pJByw" id="DataOperation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_CJDJtwpTEeiSEb9h2pJByw" id="DqStringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_CJDJuApTEeiSEb9h2pJByw" id="StringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_CJDJuQpTEeiSEb9h2pJByw" id="TalendDataGenerator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_CJDJugpTEeiSEb9h2pJByw" id="TalendDate" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_CJDJuwpTEeiSEb9h2pJByw" id="DataQuality" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_CJDJvApTEeiSEb9h2pJByw" id="Mathematical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_CJDJvQpTEeiSEb9h2pJByw" id="Relational" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_CJDJvgpTEeiSEb9h2pJByw" id="DQTechnical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_CJDJvwpTEeiSEb9h2pJByw" id="DataQualityDependencies" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_CJDJwApTEeiSEb9h2pJByw" id="TalendStringUtil" version="Latest" type="routine"/>
+    </ItemsRelations>
     <migrationTask xmi:id="_13PPsAdmEeiuCa9qeKQKjA" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_13PPsQdmEeiuCa9qeKQKjA" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_13PPsgdmEeiuCa9qeKQKjA" id="org.talend.repository.model.migration.CleanFoldersMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
@@ -228,7 +246,6 @@
     <migrationTask xmi:id="_2N6DugdmEeiuCa9qeKQKjA" id="org.talend.designer.mapper.migration.TMapSaveToEmfMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_2N6DuwdmEeiuCa9qeKQKjA" id="org.talend.designer.dbmap.migration.ELTMapSaveToEmfMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_2N6DvAdmEeiuCa9qeKQKjA" id="org.talend.designer.xmlmap.migration.TXMLMapChangeAllInOneValueMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
-    <migrationTask xmi:id="_2N6DvQdmEeiuCa9qeKQKjA" id="org.talend.repository.model.migration.FixProjectResourceLink" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_2N6DvgdmEeiuCa9qeKQKjA" id="org.talend.repository.model.migration.ResetValuetInfiniteLoop" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_2N6DvwdmEeiuCa9qeKQKjA" id="org.talend.repository.model.migration.UpgrateDatabaseTypeForSybaseConnection" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_2N6DwAdmEeiuCa9qeKQKjA" id="org.talend.repository.model.migration.RenamePasswordParaForLdapMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
@@ -436,6 +453,7 @@
     <migrationTask xmi:id="_2N6q_QdmEeiuCa9qeKQKjA" id="org.talend.datacleansing.core.migration.UpdateTMultiPatternTableParamTask" breaks="6.4.0" version="6.4.0" status="noimpact"/>
     <migrationTask xmi:id="_2N6q_gdmEeiuCa9qeKQKjA" id="org.talend.repository.model.migration.AddFailOnErrorOnTFileCopyTDI38441" breaks="6.3.1" version="6.4.0" status="noimpact"/>
     <migrationTask xmi:id="_2N6q_wdmEeiuCa9qeKQKjA" id="org.talend.repository.model.migration.SetSparkDataframeAlphabeticalSortOrder" breaks="6.1.0" version="6.1.0" status="noimpact"/>
+    <migrationTask xmi:id="_2N6DvQdmEeiuCa9qeKQKjA" id="org.talend.repository.model.migration.FixProjectResourceLink" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_2N6rAAdmEeiuCa9qeKQKjA" id="org.talend.repository.model.migration.AutoUpdateRelationsMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_00bu4gdmEeiuCa9qeKQKjA" login="gwilliams@eval7412.talend.com" firstName="Gary" lastName="Williams" type="DI"/>
