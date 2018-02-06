@@ -120,17 +120,17 @@
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tSAPConnection_1"/>
     <elementParameter field="CLOSED_LIST" name="SERVERTYPE" value="ApplicationServer" show="false"/>
-    <elementParameter field="TEXT" name="CLIENT" value="&quot;000&quot;" show="false"/>
-    <elementParameter field="TEXT" name="USERID" value="&quot;TALEND&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASSWORD" value="kjy82gsa7tRhYX4tKHiCew==" show="false"/>
+    <elementParameter field="TEXT" name="CLIENT" value="&quot;100&quot;" show="false"/>
+    <elementParameter field="TEXT" name="USERID" value="&quot;gwilliams&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" value="oeVbN2VKs9pTmao+1JZOpA==" show="false"/>
     <elementParameter field="TEXT" name="LANGUAGE" value="&quot;EN&quot;" show="false"/>
-    <elementParameter field="TEXT" name="HOSTNAME" value="&quot;HOST&quot;" show="false"/>
+    <elementParameter field="TEXT" name="HOSTNAME" value="&quot;192.168.200.105&quot;" show="false"/>
     <elementParameter field="TEXT" name="SYSTEMNUMBER" value="&quot;00&quot;" show="false"/>
     <elementParameter field="TEXT" name="SYSTEMID" value="&quot;PRD&quot;" show="false"/>
     <elementParameter field="TEXT" name="GROUPNAME" value="&quot;tGroup&quot;" show="false"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
-    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_rQbyYAqCEei3E740zV8w0Q - A004" show="false"/>
-    <elementParameter field="TEXT" name="TABLE" value="&quot;A004&quot;"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_rQbyYAqCEei3E740zV8w0Q - A005" show="false"/>
+    <elementParameter field="TEXT" name="TABLE" value="&quot;A005&quot;"/>
     <elementParameter field="TEXT" name="FILTER" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="START_ROW" value="-1"/>
     <elementParameter field="TEXT" name="MAX_ROW_COUNT" value="-1"/>
@@ -139,16 +139,17 @@
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false" show="false"/>
     <elementParameter field="TEXT" name="SAP_DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
     <elementParameter field="TABLE" name="SAP_PROPERTIES" show="false">
-      <elementValue elementRef="PROPERTY" value="&quot;api.use_z_talend_read_table&quot;"/>
-      <elementValue elementRef="VALUE" value="&quot;true&quot;"/>
+      <elementValue elementRef="PROPERTY" value="&quot;jco.client.saprouter&quot;"/>
+      <elementValue elementRef="VALUE" value="&quot;/H/sr2.cimt.de/S/3299/W/Talend2015!/H/&quot;"/>
     </elementParameter>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" label="A004" name="tSAPTableInput_1">
+    <metadata connector="FLOW" label="A005" name="tSAPTableInput_1">
       <column comment="Client" key="true" length="3" name="MANDT" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
       <column comment="Application" key="true" length="2" name="KAPPL" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
       <column comment="Condition Type" key="true" length="4" name="KSCHL" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
       <column comment="Sales Organization" key="true" length="4" name="VKORG" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
       <column comment="Distribution Channel" key="true" length="2" name="VTWEG" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Customer number" key="true" length="10" name="KUNNR" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
       <column comment="Material Number" key="true" length="18" name="MATNR" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
       <column comment="Validity end date of the condition record" key="true" length="8" name="DATBI" nullable="true" pattern="&quot;yyyy-MM-dd&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true"/>
       <column comment="Validity start date of the condition record" key="false" length="8" name="DATAB" nullable="true" pattern="&quot;yyyy-MM-dd&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true"/>
@@ -160,12 +161,13 @@
     <elementParameter field="LABEL" name="INFO_RANGE" value="Range let you choose a list of line numbers and/or a list of ranges.&#xA;&#xA;- &quot;1,5&quot; : line 1 and 5&#xA;- &quot;10..20&quot; : lines 10 to 20&#xA;- &quot;23..45,48,50..54&quot; : lines 23 to 45, line 48 and lines 50 to 54&#xA;- &quot;1..10&quot; : 10 first lines&#xA;&#xA;&#x9;  "/>
     <elementParameter field="MEMO_JAVA" name="RANGE" value="&quot;1,5,10..20&quot;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" label="A004" name="tSampleRow_1">
+    <metadata connector="FLOW" label="A005" name="tSampleRow_1">
       <column comment="Client" key="true" length="3" name="MANDT" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
       <column comment="Application" key="true" length="2" name="KAPPL" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
       <column comment="Condition Type" key="true" length="4" name="KSCHL" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
       <column comment="Sales Organization" key="true" length="4" name="VKORG" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
       <column comment="Distribution Channel" key="true" length="2" name="VTWEG" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Customer number" key="true" length="10" name="KUNNR" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
       <column comment="Material Number" key="true" length="18" name="MATNR" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
       <column comment="Validity end date of the condition record" key="true" length="8" name="DATBI" nullable="true" pattern="&quot;yyyy-MM-dd&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true"/>
       <column comment="Validity start date of the condition record" key="false" length="8" name="DATAB" nullable="true" pattern="&quot;yyyy-MM-dd&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true"/>
@@ -196,6 +198,8 @@
       <elementValue elementRef="LENGTH" value="10"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="VTWEG"/>
       <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="KUNNR"/>
+      <elementValue elementRef="LENGTH" value="10"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="MATNR"/>
       <elementValue elementRef="LENGTH" value="10"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="DATBI"/>
@@ -208,12 +212,13 @@
     <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" label="A004" name="tLogRow_1">
+    <metadata connector="FLOW" label="A005" name="tLogRow_1">
       <column comment="Client" key="true" length="3" name="MANDT" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
       <column comment="Application" key="true" length="2" name="KAPPL" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
       <column comment="Condition Type" key="true" length="4" name="KSCHL" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
       <column comment="Sales Organization" key="true" length="4" name="VKORG" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
       <column comment="Distribution Channel" key="true" length="2" name="VTWEG" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Customer number" key="true" length="10" name="KUNNR" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
       <column comment="Material Number" key="true" length="18" name="MATNR" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
       <column comment="Validity end date of the condition record" key="true" length="8" name="DATBI" nullable="true" pattern="&quot;yyyy-MM-dd&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true"/>
       <column comment="Validity start date of the condition record" key="false" length="8" name="DATAB" nullable="true" pattern="&quot;yyyy-MM-dd&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true"/>
