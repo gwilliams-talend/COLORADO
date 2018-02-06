@@ -283,6 +283,8 @@
     <elementParameter field="TABLE" name="SAP_PROPERTIES">
       <elementValue elementRef="PROPERTY" value="&quot;jco.client.saprouter&quot;"/>
       <elementValue elementRef="VALUE" value="&quot;/H/sr2.cimt.de/S/3299/W/Talend2015!/H/&quot;"/>
+      <elementValue elementRef="PROPERTY" value="&quot;api.use_z_talend_read_table&quot;"/>
+      <elementValue elementRef="VALUE" value="&quot;true&quot;"/>
     </elementParameter>
     <elementParameter field="CHECK" name="FTP_HTTP_FUNCTION" value="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
