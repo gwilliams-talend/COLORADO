@@ -1,2 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TalendMetadata:SAPConnection xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmi:id="_rQgD0AqCEei3E740zV8w0Q" Host="192.168.200.105" Username="gwilliams" Password="6HzEA8uTghRqA3LVkaFhdQ==" Client="100" SystemNumber="00" Language="EN" jcoVersion="SAP2"/>
+<TalendMetadata:SAPConnection xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmi:id="_rQgD0AqCEei3E740zV8w0Q" Host="192.168.200.105" Username="gwilliams" Password="6HzEA8uTghRqA3LVkaFhdQ==" Client="100" SystemNumber="00" Language="EN" jcoVersion="SAP2">
+  <additionalProperties xmi:id="_YY-8cAtMEei3l75QXMyEjw" propertyName="jco.client.saprouter" Value="/H/sr2.cimt.de/S/3299/W/Talend2015!/H/"/>
+</TalendMetadata:SAPConnection>
