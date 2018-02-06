@@ -1,151 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
-  <TalendMetadata:SAPConnection xmi:id="_rQgD0AqCEei3E740zV8w0Q" dataPackage="_NTxGEAtNEei3l75QXMyEjw" Host="192.168.200.105" Username="gwilliams" Password="6HzEA8uTghRqA3LVkaFhdQ==" Client="100" SystemNumber="00" Language="EN" jcoVersion="SAP2">
+  <TalendMetadata:SAPConnection xmi:id="_rQgD0AqCEei3E740zV8w0Q" dataPackage="_7LjuEAtNEei3l75QXMyEjw" Host="192.168.200.105" Username="gwilliams" Password="6HzEA8uTghRqA3LVkaFhdQ==" Client="100" SystemNumber="00" Language="EN" jcoVersion="SAP2">
     <additionalProperties xmi:id="_YY-8cAtMEei3l75QXMyEjw" propertyName="jco.client.saprouter" Value="/H/sr2.cimt.de/S/3299/W/Talend2015!/H/"/>
   </TalendMetadata:SAPConnection>
-  <TalendMetadata:GenericPackage xmi:id="_NTxGEAtNEei3l75QXMyEjw" name="Internal" dataManager="_rQgD0AqCEei3E740zV8w0Q">
-    <ownedElement xsi:type="TalendMetadata:SAPTable" xmi:id="_NTxGEQtNEei3l75QXMyEjw" name="A004" id="_GHnocAtNEei3l75QXMyEjw" label="A004" tableType="TABLE" tableSearchType="TRANSPARENT">
-      <feature xsi:type="TalendMetadata:SAPTableField" xmi:id="_NTxGEgtNEei3l75QXMyEjw" name="MANDT" comment="Client" label="MANDT" length="3" sourceType="STRING" talendType="id_String" key="true" businessName="Client">
-        <initialValue xmi:id="_NTxGEwtNEei3l75QXMyEjw"/>
-        <refTable>T000</refTable>
+  <TalendMetadata:GenericPackage xmi:id="_7LjuEAtNEei3l75QXMyEjw" name="Internal" dataManager="_rQgD0AqCEei3E740zV8w0Q">
+    <ownedElement xsi:type="TalendMetadata:SAPTable" xmi:id="_7LjuEQtNEei3l75QXMyEjw" name="T000" id="_5HN3wAtNEei3l75QXMyEjw" label="T000" tableType="TABLE" tableSearchType="TRANSPARENT">
+      <feature xsi:type="TalendMetadata:SAPTableField" xmi:id="_7LjuEgtNEei3l75QXMyEjw" name="MANDT" comment="Client" label="MANDT" length="3" sourceType="STRING" talendType="id_String" key="true" businessName="Client">
+        <initialValue xmi:id="_7LjuEwtNEei3l75QXMyEjw"/>
       </feature>
-      <feature xsi:type="TalendMetadata:SAPTableField" xmi:id="_NTxGFAtNEei3l75QXMyEjw" name="KAPPL" comment="Application" label="KAPPL" length="2" sourceType="STRING" talendType="id_String" key="true" businessName="Application">
-        <initialValue xmi:id="_NTxGFQtNEei3l75QXMyEjw"/>
-        <refTable>T681A</refTable>
+      <feature xsi:type="TalendMetadata:SAPTableField" xmi:id="_7LjuFAtNEei3l75QXMyEjw" name="MTEXT" comment="Client name" label="MTEXT" length="25" sourceType="STRING" talendType="id_String" businessName="Name">
+        <initialValue xmi:id="_7LjuFQtNEei3l75QXMyEjw"/>
       </feature>
-      <feature xsi:type="TalendMetadata:SAPTableField" xmi:id="_NTxGFgtNEei3l75QXMyEjw" name="KSCHL" comment="Condition Type" label="KSCHL" length="4" sourceType="STRING" talendType="id_String" key="true" businessName="Condition Type">
-        <initialValue xmi:id="_NTxGFwtNEei3l75QXMyEjw"/>
-        <refTable>T685</refTable>
+      <feature xsi:type="TalendMetadata:SAPTableField" xmi:id="_7LjuFgtNEei3l75QXMyEjw" name="ORT01" comment="City" label="ORT01" length="25" sourceType="STRING" talendType="id_String" businessName="City">
+        <initialValue xmi:id="_7LjuFwtNEei3l75QXMyEjw"/>
       </feature>
-      <feature xsi:type="TalendMetadata:SAPTableField" xmi:id="_NTxGGAtNEei3l75QXMyEjw" name="VKORG" comment="Sales Organization" label="VKORG" length="4" sourceType="STRING" talendType="id_String" key="true" businessName="Sales Organization">
-        <initialValue xmi:id="_NTxGGQtNEei3l75QXMyEjw"/>
-        <refTable>TVKO</refTable>
+      <feature xsi:type="TalendMetadata:SAPTableField" xmi:id="_7LjuGAtNEei3l75QXMyEjw" name="MWAER" comment="Standard Currency in Client" label="MWAER" length="5" sourceType="STRING" talendType="id_String" businessName="Standard currency">
+        <initialValue xmi:id="_7LjuGQtNEei3l75QXMyEjw"/>
+        <refTable>TCURC</refTable>
       </feature>
-      <feature xsi:type="TalendMetadata:SAPTableField" xmi:id="_NTxGGgtNEei3l75QXMyEjw" name="VTWEG" comment="Distribution Channel" label="VTWEG" length="2" sourceType="STRING" talendType="id_String" key="true" businessName="Distribution Channel">
-        <initialValue xmi:id="_NTxGGwtNEei3l75QXMyEjw"/>
-        <refTable>TVTW</refTable>
+      <feature xsi:type="TalendMetadata:SAPTableField" xmi:id="_7LjuGgtNEei3l75QXMyEjw" name="ADRNR" comment="Character Field Length = 10" label="ADRNR" length="10" sourceType="STRING" talendType="id_String" businessName="">
+        <initialValue xmi:id="_7LjuGwtNEei3l75QXMyEjw"/>
       </feature>
-      <feature xsi:type="TalendMetadata:SAPTableField" xmi:id="_NTxGHAtNEei3l75QXMyEjw" name="MATNR" comment="Material Number" label="MATNR" length="18" sourceType="STRING" talendType="id_String" key="true" businessName="Material">
-        <initialValue xmi:id="_NTxGHQtNEei3l75QXMyEjw"/>
-        <refTable>MARA</refTable>
+      <feature xsi:type="TalendMetadata:SAPTableField" xmi:id="_7LjuHAtNEei3l75QXMyEjw" name="CCCATEGORY" comment="Client control: Role of client (production, test,...)" label="CCCATEGORY" length="1" sourceType="STRING" talendType="id_String" businessName="Client role">
+        <initialValue xmi:id="_7LjuHQtNEei3l75QXMyEjw"/>
       </feature>
-      <feature xsi:type="TalendMetadata:SAPTableField" xmi:id="_NTxGHgtNEei3l75QXMyEjw" name="DATBI" comment="Validity end date of the condition record" label="DATBI" length="8" sourceType="DATE" talendType="id_Date" key="true" pattern="&quot;yyyy-MM-dd&quot;" businessName="Valid to">
-        <initialValue xmi:id="_NTxGHwtNEei3l75QXMyEjw"/>
+      <feature xsi:type="TalendMetadata:SAPTableField" xmi:id="_7LjuHgtNEei3l75QXMyEjw" name="CCCORACTIV" comment="Changes and transports for client-specific objects" label="CCCORACTIV" length="1" sourceType="STRING" talendType="id_String" businessName="Changes and transports">
+        <initialValue xmi:id="_7LjuHwtNEei3l75QXMyEjw"/>
       </feature>
-      <feature xsi:type="TalendMetadata:SAPTableField" xmi:id="_NTxGIAtNEei3l75QXMyEjw" name="DATAB" comment="Validity start date of the condition record" label="DATAB" length="8" sourceType="DATE" talendType="id_Date" pattern="&quot;yyyy-MM-dd&quot;" businessName="Valid From">
-        <initialValue xmi:id="_NTxGIQtNEei3l75QXMyEjw"/>
+      <feature xsi:type="TalendMetadata:SAPTableField" xmi:id="_7LjuIAtNEei3l75QXMyEjw" name="CCNOCLIIND" comment="Maintenance authorization for objects in all clients" label="CCNOCLIIND" length="1" sourceType="STRING" talendType="id_String" businessName="No cross-client maintenance">
+        <initialValue xmi:id="_7LjuIQtNEei3l75QXMyEjw"/>
       </feature>
-      <feature xsi:type="TalendMetadata:SAPTableField" xmi:id="_NTxGIgtNEei3l75QXMyEjw" name="KNUMH" comment="Condition record number" label="KNUMH" length="10" sourceType="STRING" talendType="id_String" businessName="Condition record no.">
-        <initialValue xmi:id="_NTxGIwtNEei3l75QXMyEjw"/>
+      <feature xsi:type="TalendMetadata:SAPTableField" xmi:id="_7LjuIgtNEei3l75QXMyEjw" name="CCCOPYLOCK" comment="Protection reg. client copy program and comparison tools" label="CCCOPYLOCK" length="1" sourceType="STRING" talendType="id_String" businessName="Protection reg. client copy/comparison">
+        <initialValue xmi:id="_7LjuIwtNEei3l75QXMyEjw"/>
       </feature>
-    </ownedElement>
-    <ownedElement xsi:type="TalendMetadata:SAPTable" xmi:id="_NTxGJAtNEei3l75QXMyEjw" name="A005" id="_GftYUAtNEei3l75QXMyEjw" label="A005" tableType="TABLE" tableSearchType="TRANSPARENT">
-      <feature xsi:type="TalendMetadata:SAPTableField" xmi:id="_NTxGJQtNEei3l75QXMyEjw" name="MANDT" comment="Client" label="MANDT" length="3" sourceType="STRING" talendType="id_String" key="true" businessName="Client">
-        <initialValue xmi:id="_NTxGJgtNEei3l75QXMyEjw"/>
-        <refTable>T000</refTable>
+      <feature xsi:type="TalendMetadata:SAPTableField" xmi:id="_7LjuJAtNEei3l75QXMyEjw" name="CCNOCASCAD" comment="Client control: No client cascade for upgrade import" label="CCNOCASCAD" length="1" sourceType="STRING" talendType="id_String" businessName="Protection against SAP upgrade">
+        <initialValue xmi:id="_7LjuJQtNEei3l75QXMyEjw"/>
       </feature>
-      <feature xsi:type="TalendMetadata:SAPTableField" xmi:id="_NTxGJwtNEei3l75QXMyEjw" name="KAPPL" comment="Application" label="KAPPL" length="2" sourceType="STRING" talendType="id_String" key="true" businessName="Application">
-        <initialValue xmi:id="_NTxGKAtNEei3l75QXMyEjw"/>
-        <refTable>T681A</refTable>
+      <feature xsi:type="TalendMetadata:SAPTableField" xmi:id="_7LjuJgtNEei3l75QXMyEjw" name="CCSOFTLOCK" comment="Client control: Soft Lock Required (Planned for 4.0)" label="CCSOFTLOCK" length="1" sourceType="STRING" talendType="id_String" businessName="Lock Method">
+        <initialValue xmi:id="_7LjuJwtNEei3l75QXMyEjw"/>
       </feature>
-      <feature xsi:type="TalendMetadata:SAPTableField" xmi:id="_NTxGKQtNEei3l75QXMyEjw" name="KSCHL" comment="Condition Type" label="KSCHL" length="4" sourceType="STRING" talendType="id_String" key="true" businessName="Condition Type">
-        <initialValue xmi:id="_NTxGKgtNEei3l75QXMyEjw"/>
-        <refTable>T685</refTable>
+      <feature xsi:type="TalendMetadata:SAPTableField" xmi:id="_7LjuKAtNEei3l75QXMyEjw" name="CCORIGCONT" comment="Recording Client for Switch BC Sets" label="CCORIGCONT" length="1" sourceType="STRING" talendType="id_String" businessName="Create Switch BC Sets">
+        <initialValue xmi:id="_7LjuKQtNEei3l75QXMyEjw"/>
       </feature>
-      <feature xsi:type="TalendMetadata:SAPTableField" xmi:id="_NTxGKwtNEei3l75QXMyEjw" name="VKORG" comment="Sales Organization" label="VKORG" length="4" sourceType="STRING" talendType="id_String" key="true" businessName="Sales Organization">
-        <initialValue xmi:id="_NTxGLAtNEei3l75QXMyEjw"/>
-        <refTable>TVKO</refTable>
+      <feature xsi:type="TalendMetadata:SAPTableField" xmi:id="_7LjuKgtNEei3l75QXMyEjw" name="CCIMAILDIS" comment="Client Control: CATT and eCATT Authorization" label="CCIMAILDIS" length="1" sourceType="STRING" talendType="id_String" businessName="CATT Authorization">
+        <initialValue xmi:id="_7LjuKwtNEei3l75QXMyEjw"/>
       </feature>
-      <feature xsi:type="TalendMetadata:SAPTableField" xmi:id="_NTxGLQtNEei3l75QXMyEjw" name="VTWEG" comment="Distribution Channel" label="VTWEG" length="2" sourceType="STRING" talendType="id_String" key="true" businessName="Distribution Channel">
-        <initialValue xmi:id="_NTxGLgtNEei3l75QXMyEjw"/>
-        <refTable>TVTW</refTable>
+      <feature xsi:type="TalendMetadata:SAPTableField" xmi:id="_7LjuLAtNEei3l75QXMyEjw" name="CCTEMPLOCK" comment="Client control: Indicator that client is temporarily locked" label="CCTEMPLOCK" length="1" sourceType="STRING" talendType="id_String" businessName="Locked due to client copy">
+        <initialValue xmi:id="_7LjuLQtNEei3l75QXMyEjw"/>
       </feature>
-      <feature xsi:type="TalendMetadata:SAPTableField" xmi:id="_NTxGLwtNEei3l75QXMyEjw" name="KUNNR" comment="Customer number" label="KUNNR" length="10" sourceType="STRING" talendType="id_String" key="true" businessName="Customer">
-        <initialValue xmi:id="_NTxGMAtNEei3l75QXMyEjw"/>
-        <refTable>KNA1</refTable>
+      <feature xsi:type="TalendMetadata:SAPTableField" xmi:id="_7LjuLgtNEei3l75QXMyEjw" name="CHANGEUSER" comment="Last Changed by" label="CHANGEUSER" length="12" sourceType="STRING" talendType="id_String" businessName="Last Changed By">
+        <initialValue xmi:id="_7LjuLwtNEei3l75QXMyEjw"/>
       </feature>
-      <feature xsi:type="TalendMetadata:SAPTableField" xmi:id="_NTxGMQtNEei3l75QXMyEjw" name="MATNR" comment="Material Number" label="MATNR" length="18" sourceType="STRING" talendType="id_String" key="true" businessName="Material">
-        <initialValue xmi:id="_NTxGMgtNEei3l75QXMyEjw"/>
-        <refTable>MARA</refTable>
+      <feature xsi:type="TalendMetadata:SAPTableField" xmi:id="_7LjuMAtNEei3l75QXMyEjw" name="CHANGEDATE" comment="Last Changed On" label="CHANGEDATE" length="8" sourceType="DATE" talendType="id_Date" pattern="&quot;yyyy-MM-dd&quot;" businessName="Date">
+        <initialValue xmi:id="_7LjuMQtNEei3l75QXMyEjw"/>
       </feature>
-      <feature xsi:type="TalendMetadata:SAPTableField" xmi:id="_NTxGMwtNEei3l75QXMyEjw" name="DATBI" comment="Validity end date of the condition record" label="DATBI" length="8" sourceType="DATE" talendType="id_Date" key="true" pattern="&quot;yyyy-MM-dd&quot;" businessName="Valid to">
-        <initialValue xmi:id="_NTxGNAtNEei3l75QXMyEjw"/>
-      </feature>
-      <feature xsi:type="TalendMetadata:SAPTableField" xmi:id="_NTxGNQtNEei3l75QXMyEjw" name="DATAB" comment="Validity start date of the condition record" label="DATAB" length="8" sourceType="DATE" talendType="id_Date" pattern="&quot;yyyy-MM-dd&quot;" businessName="Valid From">
-        <initialValue xmi:id="_NTxGNgtNEei3l75QXMyEjw"/>
-      </feature>
-      <feature xsi:type="TalendMetadata:SAPTableField" xmi:id="_NTxGNwtNEei3l75QXMyEjw" name="KNUMH" comment="Condition record number" label="KNUMH" length="10" sourceType="STRING" talendType="id_String" businessName="Condition record no.">
-        <initialValue xmi:id="_NTxGOAtNEei3l75QXMyEjw"/>
-      </feature>
-    </ownedElement>
-    <ownedElement xsi:type="TalendMetadata:SAPTable" xmi:id="_NTxGOQtNEei3l75QXMyEjw" name="A007" id="_IAYg4AtNEei3l75QXMyEjw" label="A007" tableType="TABLE" tableSearchType="TRANSPARENT">
-      <feature xsi:type="TalendMetadata:SAPTableField" xmi:id="_NTxGOgtNEei3l75QXMyEjw" name="MANDT" comment="Client" label="MANDT" length="3" sourceType="STRING" talendType="id_String" key="true" businessName="Client">
-        <initialValue xmi:id="_NTxGOwtNEei3l75QXMyEjw"/>
-        <refTable>T000</refTable>
-      </feature>
-      <feature xsi:type="TalendMetadata:SAPTableField" xmi:id="_NTxGPAtNEei3l75QXMyEjw" name="KAPPL" comment="Application" label="KAPPL" length="2" sourceType="STRING" talendType="id_String" key="true" businessName="Application">
-        <initialValue xmi:id="_NTxGPQtNEei3l75QXMyEjw"/>
-        <refTable>T681A</refTable>
-      </feature>
-      <feature xsi:type="TalendMetadata:SAPTableField" xmi:id="_NTxGPgtNEei3l75QXMyEjw" name="KSCHL" comment="Condition Type" label="KSCHL" length="4" sourceType="STRING" talendType="id_String" key="true" businessName="Condition Type">
-        <initialValue xmi:id="_NTxGPwtNEei3l75QXMyEjw"/>
-        <refTable>T685</refTable>
-      </feature>
-      <feature xsi:type="TalendMetadata:SAPTableField" xmi:id="_NTxGQAtNEei3l75QXMyEjw" name="VKORG" comment="Sales Organization" label="VKORG" length="4" sourceType="STRING" talendType="id_String" key="true" businessName="Sales Organization">
-        <initialValue xmi:id="_NTxGQQtNEei3l75QXMyEjw"/>
-        <refTable>TVKO</refTable>
-      </feature>
-      <feature xsi:type="TalendMetadata:SAPTableField" xmi:id="_NTxGQgtNEei3l75QXMyEjw" name="VTWEG" comment="Distribution Channel" label="VTWEG" length="2" sourceType="STRING" talendType="id_String" key="true" businessName="Distribution Channel">
-        <initialValue xmi:id="_NTxGQwtNEei3l75QXMyEjw"/>
-        <refTable>TVTW</refTable>
-      </feature>
-      <feature xsi:type="TalendMetadata:SAPTableField" xmi:id="_NTxGRAtNEei3l75QXMyEjw" name="SPART" comment="Division" label="SPART" length="2" sourceType="STRING" talendType="id_String" key="true" businessName="Division">
-        <initialValue xmi:id="_NTxGRQtNEei3l75QXMyEjw"/>
-        <refTable>TSPA</refTable>
-      </feature>
-      <feature xsi:type="TalendMetadata:SAPTableField" xmi:id="_NTxGRgtNEei3l75QXMyEjw" name="KUNNR" comment="Customer number" label="KUNNR" length="10" sourceType="STRING" talendType="id_String" key="true" businessName="Customer">
-        <initialValue xmi:id="_NTxGRwtNEei3l75QXMyEjw"/>
-        <refTable>KNA1</refTable>
-      </feature>
-      <feature xsi:type="TalendMetadata:SAPTableField" xmi:id="_NTxGSAtNEei3l75QXMyEjw" name="DATBI" comment="Validity end date of the condition record" label="DATBI" length="8" sourceType="DATE" talendType="id_Date" key="true" pattern="&quot;yyyy-MM-dd&quot;" businessName="Valid to">
-        <initialValue xmi:id="_NTxGSQtNEei3l75QXMyEjw"/>
-      </feature>
-      <feature xsi:type="TalendMetadata:SAPTableField" xmi:id="_NTxGSgtNEei3l75QXMyEjw" name="DATAB" comment="Validity start date of the condition record" label="DATAB" length="8" sourceType="DATE" talendType="id_Date" pattern="&quot;yyyy-MM-dd&quot;" businessName="Valid From">
-        <initialValue xmi:id="_NTxGSwtNEei3l75QXMyEjw"/>
-      </feature>
-      <feature xsi:type="TalendMetadata:SAPTableField" xmi:id="_NTxGTAtNEei3l75QXMyEjw" name="KNUMH" comment="Condition record number" label="KNUMH" length="10" sourceType="STRING" talendType="id_String" businessName="Condition record no.">
-        <initialValue xmi:id="_NTxGTQtNEei3l75QXMyEjw"/>
-      </feature>
-    </ownedElement>
-    <ownedElement xsi:type="TalendMetadata:SAPTable" xmi:id="_NTxGTgtNEei3l75QXMyEjw" name="A010" id="_ISiA0AtNEei3l75QXMyEjw" label="A010" tableType="TABLE" tableSearchType="TRANSPARENT">
-      <feature xsi:type="TalendMetadata:SAPTableField" xmi:id="_NTxGTwtNEei3l75QXMyEjw" name="MANDT" comment="Client" label="MANDT" length="3" sourceType="STRING" talendType="id_String" key="true" businessName="Client">
-        <initialValue xmi:id="_NTxGUAtNEei3l75QXMyEjw"/>
-        <refTable>T000</refTable>
-      </feature>
-      <feature xsi:type="TalendMetadata:SAPTableField" xmi:id="_NTxGUQtNEei3l75QXMyEjw" name="KAPPL" comment="Application" label="KAPPL" length="2" sourceType="STRING" talendType="id_String" key="true" businessName="Application">
-        <initialValue xmi:id="_NTxGUgtNEei3l75QXMyEjw"/>
-        <refTable>T681A</refTable>
-      </feature>
-      <feature xsi:type="TalendMetadata:SAPTableField" xmi:id="_NTxGUwtNEei3l75QXMyEjw" name="KSCHL" comment="Condition Type" label="KSCHL" length="4" sourceType="STRING" talendType="id_String" key="true" businessName="Condition Type">
-        <initialValue xmi:id="_NTxGVAtNEei3l75QXMyEjw"/>
-        <refTable>T685</refTable>
-      </feature>
-      <feature xsi:type="TalendMetadata:SAPTableField" xmi:id="_NTxGVQtNEei3l75QXMyEjw" name="WERKV" comment="Resale plant" label="WERKV" length="4" sourceType="STRING" talendType="id_String" key="true" businessName="Resale plant">
-        <initialValue xmi:id="_NTxGVgtNEei3l75QXMyEjw"/>
-        <refTable>T001W</refTable>
-      </feature>
-      <feature xsi:type="TalendMetadata:SAPTableField" xmi:id="_NTxGVwtNEei3l75QXMyEjw" name="MATNR" comment="Material Number" label="MATNR" length="18" sourceType="STRING" talendType="id_String" key="true" businessName="Material">
-        <initialValue xmi:id="_NTxGWAtNEei3l75QXMyEjw"/>
-        <refTable>MARA</refTable>
-      </feature>
-      <feature xsi:type="TalendMetadata:SAPTableField" xmi:id="_NTxGWQtNEei3l75QXMyEjw" name="DATBI" comment="Validity end date of the condition record" label="DATBI" length="8" sourceType="DATE" talendType="id_Date" key="true" pattern="&quot;yyyy-MM-dd&quot;" businessName="Valid to">
-        <initialValue xmi:id="_NTxGWgtNEei3l75QXMyEjw"/>
-      </feature>
-      <feature xsi:type="TalendMetadata:SAPTableField" xmi:id="_NTxGWwtNEei3l75QXMyEjw" name="DATAB" comment="Validity start date of the condition record" label="DATAB" length="8" sourceType="DATE" talendType="id_Date" pattern="&quot;yyyy-MM-dd&quot;" businessName="Valid From">
-        <initialValue xmi:id="_NTxGXAtNEei3l75QXMyEjw"/>
-      </feature>
-      <feature xsi:type="TalendMetadata:SAPTableField" xmi:id="_NTxGXQtNEei3l75QXMyEjw" name="KNUMH" comment="Condition record number" label="KNUMH" length="10" sourceType="STRING" talendType="id_String" businessName="Condition record no.">
-        <initialValue xmi:id="_NTxGXgtNEei3l75QXMyEjw"/>
+      <feature xsi:type="TalendMetadata:SAPTableField" xmi:id="_7LjuMgtNEei3l75QXMyEjw" name="LOGSYS" comment="Logical System" label="LOGSYS" length="10" sourceType="STRING" talendType="id_String" businessName="Logical System">
+        <initialValue xmi:id="_7LjuMwtNEei3l75QXMyEjw"/>
+        <refTable>TBDLS</refTable>
       </feature>
     </ownedElement>
   </TalendMetadata:GenericPackage>
