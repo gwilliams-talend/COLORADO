@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
   <TalendMetadata:SAPConnection xmi:id="_rQgD0AqCEei3E740zV8w0Q" dataPackage="_7LjuEAtNEei3l75QXMyEjw" Host="192.168.200.105" Username="gwilliams" Password="6HzEA8uTghRqA3LVkaFhdQ==" Client="100" SystemNumber="00" Language="EN" jcoVersion="SAP2">
-    <additionalProperties xmi:id="_YY-8cAtMEei3l75QXMyEjw" propertyName="jco.client.saprouter" Value="/H/sr2.cimt.de/S/3299/W/Talend2015!/H/"/>
+    <additionalProperties xmi:id="_11qK8AtOEei3l75QXMyEjw" propertyName="jco.client.saprouter" Value="/H/sr2.cimt.de/S/3299/W/Talend2015!/H/"/>
+    <additionalProperties xmi:id="_11qK8QtOEei3l75QXMyEjw" propertyName="api.use_z_talend_read_table" Value="true"/>
   </TalendMetadata:SAPConnection>
   <TalendMetadata:GenericPackage xmi:id="_7LjuEAtNEei3l75QXMyEjw" name="Internal" dataManager="_rQgD0AqCEei3E740zV8w0Q">
     <ownedElement xsi:type="TalendMetadata:SAPTable" xmi:id="_7LjuEQtNEei3l75QXMyEjw" name="T000" id="_5HN3wAtNEei3l75QXMyEjw" label="T000" tableType="TABLE" tableSearchType="TRANSPARENT">
